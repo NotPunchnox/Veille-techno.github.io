@@ -1,0 +1,1 @@
+<iframe width="560" height="315" src="https://www.koreus.com/embed/boston-dynamics-new-atlas"  frameborder="0" allowfullscreen></iframe><br /><a href="https://www.koreus.com/video/boston-dynamics-new-atlas.html">Le nouveau robot Atlas de Boston Dynamics</a> - <a href="https://www.koreus.com/videos/koreusity/nouveau/">Zapping</a>
