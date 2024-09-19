@@ -1,0 +1,4 @@
+Le format du projet est fait avec du markdown
+
+Website: https://notpunchnox.github.io/Veille-techno.github.io/
+Repository GitHub ( Code source mis à jours en temps réel ): https://github.com/notpunchnox/Veille-techno.github.io
