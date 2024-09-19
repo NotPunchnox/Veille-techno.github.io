@@ -1,3 +1,4 @@
 # Veille-techno
 
-[AI](./AI/index.md)
+- [Intelligence artificielle](./AI/index.md)
+- [Robotique](./Robotique/index.md)
