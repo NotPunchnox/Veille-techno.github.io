@@ -2,7 +2,7 @@
 
 ### Une nouvelle version tout électrique du robot bipède Atlas a été présentée par Boston Dynamics. Le roboticien annonce la fin de sa plateforme hydraulique et dévoile un robot avec une grande amplitude de mouvements.
 
-![Image](../src/Atlas.jpg)
+![Image](../images/Atlas.jpg)
 
 Boston Dynamics a diffusé une vidéo présentant un nouveau robot humanoïde nommé Atlas, successeur d'un modèle précédent. Allongé au sol, il se relève et tourne sa tête à 180 degrés avant de s'avancer vers la caméra. Avec une tête entourée d’un halo lumineux, il semble tout droit sorti d'un film de science-fiction.
 
