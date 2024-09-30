@@ -1,3 +1,5 @@
+<head> <link rel="stylesheet" href="./styles.css"></head>
+
 # Veille-techno
 
 - [Intelligence artificielle](./AI/index.md)
