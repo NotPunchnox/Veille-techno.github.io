@@ -1,3 +1,15 @@
+---
+title: "TEST"
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+  toc_collapsed: true
+toc_depth: 3
+number_sections: true
+theme: lumen
+---
+
 # Un nouveau robot humanoïde chez Boston Dynamics
 
 ### Une nouvelle version tout électrique du robot bipède Atlas a été présentée par Boston Dynamics. Le roboticien annonce la fin de sa plateforme hydraulique et dévoile un robot avec une grande amplitude de mouvements.
