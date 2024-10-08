@@ -81,3 +81,20 @@ a:hover {
     color: #a0a0a0;
     margin-bottom: 15px;
 }
+
+.margin-link {
+    margin-left: 80px;
+}
+
+.margin {
+    margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .margin {
+        margin-left: 0;
+    }
+    .margin-link {
+        margin-left: 0;
+    }
+}

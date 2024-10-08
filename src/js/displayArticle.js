@@ -15,8 +15,7 @@ function displayArticlesByCategory() {
     Object.keys(categories).forEach(category => {
         const categoryHeader = document.createElement('h2');
         categoryHeader.textContent = categories[category];
-        categoryHeader.classList.add('article-title');
-        categoryHeader.style = "margin-left: 40px;"
+        categoryHeader.classList.add('article-title', 'margin');
         contentElement.appendChild(categoryHeader);
 
         const recentArticles = getRecentArticles(category);
@@ -26,8 +25,7 @@ function displayArticlesByCategory() {
             const listItem = document.createElement('li');
             const link = document.createElement('a');
             link.textContent = article.title;
-            link.classList.add('link')
-            link.style = "margin-left: 80px;"
+            link.classList.add('link', 'margin-link')
             link.href = '#';
             link.addEventListener('click', (e) => {
                 e.preventDefault();
