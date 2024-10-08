@@ -47,7 +47,7 @@ export default {
             "<ul><li><strong>Amplitude de mouvement augmentée</strong> : Grâce à l’électricité, Atlas peut réaliser des mouvements plus fluides.</li><li><strong>Absence d'acrobaties</strong> : Ce nouvel Atlas ne pourra pas réaliser d'acrobaties spectaculaires.</li><li><strong>Simplification de la programmation</strong> : Le contrôle du robot est désormais plus intuitif.</li></ul>",
             "<h3>Objectif : Applications concrètes</h3>",
             "<p>Le but de Boston Dynamics est désormais de commercialiser Atlas en l'adaptant à des applications réelles.</p>",
-            "<p><a href=\"https://bostondynamics.com/atlas/?wvideo=p7iw5vfjrz\"><img src=\"https://embed-ssl.wistia.com/deliveries/2368ba4968169ffed2b4fccc9a0c01a7.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=00355ae0\" width=\"400\" height=\"225\" style=\"width: 400px; height: 225px;\"></a></p><p><a href=\"https://bostondynamics.com/atlas/?wvideo=p7iw5vfjrz\">Atlas | Boston Dynamics</a></p>"
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.koreus.com/embed/boston-dynamics-new-atlas\"  frameborder=\"0\" allowfullscreen></iframe><br /><a href=\"https://www.koreus.com/video/boston-dynamics-new-atlas.html\">Le nouveau robot Atlas de Boston Dynamics</a>"
         ],
         "images": [{
             "url": link + "Atlas.jpg",
