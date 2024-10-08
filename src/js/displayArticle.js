@@ -10,7 +10,7 @@ function getRecentArticles(category) {
 }
 
 function displayArticlesByCategory() {
-    contentElement.innerHTML = '';
+    contentElement.innerHTML = '<h1 style="margin-bottom:40px"><u>Dernières actualités</u></h1>';
 
     Object.keys(categories).forEach(category => {
         const categoryHeader = document.createElement('h2');
@@ -53,10 +53,10 @@ function displayArticle(article) {
     dateElement.classList.add('article-date');
 
     const description = document.createElement('p');
-    description.innerHTML = `<p>${article.description}</p>`;
+    description.innerHTML = `<p style="font-weight:bold">${article.description}</p>`;
 
     const articleContent = document.createElement('div');
-    articleContent.innerHTML = article.content.join('');
+    articleContent.innerHTML = String(article.content.join('')); //.replace(/<p>/g, '<p style="margin-left: 20px;">');
 
     contentElement.appendChild(title);
     contentElement.appendChild(dateElement);
