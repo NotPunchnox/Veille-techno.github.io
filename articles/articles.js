@@ -5,6 +5,7 @@ export default {
     "AI": [{
             "title": "Llama 3.2 : Meta met à nouveau les bouchées doubles en matière d’intelligence artificielle",
             "description": "Meta a dévoilé la version Llama 3.2 lors de Meta Connect 2024. Elle offre des capacités multimodales avec traitement du texte, des images et des interactions vocales.",
+            date: "26 septembre 2024",
             "content": [
                 "<h3>Introduction</h3><p>Meta a dévoilé la dernière version de son IA open-source, <strong>Llama 3.2</strong>, lors de Meta Connect 2024. Cette version offre des capacités multimodales, avec la possibilité de traiter à la fois du texte et des images, et d'interagir vocalement en utilisant des voix de célébrités.</p>",
 
@@ -86,6 +87,32 @@ export default {
         }]
     }, ],
 
-    DEV: []
+    DEV: [{
+        "title": "Top 20 des langages de programmation en septembre 2024",
+        "description": "Le classement TIOBE de septembre 2024 dévoile des changements intrigants parmi les langages de programmation. Python continue d’imposer sa domination, mais d’autres langages montent en flèche.",
+        "date": "1 septembre 2024",
+        "content": [
+            "<h3>Introduction</h3><p>Le classement TIOBE de septembre 2024 dévoile des changements intrigants parmi les langages de programmation. Si Python continue d’imposer sa domination, certains langages montent en flèche tandis que d’autres subissent un recul significatif.</p>",
+            "<h3>Classement TIOBE</h3><p>Voici le classement des 20 principaux langages de programmation :</p><ul><li>Python : 20.17%</li><li>C++ : 10.75%</li><li>Java : 9.45%</li><li>C : 8.89%</li><li>C# : 6.08%</li><li>JavaScript : 3.92%</li><li>Visual Basic : 2.70%</li><li>Go : 2.35%</li><li>SQL : 1.94%</li><li>Fortran : 1.78%</li><li>Delphi/Object Pascal : 1.77%</li><li>MATLAB : 1.47%</li><li>PHP : 1.46%</li><li>Rust : 1.32%</li><li>R : 1.20%</li><li>Ruby : 1.13%</li><li>Scratch : 1.11%</li><li>Kotlin : 1.10%</li><li>COBOL : 1.09%</li><li>Swift : 1.08%</li></ul>",
+            "<h3>Analyse des langages</h3><p>Python reste en tête, suivi de C++ et Java. Swift perd du terrain tandis que Scratch regagne des places dans le classement.</p>",
+            "<h3>Conclusion</h3><p>Le classement TIOBE met en lumière des changements marquants dans l'univers des langages de programmation. Utilisez ces informations pour adapter vos choix technologiques.</p>"
+        ],
+        "images": [
+            {
+                "url": link + "unstonksC.png",
+                "caption": "Top langages de programmation"
+            },
+            {
+                "url": link + "Programmation2024TopLang.png",
+                "caption": "Langages de programmation en tendance"
+            }
+        ],
+        "sources": [
+            {
+                "title": "Codeur.com langages-programmation-septembre-2024",
+                "url": "https://www.codeur.com/blog/langages-programmation-septembre-2024/"
+            }
+        ]
+    }]
 
 }

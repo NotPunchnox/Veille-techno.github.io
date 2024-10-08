@@ -1,23 +1,22 @@
 import articles from "../../articles/articles.js";
 
 const contentElement = document.querySelector('.article-list');
-const categories = ['DEV', 'ROBOTIC', 'AI', 'CYBER'];
+const categories = {DEV: 'Développement', ROBOTIC: 'Robotique', AI: 'Intelligence Artificielle', CYBER: 'Cyber-sécurité'};
 
-// Fonction pour trier et limiter les articles à 5 par catégorie
 function getRecentArticles(category) {
     return articles[category]
-        .sort((a, b) => new Date(b.date) - new Date(a.date)) // Trier par date
-        .slice(0, 5); // Limiter à 5 articles
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .slice(0, 5);
 }
 
-// Fonction pour afficher les articles par catégorie
 function displayArticlesByCategory() {
-    contentElement.innerHTML = ''; // Vider le contenu existant
+    contentElement.innerHTML = '';
 
-    categories.forEach(category => {
+    Object.keys(categories).forEach(category => {
         const categoryHeader = document.createElement('h2');
-        categoryHeader.textContent = category;
+        categoryHeader.textContent = categories[category];
         categoryHeader.classList.add('article-title');
+        categoryHeader.style = "margin-left: 40px;"
         contentElement.appendChild(categoryHeader);
 
         const recentArticles = getRecentArticles(category);
@@ -28,6 +27,7 @@ function displayArticlesByCategory() {
             const link = document.createElement('a');
             link.textContent = article.title;
             link.classList.add('link')
+            link.style = "margin-left: 80px;"
             link.href = '#';
             link.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -41,13 +41,16 @@ function displayArticlesByCategory() {
     });
 }
 
-// Fonction pour afficher le contenu de l'article
 function displayArticle(article) {
     contentElement.innerHTML = '';
     const title = document.createElement('h2');
     title.textContent = article.title;
-    title.classList.add('article-title')
-    // title.style = "color:#6f42c1"
+    title.classList.add('article-title');
+
+    // Ajout de la date
+    const dateElement = document.createElement('p');
+    dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' });
+    dateElement.classList.add('article-date');
 
     const description = document.createElement('p');
     description.innerHTML = `<p>${article.description}</p>`;
@@ -56,6 +59,7 @@ function displayArticle(article) {
     articleContent.innerHTML = article.content.join('');
 
     contentElement.appendChild(title);
+    contentElement.appendChild(dateElement);
     contentElement.appendChild(description);
     contentElement.appendChild(articleContent);
     
@@ -80,5 +84,4 @@ function displayArticle(article) {
     });
 }
 
-// Afficher les articles par catégorie
 displayArticlesByCategory();

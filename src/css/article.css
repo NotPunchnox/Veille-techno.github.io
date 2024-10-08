@@ -76,3 +76,8 @@ a:hover {
     text-decoration: none;
     background-color: #2e2e2e;
 }
+.article-date {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin-bottom: 15px;
+}
