@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/article.css">
+    <link rel="stylesheet" href="./src/css/home.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2 class="title">Menu</h2>
+            <a class="title" href="/">Veille Technologique</a>
+
+            <div class="profile">
+                <img src="./src/images/profile.png" alt="Profile Picture">
+                <p>punchnox</p>
+            </div>
+            <ul>
+                <li><a href="./AI/index.md">Intelligence artificielle</a></li>
+                <li><a href="./Cyber-Securite/index.md">Cyber-sécurité</a></li>
+                <li><a href="./Developpement/index.md">Développement</a></li>
+                <li><a href="./Robotique/index.md">Robotique</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <button id="toggleButton" class="toggle-button">☰</button>
+            <div class="article-list">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script type="module" src="./src/js/responsive.js"></script>
+<script type="module" src="./src/js/displayArticle.js"></script>
