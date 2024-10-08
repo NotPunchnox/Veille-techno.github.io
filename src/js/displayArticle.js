@@ -10,7 +10,7 @@ function getRecentArticles(category) {
 }
 
 function displayArticlesByCategory() {
-    contentElement.innerHTML = '<h1 style="margin-bottom:40px"><u>Dernières actualités</u></h1>';
+    contentElement.innerHTML = '<h1 class="margin"><u>Dernières actualités</u></h1>';
 
     Object.keys(categories).forEach(category => {
         const categoryHeader = document.createElement('h2');
