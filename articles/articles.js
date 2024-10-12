@@ -14,14 +14,15 @@ default {
 			"images": [{
 				"url": link + "nomic.png",
 				"caption": "Illustration de Nomic Embed"
-			}, {
-                "url": link + "nomic2.png",
-                "caption": "Screenshot de l'explorer Nomic Atlas"
-            }],
+			},
+			{
+				"url": link + "nomic2.png",
+				"caption": "Screenshot de l'explorer Nomic Atlas"
+			}],
 			"sources": [{
 				"title": "Nomic",
 				"url": "https://nomic.ai"
-            }]
+			}]
 		},
 		{
 			"title": "Llama 3.2 : Meta met à nouveau les bouchées doubles en matière d’intelligence artificielle",
@@ -51,6 +52,36 @@ default {
 		],
 
 		ROBOTIC: [{
+			"title": "Robotaxi, Robovan, Optimus… : tout ce que Tesla a dévoilé pendant que vous dormiez",
+			"description": "Tesla a révélé ses projets d'autonomie des véhicules, notamment le Cybercab, un Robotaxi sans volant ni pédale, et le Robovan, un bus autonome futuriste.",
+			"date": "11 octobre 2024",
+			"content": ["<h3>Introduction</h3><p>Le 10 octobre, lors de la conférence We, Robot, Tesla a présenté ses projets d'autonomie des véhicules. Cette conférence a été l'occasion pour Elon Musk de dévoiler plusieurs innovations marquantes, dont le Cybercab, un Robotaxi révolutionnaire, ainsi que le Robovan, un bus autonome destiné à transformer la mobilité urbaine. En plus de ces véhicules, Musk a également évoqué le robot Optimus, une avancée majeure dans le domaine de la robotique.</p>",
+
+			"<h3>Le Cybercab : l'avenir de la mobilité autonome</h3><p>Elon Musk a lancé le show avec la présentation du <strong>Cybercab</strong>, une voiture sans volant ni pédale, conçue pour une conduite entièrement autonome. Avec seulement deux sièges, le Cybercab se destine principalement aux trajets individuels ou en duo. Ce modèle, qui devrait être proposé à un prix inférieur à 30 000 $, incarne la vision de Tesla pour un avenir où les trajets en voiture sont plus flexibles et moins contraignants. Le Cybercab pourra travailler pour son propriétaire lorsqu'il n'est pas utilisé, permettant ainsi de générer des revenus supplémentaires. Musk a confirmé que la date de sortie est prévue avant 2027, bien que des spéculations suggèrent que cela pourrait être plus tardif, en raison des régulations strictes en Europe.</p>",
+
+			"<h3>Robovan : le bus autonome</h3><p>Tesla a également révélé le <strong>Robovan</strong>, un bus autonome au design futuriste, capable de transporter jusqu'à 20 personnes. Ce véhicule est destiné à répondre aux besoins croissants de mobilité dans les zones urbaines. Bien que peu de détails aient été dévoilés, il est clair que le Robovan pourrait révolutionner le transport public en offrant un service efficace et flexible. Ce type de véhicule pourrait également réduire le nombre de voitures en circulation, contribuant ainsi à diminuer la pollution et à améliorer la qualité de l'air dans les villes.</p>",
+
+			"<h3>Optimus : le robot évolué</h3><p>Lors de la conférence, le robot <strong>Optimus</strong> a fait une apparition marquante. Contrairement aux précédentes démonstrations, où un humain était déguisé en robot, cette fois-ci, un véritable robot a été présenté. Musk a souligné que ce robot intègre toutes les technologies développées pour les véhicules Tesla, tant au niveau logiciel que matériel. Bien qu'aucune information précise sur le prix ou l'utilisation d'Optimus n'ait été communiquée, Musk a évoqué une vision d'avenir où chacun pourrait posséder un Optimus. Les démonstrations ont été accompagnées de performances, avec des Optimus dansant sur scène, illustrant les capacités d'animation et d'interaction du robot.</p>",
+
+			"<h3>Conclusion</h3><p>Avec ces annonces, Tesla semble solidement positionnée pour façonner l'avenir de la mobilité et de la robotique. Le Cybercab pourrait redéfinir la notion de transport personnel, tandis que le Robovan propose une solution pour les défis du transport public en milieu urbain. Optimus, quant à lui, représente une avancée significative dans l'intégration de l'intelligence artificielle et de la robotique dans la vie quotidienne. Ces innovations soulèvent également des questions importantes sur les régulations et l'acceptation sociale des véhicules autonomes et des robots dans notre société.</p>"],
+			"images": [{
+				"url": link + "cybercab.jpg",
+				"caption": "Le Cybercab de Tesla, le Robotaxi sans volant."
+			},
+			{
+				"url": link + "robovan.jpg",
+				"caption": "Le Robovan, un bus autonome futuriste."
+			},
+			{
+				"url": link + "optimus-gen.jpg",
+				"caption": "Optimus, le robot évolué de Tesla."
+			}],
+			"sources": [{
+				"title": "Numerama",
+				"url": "https://www.numerama.com/vroom/1823886-cybercab-robovan-optimus-tout-ce-que-tesla-a-devoile-pendant-que-vous-dormiez.html"
+			}]
+		},
+		{
 			"title": "Un nouveau robot humanoïde chez Boston Dynamics",
 			"description": "Boston Dynamics a récemment présenté une version entièrement électrique de son robot bipède Atlas.",
 			"date": "30 septembre 2024",
