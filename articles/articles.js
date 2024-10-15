@@ -1,6 +1,7 @@
 const link = "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/"
 
-export default {
+export
+default {
 
 		"AI":
 		[{
@@ -101,6 +102,26 @@ export default {
 		],
 
 		CYBER: [{
+			"title": "Game Freak : Cyberattaque compromettant des données sensibles",
+			"description": "Le studio Game Freak a subi une cyberattaque, compromettant des informations sur ses employés et des projets futurs, en parallèle du lancement du nouveau jeu Pokémon.",
+			"date": "14 octobre 2024",
+			"content": ["<h3>Introduction</h3><p>Game Freak, le célèbre studio derrière la franchise Pokémon, a récemment annoncé avoir été victime d'une cyberattaque. Cette intrusion a conduit à la compromission de données sensibles, y compris des informations sur les employés et des projets de développement en cours.</p>",
+
+			"<h3>Détails de l'incident</h3><p>Cette violation de données survient alors que Game Freak se prépare au lancement de son nouveau jeu Pokémon sur la Nintendo Switch 2. Les détails spécifiques de la faille de sécurité n'ont pas été entièrement révélés, mais l'impact pourrait toucher jusqu'à 31 millions d'utilisateurs.</p>",
+
+			"<h3>Conséquences pour les utilisateurs</h3><p>Les utilisateurs sont conseillés de surveiller de près leurs informations personnelles, car les données compromises pourraient être utilisées de manière malveillante. Game Freak a commencé à notifier les utilisateurs concernés et à renforcer ses mesures de sécurité pour éviter de futures violations.</p>",
+
+			"<h3>Conclusion</h3><p>Alors que la franchise Pokémon continue de croître, cette cyberattaque souligne l'importance de la sécurité des données dans l'industrie du jeu vidéo. Les fans sont impatients de découvrir le nouveau jeu, mais la situation actuelle rappelle que la sécurité des informations personnelles doit rester une priorité pour toutes les entreprises technologiques.</p>"],
+			"images": [{
+				"url": link + "pokemon.png",
+				"caption": "Game Freak est connu pour ses franchises emblématiques comme Pokémon."
+			}],
+			"sources": [{
+				"title": "Metro",
+				"url": "https://metro.co.uk/2024/10/14/pokemon-gen-10-game-nintendo-switch-2-revealed-game-freak-hack-21790454/"
+			}]
+		},
+		{
 			"title": "Violation de données à l'Internet Archive : 31 millions d'utilisateurs impactés",
 			"description": "L'Internet Archive a été victime d'une cyberattaque, entraînant la compromission des données personnelles de 31 millions d'utilisateurs.",
 			"date": "15 octobre 2024",
@@ -120,7 +141,7 @@ export default {
 
 			"<h3>Conclusion</h3><p>Cette attaque souligne une fois de plus l'importance de la cybersécurité, même pour des organisations aussi respectées que l'Internet Archive. Les utilisateurs doivent prendre toutes les mesures nécessaires pour protéger leurs informations personnelles et renforcer leur sécurité en ligne.</p>"],
 			"images": [{
-				"url": "https://example.com/internet-archive-hack.png",
+				"url": link + "webarchive.png",
 				"caption": "L'Internet Archive a été victime d'une cyberattaque compromettant les données de millions d'utilisateurs."
 			}],
 			"sources": [{
