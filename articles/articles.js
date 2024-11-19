@@ -312,7 +312,7 @@ default {
         ],
         "images": [
             {
-                "url": link + "wordpress",
+                "url": link + "wordpress.jpg",
                 "caption": "L’interface du nouveau système de design WordPress dans Figma, regroupant styles et composants. © James Koster/Automattic"
             },
             {
