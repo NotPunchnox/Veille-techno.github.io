@@ -4,8 +4,10 @@ const link =
 export default {
   AI: [
     {
-      title: "DeepSeek : Le concurrent chinois de ChatGPT bouleverse le marché de l'IA",
-      description: "DeepSeek, une startup chinoise, a récemment surpassé ChatGPT sur l'App Store d'Apple aux États-Unis, suscitant des inquiétudes concernant la protection des données personnelles.",
+      title:
+        "DeepSeek : Le concurrent chinois de ChatGPT bouleverse le marché de l'IA",
+      description:
+        "DeepSeek, une startup chinoise, a récemment surpassé ChatGPT sur l'App Store d'Apple aux États-Unis, suscitant des inquiétudes concernant la protection des données personnelles.",
       date: "27 janvier 2025",
       content: [
         "<h3>Introduction</h3><p>DeepSeek, une startup chinoise spécialisée dans l'intelligence artificielle, a récemment lancé un assistant gratuit qui a rapidement gagné en popularité, dépassant ChatGPT en tant qu'application gratuite la plus téléchargée sur l'App Store d'Apple aux États-Unis. Cette ascension fulgurante a attiré l'attention des autorités de protection des données personnelles, notamment en Europe, où des enquêtes ont été ouvertes concernant la conformité de DeepSeek aux réglementations en vigueur.</p>",
@@ -16,7 +18,7 @@ export default {
       ],
       images: [
         {
-          url: link +  "deepseek.avif",
+          url: link + "deepseek.avif",
           caption: "DeepSeek vs OpenAI",
         },
       ],
@@ -165,6 +167,29 @@ export default {
   ],
 
   ROBOTIC: [
+    {
+      title: "L'industrie boostée à l'IA avec NVIDIA Jetson",
+      description: "NVIDIA Jetson est une gamme de plates-formes informatiques d'intelligence artificielle conçues pour apporter la puissance de l'IA aux systèmes embarqués et industriels. ( Nano Ordinateur )",
+      date: "1 janvier 2025",
+      content: [
+        "<h3>Qu'est-ce que NVIDIA Jetson ?</h3><p>NVIDIA Jetson est une gamme de plates-formes informatiques d'intelligence artificielle conçues pour apporter la puissance de l'IA aux systèmes embarqués et industriels. Ces plates-formes compactes et économes en énergie sont dotées de GPU hautes performances et d'accélérateurs d'IA dédiés, permettant l'inférence d'IA en temps réel pour une large gamme d'applications, de la robotique aux véhicules autonomes en passant par les caméras intelligentes et l'IoT industriel.</p>",
+        "<h3>Qu'est-ce qui différencie le NVIDIA Jetson des autres processeurs ?</h3><p>Chaque module NVIDIA Jetson est un système sur module (SoM) complet comprenant un GPU intégré, un CPU, une mémoire, une gestion de l'énergie et des interfaces à haut débit. Ces éléments sont finement ajustés pour offrir des performances d'inférence IA de premier plan tout en garantissant l'efficacité énergétique, permettant aux appareils de périphérie d'exécuter efficacement des algorithmes d'IA complexes. De plus, NVIDIA a développé un écosystème d'entraide pour le développement de l'IA sur les appareils Jetson, incluant la compatibilité avec les principaux frameworks d'IA comme TensorFlow et TensorRT de NVIDIA, ainsi que diverses bibliothèques et API pour la vision par ordinateur et l'apprentissage en profondeur.</p>",
+        "<h3>NVIDIA Jetson vs GPU NVIDIA</h3><p>L'utilisation de NVIDIA Jetson n'exclut pas les GPU pour le traitement ; elle élargit plutôt les options pour les intégrateurs de systèmes et les OEM dans la personnalisation des solutions informatiques d'IA. Les GPU sont idéaux pour l'entraînement de réseaux neuronaux étendus ou l'exécution d'algorithmes d'IA complexes nécessitant une puissance de calcul élevée, tandis que Jetson est adapté aux applications d'IA en périphérie, où la faible latence, l'efficacité énergétique et la petite taille sont importantes.</p>",
+        "<h3>Cas d'usage</h3><p>Les plates-formes NVIDIA Jetson sont utilisées dans divers domaines industriels, notamment :</p><ul><li><strong>Robotique :</strong> Intégration dans des robots pour des tâches de vision par ordinateur et de navigation autonome.</li><li><strong>Véhicules autonomes :</strong> Traitement en temps réel des données des capteurs pour la conduite autonome.</li><li><strong>Caméras intelligentes :</strong> Analyse vidéo en temps réel pour la surveillance et la sécurité.</li><li><strong>IoT industriel :</strong> Surveillance et contrôle des processus industriels avec des capacités d'IA avancées.</li></ul>",
+      ],
+      images: [
+        {
+          url: link + "jetson.webp",
+          caption: "Exemple d'utilisation de NVIDIA Jetson dans l'industrie",
+        }
+      ],
+      sources: [
+        {
+          title: "Sphinx France",
+          url: "https://blog.sphinxfrance.com/actualite-iiot-cybersecurite/ia/industrie-ia-nvidia-jetson/",
+        },
+      ],
+    },
     {
       title:
         "Robotaxi, Robovan, Optimus… : tout ce que Tesla a dévoilé pendant que vous dormiez",
