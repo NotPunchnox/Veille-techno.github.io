@@ -16,7 +16,7 @@ export default {
       ],
       images: [
         {
-          url: link +  "deepseekd.avif",
+          url: link +  "deepseek.avif",
           caption: "DeepSeek vs OpenAI",
         },
       ],
