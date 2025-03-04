@@ -434,6 +434,123 @@ export default {
 
   DEV: [
     {
+      "title": "Le créateur de C++ appelle à sécuriser le langage",
+      "description": "Bjarne Stroustrup, le créateur du langage C++, exhorte la communauté des développeurs à renforcer la sécurité de ce langage, notamment en accélérant l'adoption de pratiques de mémoire sécurisée.",
+      "date": "28 février 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Dans une déclaration publiée le 28 février 2025, Bjarne Stroustrup, le père du C++, a lancé un appel urgent à la communauté des développeurs pour sécuriser ce langage largement utilisé. Alors que C++ reste un pilier dans les systèmes critiques, ses failles de gestion de la mémoire continuent de poser des risques.</p>",
+        "<h3>Un constat alarmant</h3><p>Stroustrup a souligné que les erreurs de mémoire, comme les débordements de tampon, sont encore trop fréquentes dans les projets C++. Il insiste sur l’adoption de pratiques modernes, telles que les 'smart pointers' et les outils d’analyse statique, pour réduire les vulnérabilités exploitables par des attaquants.</p>",
+        "<h3>Propositions concrètes</h3><p>Il recommande une mise à jour des standards C++ (notamment C++23 et au-delà) pour intégrer des garde-fous par défaut et encourager les développeurs à abandonner les pratiques obsolètes comme les pointeurs bruts. Il appelle également à une meilleure formation des programmeurs sur la sécurité.</p>",
+        "<h3>Conclusion</h3><p>Cet appel intervient dans un contexte où la cybersécurité devient une priorité mondiale. Si la communauté suit les conseils de Stroustrup, C++ pourrait rester pertinent tout en devenant plus sûr pour les applications futures.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/cpp-security.jpg",
+          "caption": "Bjarne Stroustrup plaide pour un C++ plus sécurisé."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Programmez!",
+          "url": "https://www.programmez.com/"
+        }
+      ]
+    },
+    {
+      "title": "Google enrichit AlloyDB, son SGBD compatible PostgreSQL",
+      "description": "Google continue d'améliorer AlloyDB, son système de gestion de bases de données compatible avec PostgreSQL, en y ajoutant de nouvelles fonctionnalités pour optimiser les performances et la sécurité.",
+      "date": "26 février 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Google a annoncé le 26 février 2025 une mise à jour majeure de AlloyDB, son système de gestion de bases de données (SGBD) cloud compatible avec PostgreSQL. Cette évolution vise à répondre aux besoins croissants des entreprises en matière de performance et de protection des données.</p>",
+        "<h3>Nouvelles fonctionnalités</h3><p>Parmi les ajouts, AlloyDB intègre désormais une optimisation automatique des requêtes grâce à l’IA, réduisant les temps d’exécution jusqu’à 20 %. Côté sécurité, un chiffrement renforcé et une gestion fine des accès basés sur les rôles ont été ajoutés pour répondre aux normes de conformité comme le RGPD.</p>",
+        "<h3>Impact pour les développeurs</h3><p>Ces améliorations facilitent la migration depuis PostgreSQL classique vers AlloyDB, tout en offrant des outils pour surveiller et déboguer les performances en temps réel. Les entreprises utilisant des charges de travail intensives, comme l’analyse de données, en bénéficieront particulièrement.</p>",
+        "<h3>Conclusion</h3><p>Avec cette mise à jour, Google consolide AlloyDB comme une alternative compétitive aux SGBD traditionnels, combinant la flexibilité de PostgreSQL avec la puissance du cloud. Une annonce qui devrait séduire les développeurs et les DSI.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/alloydb-update.jpg",
+          "caption": "AlloyDB de Google s’enrichit pour plus de performance et sécurité."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Programmez!",
+          "url": "https://www.programmez.com/"
+        }
+      ]
+    },
+    {
+      "title": "Google lance une version gratuite de son assistant de code par IA : comment y accéder",
+      "description": "Google a récemment dévoilé une version gratuite de son assistant de codage alimenté par l'intelligence artificielle, visant à faciliter le travail des développeurs en automatisant certaines tâches de programmation.",
+      "date": "26 février 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Le 26 février 2025, Google a lancé une version gratuite de son assistant de codage basé sur l’IA, une initiative visant à démocratiser l’accès à des outils de développement avancés. Cet assistant promet d’accélérer les tâches répétitives et d’améliorer la productivité des programmeurs.</p>",
+        "<h3>Fonctionnalités clés</h3><p>L’assistant peut générer du code à partir de descriptions en langage naturel, suggérer des corrections en temps réel et expliquer des blocs de code complexes. Compatible avec des langages comme Python, JavaScript et Java, il s’intègre directement dans des IDE populaires comme VS Code via une extension gratuite.</p>",
+        "<h3>Comment y accéder</h3><p>Pour utiliser cet outil, il suffit de se rendre sur le site Google Cloud, de créer un compte gratuit et de télécharger l’extension ou d’accéder à la version web. Une limite de 100 000 tokens par mois est imposée, suffisante pour la plupart des usages personnels ou de petits projets.</p>",
+        "<h3>Conclusion</h3><p>En rendant cet assistant gratuit, Google concurrence des outils comme GitHub Copilot tout en attirant les développeurs vers son écosystème cloud. Une aubaine pour les freelances et les étudiants cherchant à optimiser leur workflow.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/google-ai-coding.jpg",
+          "caption": "L’assistant de codage IA gratuit de Google est désormais accessible."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/dossier/developpement/"
+        }
+      ]
+    },
+    {
+      "title": "Auto-entrepreneurs : les nouvelles réglementations Urssaf et TVA",
+      "description": "Cet article détaille les nouvelles règles de l'Urssaf et de la TVA qui impactent les auto-entrepreneurs depuis 2024, notamment les augmentations de cotisations et les seuils de franchise TVA révisés, tout en proposant des outils pour simplifier la gestion des freelances.",
+      "date": "19 novembre 2024",
+      "content": [
+        "<h3>Introduction</h3><p>Depuis le 1er janvier 2024, les auto-entrepreneurs en France doivent composer avec de nouvelles réglementations Urssaf et TVA, introduites pour adapter le statut aux réalités économiques. Annoncées le 19 novembre 2024, ces mesures affectent particulièrement les freelances tech.</p>",
+        "<h3>Changements principaux</h3><p>Les cotisations sociales ont augmenté de 1,5 % en moyenne pour financer la protection sociale. Par ailleurs, les seuils de franchise de TVA ont été ajustés : 39 100 € pour les prestations de services (contre 36 500 € auparavant), obligeant plus d’auto-entrepreneurs à facturer la TVA. Une simplification administrative est toutefois proposée via un portail Urssaf modernisé.</p>",
+        "<h3>Outils pour s’adapter</h3><p>Des plateformes comme Free-Work MyBusiness offrent des solutions pour gérer ces nouvelles obligations : calcul automatique des cotisations, génération de factures avec TVA et suivi des seuils en temps réel. Ces outils visent à réduire la charge administrative des freelances.</p>",
+        "<h3>Conclusion</h3><p>Ces évolutions reflètent une volonté de structurer le statut d’auto-entrepreneur, mais elles demandent une adaptation rapide. Les outils numériques seront essentiels pour les freelances souhaitant rester conformes tout en se concentrant sur leur cœur de métier.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/urssaf-freelance.jpg",
+          "caption": "Nouvelles règles Urssaf et TVA pour les auto-entrepreneurs en 2024."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Free-Work",
+          "url": "https://www.free-work.com/fr/tech-it/blog/actualites-informatiques"
+        }
+      ]
+    },
+    {
+      "title": "Projet Digits de Nvidia : un ordinateur de bureau sous Linux dédié aux développeurs",
+      "description": "Nvidia dévoile Digits, un ordinateur de bureau alimenté par Linux, conçu spécifiquement pour les développeurs avec une puissance de calcul optimisée et une flexibilité accrue.",
+      "date": "04 Février 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Nvidia, connu pour ses avancées dans les GPU et l'intelligence artificielle, a récemment présenté son projet Digits : une station de travail sous Linux pensée pour les développeurs. Cet ordinateur de bureau, qui se distingue par sa conception ouverte et sa puissance brute, vise à répondre aux besoins des professionnels cherchant un environnement de développement robuste et personnalisable.</p>",
+        "<h3>Une machine taillée pour les développeurs</h3><p>Le Digits se présente comme un ordinateur de bureau compact mais puissant, intégrant un processeur ARM haute performance couplé à un GPU Nvidia de dernière génération. Avec une mémoire RAM extensible jusqu'à 64 Go et un stockage SSD NVMe de 1 To par défaut, cette machine est conçue pour gérer des charges de travail intensives, qu'il s'agisse de compilation de code, de tests d'applications ou de simulations complexes.</p>",
+        "<h3>Linux au cœur du système</h3><p>Contrairement aux systèmes propriétaires traditionnels, le Digits repose sur une distribution Linux optimisée par Nvidia. Cette décision offre aux développeurs une liberté totale pour personnaliser leur environnement de travail. Que ce soit pour installer des outils spécifiques, configurer des scripts ou exploiter des bibliothèques open source, cet ordinateur promet une flexibilité inégalée. Nvidia fournit également une suite d’outils préinstallés, compatibles avec les frameworks de développement les plus populaires.</p>",
+        "<h3>Design et connectivité</h3><p>Le design du Digits est à la fois fonctionnel et épuré. Son boîtier compact permet une intégration facile sur un bureau, tandis que ses ports multiples (USB-C, HDMI 2.1, Ethernet 10 GbE) assurent une connectivité étendue pour les périphériques modernes. Un système de refroidissement avancé garantit des performances stables même lors d’une utilisation prolongée à pleine capacité.</p>",
+        "<h3>Positionnement sur le marché</h3><p>Avec un prix de départ annoncé autour de 1 500 $, le Digits se positionne comme une alternative compétitive aux stations de travail haut de gamme. Nvidia cible clairement les développeurs indépendants, les petites équipes et les entreprises cherchant une solution performante sans les coûts exorbitants des configurations sur mesure.</p>",
+        "<h3>Conclusion</h3><p>Le projet Digits de Nvidia redéfinit l’ordinateur de bureau pour développeurs en combinant la puissance brute d’un matériel de pointe avec la liberté offerte par Linux. Cette initiative pourrait bien séduire une communauté en quête de performance et d’adaptabilité, tout en renforçant la présence de Nvidia dans le domaine des outils pour professionnels.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/digits-nvidia.webp",
+          "caption": "Le Nvidia Digits, un ordinateur de bureau sous Linux pour les développeurs."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/projet-digits-de-nvidia-un-ordinateur-de-bureau-alimente-par-linux-pour-les-developpeurs-dia-404106.htm"
+        }
+      ]
+    },
+    {
       title:
         "WordPress intègre son nouveau design system dans Figma : comment y accéder",
       description:

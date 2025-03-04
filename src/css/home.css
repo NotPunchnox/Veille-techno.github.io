@@ -3,7 +3,7 @@
     --bg-secondary: #1e1e1e;
     --text-primary: #e0e0e0;
     --text-secondary: #a0a0a0;
-    --accent-color: #bb86fc;
+    --accent-color: #261a36;
     --border-color: #2e2e2e;
 }
 
@@ -312,6 +312,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--accent-color);
+    background: #0c0b0c;
     border-radius: 4px;
 }
