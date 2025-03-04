@@ -10,29 +10,54 @@ function getRecentArticles(category) {
 }
 
 function displayArticlesByCategory() {
-    contentElement.innerHTML = '<h1 class="margin"><u>Dernières actualités</u></h1>';
+    contentElement.innerHTML = '<h1 class="main-title">Dernières actualités</h1>';
 
     Object.keys(categories).forEach(category => {
         const categoryHeader = document.createElement('h2');
         categoryHeader.textContent = categories[category];
-        categoryHeader.classList.add('article-title', 'margin');
+        categoryHeader.classList.add('category-title');
         contentElement.appendChild(categoryHeader);
 
         const recentArticles = getRecentArticles(category);
-        const categoryList = document.createElement('ul');
+        const categoryList = document.createElement('div');
+        categoryList.classList.add('article-grid');
 
         recentArticles.forEach(article => {
-            const listItem = document.createElement('li');
+            const articleCard = document.createElement('div');
+            articleCard.classList.add('article-card');
+
             const link = document.createElement('a');
             link.textContent = article.title;
-            link.classList.add('link', 'margin-link')
+            link.classList.add('article-link');
             link.href = '#';
+
+            const articleInfo = document.createElement('div');
+            articleInfo.classList.add('article-info');
+
+            const dateElement = document.createElement('span');
+            dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric' 
+            });
+            dateElement.classList.add('article-date');
+
+            const descriptionElement = document.createElement('p');
+            descriptionElement.textContent = article.description;
+            descriptionElement.classList.add('article-description');
+
+            articleInfo.appendChild(dateElement);
+            articleInfo.appendChild(descriptionElement);
+
+            articleCard.appendChild(link);
+            articleCard.appendChild(articleInfo);
+
             link.addEventListener('click', (e) => {
                 e.preventDefault();
                 displayArticle(article);
             });
-            listItem.appendChild(link);
-            categoryList.appendChild(listItem);
+
+            categoryList.appendChild(articleCard);
         });
 
         contentElement.appendChild(categoryList);
@@ -41,44 +66,94 @@ function displayArticlesByCategory() {
 
 function displayArticle(article) {
     contentElement.innerHTML = '';
-    const title = document.createElement('h2');
+    const articleContainer = document.createElement('div');
+    articleContainer.classList.add('full-article');
+
+    const title = document.createElement('h1');
     title.textContent = article.title;
-    title.classList.add('article-title');
+    title.classList.add('article-main-title');
 
-    // Ajout de la date
-    const dateElement = document.createElement('p');
-    dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' });
-    dateElement.classList.add('article-date');
+    // Date with angled line effect
+    const headerContainer = document.createElement('div');
+    headerContainer.classList.add('article-header');
 
-    const description = document.createElement('p');
-    description.innerHTML = `<p style="font-weight:bold">${article.description}</p>`;
+    const dateElement = document.createElement('div');
+    dateElement.classList.add('article-header-date');
+    dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+    });
+
+    const descriptionElement = document.createElement('div');
+    descriptionElement.classList.add('article-header-description');
+    descriptionElement.textContent = article.description;
+
+    headerContainer.appendChild(dateElement);
+    headerContainer.appendChild(descriptionElement);
 
     const articleContent = document.createElement('div');
-    articleContent.innerHTML = String(article.content.join('')); //.replace(/<p>/g, '<p style="margin-left: 20px;">');
+    articleContent.classList.add('article-body');
+    articleContent.innerHTML = article.content.join('');
 
-    contentElement.appendChild(title);
-    contentElement.appendChild(dateElement);
-    contentElement.appendChild(description);
-    contentElement.appendChild(articleContent);
-    
+    // Illustrations section
+    const illustrationsSection = document.createElement('div');
+    illustrationsSection.classList.add('article-illustrations');
+
     const illustrationsTitle = document.createElement('h2');
     illustrationsTitle.textContent = 'Illustrations';
-    contentElement.appendChild(illustrationsTitle);
+    illustrationsSection.appendChild(illustrationsTitle);
 
-    article.images.forEach(i => {
-        const imgParagraph = document.createElement('p');
-        imgParagraph.innerHTML = `<img src='${i.url}' alt='${i.caption.split(' ')[0]}' class='article-image'/>  <em>${i.caption}</em>`;
-        contentElement.appendChild(imgParagraph);
+    article.images.forEach(image => {
+        const imageWrapper = document.createElement('div');
+        imageWrapper.classList.add('image-wrapper');
+
+        const imgElement = document.createElement('img');
+        imgElement.src = image.url;
+        imgElement.alt = image.caption;
+        imgElement.classList.add('article-image');
+
+        const captionElement = document.createElement('em');
+        captionElement.textContent = image.caption;
+
+        imageWrapper.appendChild(imgElement);
+        imageWrapper.appendChild(captionElement);
+        illustrationsSection.appendChild(imageWrapper);
     });
+
+    // Sources section
+    const sourcesSection = document.createElement('div');
+    sourcesSection.classList.add('article-sources');
 
     const sourcesTitle = document.createElement('h2');
     sourcesTitle.textContent = 'Sources';
-    contentElement.appendChild(sourcesTitle);
+    sourcesSection.appendChild(sourcesTitle);
 
-    article.sources.forEach(i => {
-        const sourceParagraph = document.createElement('p');
-        sourceParagraph.innerHTML = `<a href='${i.url}'>${i.title}</a>`;
-        contentElement.appendChild(sourceParagraph);
+    article.sources.forEach(source => {
+        const sourceLink = document.createElement('a');
+        sourceLink.href = source.url;
+        sourceLink.textContent = source.title;
+        sourceLink.classList.add('source-link');
+        sourceLink.target = '_blank';
+        sourceLink.rel = 'noopener noreferrer';
+
+        sourcesSection.appendChild(sourceLink);
+    });
+
+    // Assemble the full article
+    articleContainer.appendChild(title);
+    articleContainer.appendChild(headerContainer);
+    articleContainer.appendChild(articleContent);
+    articleContainer.appendChild(illustrationsSection);
+    articleContainer.appendChild(sourcesSection);
+
+    contentElement.appendChild(articleContainer);
+
+    // Smooth scroll to top
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
     });
 }
 
