@@ -168,6 +168,75 @@ export default {
 
   ROBOTIC: [
     {
+      "title": "Nomagic lève 44 millions pour ses robots IA dans les entrepôts européens",
+      "description": "La start-up polonaise Nomagic sécurise 44 millions d'euros en série B pour accélérer le déploiement de ses bras robotisés dopés à l'IA dans les entrepôts à travers l'Europe.",
+      "date": "10 mars 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Nomagic, une start-up basée à Varsovie, a annoncé le 10 mars 2025 avoir bouclé une levée de fonds de 44 millions d'euros. Spécialisée dans les bras robotisés pour la logistique, elle profite de l’essor de l’intelligence artificielle pour renforcer sa présence dans les entrepôts européens.</p>",
+        "<h3>Un financement stratégique</h3><p>Mené par la Banque Européenne pour la Reconstruction et le Développement (BERD), ce tour de table inclut également Khosla Ventures, Almaz Capital et une dette de la Banque Européenne d’Investissement. L’objectif est clair : équiper davantage de sites avec plus de 10 robots chacun d’ici deux ans, tout en investissant dans l’IA.</p>",
+        "<h3>Une croissance impressionnante</h3><p>Avec une hausse de 220 % de son chiffre d’affaires récurrent en 2024, Nomagic a déjà séduit des clients comme Cdiscount en France, Apo.com et Asos en Allemagne. La start-up vise une croissance supplémentaire de 200 % en 2025, répondant à une demande croissante dans la mode, la pharmacie et l’alimentation.</p>",
+        "<h3>Conclusion</h3><p>Nomagic se positionne comme un acteur clé de l’automatisation logistique en Europe. En s’appuyant sur ses robots et les données qu’ils génèrent, elle ambitionne de développer des modèles d’IA avancés, renforçant ainsi son avantage concurrentiel dans un marché en plein essor.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://www.usine-digitale.fr/medias/nomagic-founders.jpg",
+          "caption": "Les co-fondateurs de Nomagic : Marek Cygan, Kacper Nowicki et Tristan D’Orgeval."
+        }
+      ],
+      "sources": [
+        {
+          "title": "L’Usine Digitale",
+          "url": "https://www.usine-digitale.fr/article/nomagic-la-start-up-qui-deploie-ses-robots-dopes-a-l-ia-dans-les-entrepots-en-europe.N2228188"
+        }
+      ]
+    },
+    {
+      "title": "Figure AI révolutionne la robotique domestique avec Helix",
+      "description": "Avec son modèle Helix, Figure AI permet à ses robots humanoïdes de comprendre des commandes vocales et de manipuler des objets inconnus, ouvrant la voie à une présence dans les foyers.",
+      "date": "9 mars 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Figure AI, entreprise américaine, a dévoilé le 9 mars 2025 son modèle Helix, une IA de type vision-langage-action (VLA). Ce système permet à ses robots de répondre à des instructions en langage naturel et de manipuler des objets jamais vus auparavant.</p>",
+        "<h3>Une technologie innovante</h3><p>Helix repose sur deux systèmes : un modèle de compréhension lente (7-9 Hz) et un contrôle rapide des mouvements (200 Hz). Cette architecture unique offre un contrôle précis du haut du corps des robots, y compris doigts et poignets, et permet une collaboration entre plusieurs unités.</p>",
+        "<h3>Vers une application domestique</h3><p>Dans des démonstrations, deux robots équipés de Helix ont rangé des courses sur simple commande vocale. Fonctionnant sur des GPU embarqués à faible consommation, le modèle ne nécessite que 500 heures d’entraînement, le rendant viable pour un usage commercial.</p>",
+        "<h3>Conclusion</h3><p>Figure AI mise sur Helix pour transformer la robotique domestique. En éliminant le besoin de formation spécifique pour chaque tâche, cette technologie pourrait bientôt rendre les robots humanoïdes indispensables dans les foyers, marquant un tournant dans leur adoption.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://www.usine-digitale.fr/medias/helix-robot.jpg",
+          "caption": "Un robot Figure AI manipulant un objet grâce au modèle Helix."
+        }
+      ],
+      "sources": [
+        {
+          "title": "L’Usine Digitale",
+          "url": "https://www.usine-digitale.fr/article/figure-ai-progresse-dans-la-robotique-a-la-maison-avec-son-modele-helix.N2227802"
+        }
+      ]
+    },
+    {
+      "title": "Apptronik lève 350 millions pour ses robots humanoïdes en entreprise",
+      "description": "La start-up américaine Apptronik sécurise 350 millions de dollars en série A pour déployer à grande échelle son robot humanoïde Apollo dans divers secteurs industriels.",
+      "date": "8 mars 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Le 8 mars 2025, Apptronik a annoncé une levée de fonds de 350 millions de dollars, portée par B Capital, Capital Factory et Google. Cette série A vise à accélérer la production et le déploiement de son robot humanoïde Apollo dans les entreprises.</p>",
+        "<h3>Un robot polyvalent</h3><p>Apollo est conçu pour des tâches dans les entrepôts et usines, avec des applications prévues dans l’automobile, la logistique, et à terme, les soins aux personnes âgées. Des partenariats avec Mercedes-Benz et GXO Logistics témoignent de son potentiel immédiat.</p>",
+        "<h3>Des alliances technologiques</h3><p>Forte de collaborations avec la NASA, Nvidia et Google DeepMind, Apptronik bénéficie d’un écosystème solide. Après trois ans de croissance record, elle voit 2025 comme une année clé pour scaler ses déploiements, surfant sur un marché robotique estimé à 199,94 milliards de dollars d’ici 2029.</p>",
+        "<h3>Conclusion</h3><p>Apptronik s’impose comme un leader dans la robotique humanoïde pour l’entreprise. Avec ce financement, elle compte transformer les industries en automatisant des tâches variées, tout en posant les bases pour des applications futures plus larges.</p>"
+      ],
+      "images": [
+        {
+          "url": "https://www.usine-digitale.fr/medias/apollo-robot.jpg",
+          "caption": "Le robot humanoïde Apollo d’Apptronik en action dans un entrepôt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "L’Usine Digitale",
+          "url": "https://www.usine-digitale.fr/article/apptronik-leve-350-millions-de-dollars-pour-deployer-son-robot-humanoide-en-entreprise.N2227528"
+        }
+      ]
+    },
+    {
       title: "L'industrie boostée à l'IA avec NVIDIA Jetson",
       description: "NVIDIA Jetson est une gamme de plates-formes informatiques d'intelligence artificielle conçues pour apporter la puissance de l'IA aux systèmes embarqués et industriels. ( Nano Ordinateur )",
       date: "1 janvier 2025",
