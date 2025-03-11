@@ -225,7 +225,7 @@ export default {
       ],
       "images": [
         {
-          "url": "https://www.usine-digitale.fr/medias/apollo-robot.jpg",
+          "url": "https://www.usine-digitale.fr/mediatheque/4/1/9/001522914_896x598_c.jpg",
           "caption": "Le robot humanoïde Apollo d’Apptronik en action dans un entrepôt."
         }
       ],
