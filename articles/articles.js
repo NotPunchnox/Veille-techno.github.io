@@ -2,7 +2,29 @@ const link =
   "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/";
 
 export default {
-  AI: [
+  AI: [{
+    "title": "CES 2025 : Nvidia dévoile Nemotron pour l’IA agentique et vise la robotique",
+    "description": "Nvidia lance Nemotron, une famille de grands modèles de langage (LLMs) optimisés pour l’IA agentique, et annonce des avancées majeures pour la robotique, notamment dans les entrepôts, lors du CES 2025.",
+    "date": "8 janvier 2025",
+    "content": [
+      "<h3>Introduction</h3><p>Lors de sa keynote au CES 2025, Nvidia, dirigée par Jensen Huang, a marqué les esprits en dévoilant Nemotron, une famille de LLMs dérivée de Llama, conçue pour l’IA agentique. Devant 12 000 spectateurs à Las Vegas, l’entreprise a également affirmé sa vision : révolutionner la robotique, en commençant par les entrepôts.</p>",
+      "<h3>Nemotron : une IA agentique polyvalente</h3><p>Nemotron se décline en trois versions : Nano (embarqué), Super (un GPU) et Ultra (data center). Entraînés pour le suivi d’instructions, le chat, la génération de code et les mathématiques, ces modèles sont personnalisables et disponibles sur le site de Nvidia et Hugging Face. Une variante visuelle, Cosmos Nemotron, complète l’offre, tandis que SAP et ServiceNow sont déjà sur les rangs pour les adopter.</p>",
+      "<h3>Blueprints : accélérer les usages</h3><p>Nvidia a enrichi ses Blueprints, des workflows préconfigurés pour déployer des agents IA facilement. Cinq partenariats (CrewAI, LangChain, etc.) offrent des solutions prêtes à l’emploi, tandis que des outils comme la conversion de PDF en podcasts ou la synthèse vidéo sont proposés. Quatre Blueprints Omniverse ciblent l’IA physique, avec Mega qui simule des flottes de robots pour la logistique.</p>",
+      "<h3>Conclusion</h3><p>Avec Mega, testé par Accenture et Kion pour créer des jumeaux numériques d’entrepôts, Nvidia vise un marché logistique de 1000 milliards de dollars. En combinant Nemotron et la robotique, l’entreprise se positionne comme un pionnier de l’IA physique, prête à transformer industries et entrepôts grâce à des simulations avancées et des robots intelligents.</p>"
+    ],
+    "images": [
+      {
+        "url": "https://www.usine-digitale.fr/mediatheque/3/6/2/001521263_896x598_c.jpg",
+        "caption": "Un jumeau numérique d’entrepôt simulé avec Nvidia Cosmos pour entraîner des robots."
+      }
+    ],
+    "sources": [
+      {
+        "title": "L’Usine Digitale",
+        "url": "https://www.usine-digitale.fr/article/ces-2025-nvidia-lance-nemotron-une-famille-de-llms-concue-pour-l-agentique.N2225205"
+      }
+    ]
+  },
     {
       title:
         "DeepSeek : Le concurrent chinois de ChatGPT bouleverse le marché de l'IA",
