@@ -265,6 +265,29 @@ export default {
 
   CYBER: [
     {
+      "title": "Cyberattaque à l’Université de Rennes : un sous-réseau pédagogique visé",
+      "description": "L’Université de Rennes a été ciblée par une cyberattaque ce week-end, affectant un sous-réseau pédagogique. Le groupe FunkSec revendique l’attaque et menace de publier 50 Go de données volées d’ici le 19 mars.",
+      "date": "10 mars 2025",
+      "content": [
+        "<h3>Introduction</h3><p>L’Université de Rennes, anciennement Rennes 1, a signalé le 10 mars 2025 avoir détecté une cyberattaque au cours du week-end. Cette 'action informatique malveillante' a touché un sous-réseau pédagogique, mais l’établissement assure que l’incident reste limité et que ses réseaux principaux sont toujours opérationnels.</p>",
+        "<h3>Une attaque revendiquée par FunkSec</h3><p>Le groupe de hackers FunkSec a revendiqué cette opération sur un forum de piratage. Il affirme avoir exfiltré 50 gigaoctets de données, incluant des fichiers PDF, CSV, bases de données, e-mails, numéros de téléphone, factures, mots de passe et clés SSH. Les cybercriminels menacent de tout publier le 19 mars si leurs exigences ne sont pas satisfaites.</p>",
+        "<h3>Réponse et contexte</h3><p>L’université, qui accueille plus de 30 000 étudiants, a rapidement effectué des diagnostics et mis en place des mesures de sécurisation. FunkSec, connu pour sa stratégie de double-extorsion (chiffrement et vol de données), utilise l’intelligence artificielle pour optimiser ses attaques. Selon Bitdefender, ce gang a déjà frappé 120 cibles, notamment dans l’éducation et le secteur public.</p>",
+        "<h3>Conclusion</h3><p>Cet incident met en lumière la vulnérabilité des institutions académiques face aux cybermenaces sophistiquées. Bien que l’impact semble contenu pour l’instant, la menace de publication des données volées plane, laissant l’université dans une course contre la montre pour renforcer sa sécurité.</p>"
+      ],
+      "images": [
+        {
+          "url": link + "renne.jpg",
+          "caption": "La faculté de droit et de science politique de l’Université de Rennes, l’un des sites de l’établissement."
+        }
+      ],
+      "sources": [
+        {
+          "title": "L’Usine Digitale",
+          "url": "https://www.usine-digitale.fr/article/l-universite-de-rennes-victime-d-une-cyberattaque-sur-un-sous-reseau-pedagogique.N2228653"
+        }
+      ]
+    },
+    {
       title:
         "DeepSeek : l’inquiétude des autorités de protection des données personnelles",
       description:
@@ -433,6 +456,33 @@ export default {
   ],
 
   DEV: [
+    {
+      "title": "LynxJS : Une nouvelle ère pour le développement multiplateforme",
+      "description": "LynxJS, un framework open-source lancé par ByteDance, promet de révolutionner le développement d'applications multiplateformes en combinant la simplicité du JavaScript avec des performances natives grâce à un moteur Rust.",
+      "date": "8 mars 2025",
+      "content": [
+        "<h3>Introduction</h3><p>Dévoilé en mars 2025 par ByteDance, LynxJS est un framework open-source qui permet aux développeurs de créer des applications pour mobile (iOS et Android) et le web à partir d’une seule base de code. Utilisant des technologies web comme JavaScript et CSS, il offre une alternative performante aux outils existants.</p>",
+        "<h3>Un framework innovant</h3><p>LynxJS se distingue par son moteur de rendu natif écrit en Rust et son architecture double-thread, séparant la logique JavaScript du rendu UI. Cela garantit des performances fluides et des lancements rapides, même pour des applications complexes intégrées dans des écosystèmes comme TikTok.</p>",
+        "<h3>Comment l’utiliser</h3><p>Pour démarrer, les développeurs peuvent utiliser l’outil CLI ‘create-rspeedy’ pour configurer un projet, puis tester leurs applications via l’app Lynx Explorer. Le framework prend en charge une syntaxe inspirée de React, rendant la transition facile pour les développeurs web.</p>",
+        "<h3>Conclusion</h3><p>Avec sa licence Apache 2.0 et une documentation complète sur lynxjs.org, LynxJS s’impose comme une option prometteuse face à React Native ou Flutter. Bien que son écosystème soit encore jeune, son potentiel attire déjà l’attention des développeurs du monde entier.</p>"
+      ],
+      "images": [
+        {
+          "url": link + "/lynx.png",
+          "caption": "Le logo de LynxJS, symbole d’un framework léger et puissant."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Medium - Priyadarshan Ghosh",
+          "url": "https://priyadarshanghosh26.medium.com/introduction-to-lynxjs-a-lightweight-javascript-framework-c386eba73728"
+        },
+        {
+          "title": "Site officiel de LynxJS",
+          "url": "https://lynxjs.org/"
+        }
+      ]
+    },
     {
       "title": "Le créateur de C++ appelle à sécuriser le langage",
       "description": "Bjarne Stroustrup, le créateur du langage C++, exhorte la communauté des développeurs à renforcer la sécurité de ce langage, notamment en accélérant l'adoption de pratiques de mémoire sécurisée.",
