@@ -1,4 +1,6 @@
 const link = "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/";
+import AI from "./content/AI.js";
+
 
 export default {
   AI,

@@ -6,6 +6,7 @@ const contentElement = document.querySelector('.article-list');
 const categories = {DEV: 'Développement', ROBOTIC: 'Robotique', AI: 'Intelligence Artificielle', CYBER: 'Cyber-sécurité'};
 
 function getRecentArticles(category) {
+    console.log({category, articles: articles[category]})
     return articles[category]
         .sort((a, b) => new Date(b.date) - new Date(a.date))
         .slice(0, 5);
@@ -158,5 +159,6 @@ function displayArticle(article) {
         behavior: 'smooth'
     });
 }
+
 
 displayArticlesByCategory();
