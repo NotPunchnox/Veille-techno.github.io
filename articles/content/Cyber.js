@@ -11,7 +11,7 @@ export default [
         ],
         "images": [
             {
-                "url": link + "renne.jpg",
+                "url": "renne.jpg",
                 "caption": "La faculté de droit et de science politique de l’Université de Rennes, l’un des sites de l’établissement."
             }
         ],
@@ -37,7 +37,7 @@ export default [
         ],
         images: [
             {
-                url: link + "cyber-deepseek.avif",
+                url: "cyber-deepseek.avif",
                 caption:
                     "DeepSeek, l'application d'intelligence artificielle chinoise, suscite des inquiétudes en matière de protection des données.",
             },
@@ -73,7 +73,7 @@ export default [
         ],
         images: [
             {
-                url: link + "pokemon.png",
+                url: "pokemon.png",
                 caption:
                     "Game Freak est connu pour ses franchises emblématiques comme Pokémon.",
             },
@@ -117,7 +117,7 @@ export default [
         ],
         images: [
             {
-                url: link + "webarchive.png",
+                url: "webarchive.png",
                 caption:
                     "L'Internet Archive a été victime d'une cyberattaque compromettant les données de millions d'utilisateurs.",
             },
@@ -148,7 +148,7 @@ export default [
         ],
         images: [
             {
-                url: link + "firefox-vulnerability.png",
+                url: "firefox-vulnerability.png",
                 caption:
                     "Une faille critique découverte dans Firefox permet une prise de contrôle à distance.",
             },
@@ -177,7 +177,7 @@ export default [
         ],
         images: [
             {
-                url: link + "faille-nvidia.png",
+                url: "faille-nvidia.png",
                 caption: "Image de Wiz Research - vulnérabilité Nvidia",
             },
         ],

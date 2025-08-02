@@ -11,7 +11,7 @@ export default [
         ],
         "images": [
             {
-                "url": link + "/lynx.png",
+                "url": "/lynx.png",
                 "caption": "Le logo de LynxJS, symbole d’un framework léger et puissant."
             }
         ],
@@ -192,12 +192,12 @@ export default [
         ],
         images: [
             {
-                url: link + "wordpress.jpg",
+                url: "wordpress.jpg",
                 caption:
                     "L’interface du nouveau système de design WordPress dans Figma, regroupant styles et composants. © James Koster/Automattic",
             },
             {
-                url: link + "figma-wordpress.jpg",
+                url: "figma-wordpress.jpg",
                 caption:
                     "L’éditeur de blocs intégré au design système WordPress dans Figma. © James Koster/Automattic",
             },
@@ -243,7 +243,7 @@ export default [
         ],
         images: [
             {
-                url: link + "IArobot-750x410.jpg",
+                url: "IArobot-750x410.jpg",
                 caption: "IA robot",
             },
         ],
@@ -261,11 +261,11 @@ export default [
         ],
         images: [
             {
-                url: link + "unstonksC.png",
+                url: "unstonksC.png",
                 caption: "Top langages de programmation",
             },
             {
-                url: link + "Programmation2024TopLang.png",
+                url: "Programmation2024TopLang.png",
                 caption: "Langages de programmation en tendance",
             },
         ],
