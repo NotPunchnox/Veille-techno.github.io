@@ -25,6 +25,7 @@ function displayArticlesByCategory() {
         const categoryList = document.createElement('div');
         categoryList.classList.add('article-grid');
 
+        // lister les derniers articles
         recentArticles.forEach(article => {
             const articleCard = document.createElement('div');
             articleCard.classList.add('article-card');
