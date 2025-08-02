@@ -1,5 +1,104 @@
-export default [
-    {
+export default [{
+    "title": "Reachy Mini : Le robot open-source qui démocratise l’IA et la robotique",
+    "description": "Pollen Robotics et Hugging Face dévoilent Reachy Mini, un robot compact, abordable et open-source, conçu pour l’interaction homme-robot et l’expérimentation en IA. À partir de 299 $, il s’adresse aux développeurs, éducateurs et passionnés, avec une communauté mondiale pour partager comportements et applications.",
+    "date": "10 juillet 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le 9 juillet 2025, Pollen Robotics, en collaboration avec Hugging Face, a annoncé Reachy Mini, un robot open-source révolutionnaire conçu pour rendre la robotique et l’intelligence artificielle (IA) accessibles à tous. Avec un prix de départ de 299 $, ce robot compact et expressif est destiné aux développeurs, chercheurs, éducateurs, passionnés de robotique et même aux familles souhaitant coder ensemble. Reachy Mini promet de démocratiser l’accès à la création d’applications IA physiques grâce à sa modularité, son intégration avec les modèles open-source de Hugging Face et une communauté mondiale active.</p>",
+        "<h3>Un robot compact et abordable</h3><p>Reachy Mini se distingue par sa petite taille (28 cm de haut, 16 cm de large, et environ 23 cm en mode veille) et son poids léger de 1,5 kg. Disponible en deux versions – Lite (299 $) et autonome avec Raspberry Pi 5, connexion sans fil et batterie (449 $) – il est livré sous forme de kit à assembler, ce qui en fait une expérience ludique et éducative. La version Lite est compatible avec Mac et Linux (Windows à venir), tandis que la version complète intègre des fonctionnalités avancées comme un accéléromètre, quatre microphones et une connectivité Wi-Fi.</p>",
+        "<h3>Conçu pour l’interaction et l’expérimentation</h3><p>Reachy Mini est équipé pour des interactions homme-robot riches grâce à une caméra grand angle, des haut-parleurs de 5W, des microphones et des mouvements expressifs (tête avec 6 degrés de liberté, rotation complète du corps et antennes animées). Ces caractéristiques permettent des applications variées, allant des conversations alimentées par IA à la reconnaissance visuelle. Les 15+ comportements préconfigurés disponibles au lancement sur le hub Hugging Face permettent aux utilisateurs de commencer à expérimenter dès l’ouverture de la boîte, que ce soit pour raconter des histoires aux enfants ou tester des algorithmes d’IA avancés.</p>",
+        "<h3>Programmation et communauté open-source</h3><p>Reachy Mini est entièrement programmable en Python via un SDK open-source, avec un support prévu pour JavaScript et Scratch, rendant la robotique accessible même aux débutants. Un SDK de simulation permet de développer et tester des projets avant même de recevoir le robot. L’intégration avec Hugging Face permet d’utiliser des modèles d’IA de pointe pour la parole, la vision et la personnalisation des comportements. La communauté, forte des 10 millions d’utilisateurs de Hugging Face, peut partager et télécharger de nouveaux comportements, favorisant une innovation collaborative. Le code source, bien que non explicitement lié dans l’annonce, est accessible via les dépôts open-source de Pollen Robotics et Hugging Face, avec des détails partagés sur leur Discord officiel (<a href='https://discord.gg/HDrGY9eJHt'>rejoindre ici</a>).</p>",
+        "<h3>Applications et potentiel</h3><p>Reachy Mini vise à transformer plusieurs domaines. Pour l’éducation, il offre une plateforme abordable pour enseigner la programmation et l’IA. Pour les développeurs, il permet de prototyper des applications IA physiques, comme des assistants interactifs ou des robots logistiques. Les commentaires de la communauté sur Discord soulignent l’enthousiasme pour son potentiel, notamment pour des interactions vocales avec les enfants ou des projets de recherche. Bien que toujours en phase de développement précoce, sans garanties formelles, Reachy Mini est conçu pour évoluer avec les retours des early adopters. Les livraisons débuteront à l’été 2025 pour la version Lite et en lots échelonnés à partir de l’automne 2025 pour la version complète.</p>",
+        "<h3>Conclusion</h3><p>Avec Reachy Mini, Pollen Robotics et Hugging Face posent les bases d’une robotique accessible et communautaire. En combinant un prix abordable, une conception open-source et une intégration avec les écosystèmes IA les plus avancés, ce robot pourrait marquer le début d’une nouvelle ère pour l’IA physique à l’échelle des consommateurs. Que vous soyez un développeur chevronné ou un parent souhaitant initier vos enfants à la programmation, Reachy Mini offre une plateforme polyvalente pour apprendre, créer et partager. Rejoignez la communauté sur Discord et participez à cette révolution robotique dès aujourd’hui.</p>"
+    ],
+    "images": [
+        {
+            "url": "reachy-mini.png",
+            "caption": "Reachy Mini, le robot compact et expressif conçu pour l’IA et l’interaction homme-robot."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Hugging Face Blog – Reachy Mini",
+            "url": "https://huggingface.co/blog/reachy-mini"
+        },
+        {
+            "title": "Pollen Robotics",
+            "url": "https://www.pollen-robotics.com/reachy-mini"
+        },
+        {
+            "title": "Discord Reachy Mini Community",
+            "url": "https://discord.gg/HDrGY9eJHt"
+        }
+    ]
+}, 
+
+// Juin
+
+// Mai
+
+//Avril
+{
+    "title": "Hugging Face rachète Pollen Robotics pour accélérer la robotique open-source",
+    "description": "En avril 2025, Hugging Face, pépite franco-américaine de l’IA, a acquis la start-up bordelaise Pollen Robotics, créatrice du robot humanoïde Reachy. Cette opération vise à renforcer l’écosystème open-source de la robotique, avec des applications prometteuses dans la recherche et l’éducation.",
+    "date": "20 avril 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le 14 avril 2025, Hugging Face, leader dans les plateformes open-source pour l’intelligence artificielle, a annoncé l’acquisition de Pollen Robotics, une start-up bordelaise reconnue pour son robot humanoïde Reachy et le récent Reachy Mini. Cette opération, relayée par un post sur X de Hugging Face, marque une étape clé dans la démocratisation de la robotique open-source, un secteur en pleine expansion. En combinant l’expertise en IA de Hugging Face avec les innovations en robotique physique de Pollen Robotics, cette collaboration promet de transformer la recherche, l’éducation et les applications commerciales de la robotique.</p>",
+        "<h3>Un mariage stratégique entre IA et robotique</h3><p>Pollen Robotics, fondée à Bordeaux, s’est fait connaître avec Reachy, un robot humanoïde conçu pour la recherche et les interactions homme-machine, et plus récemment avec Reachy Mini, un robot compact et abordable à 299 $. Hugging Face, de son côté, est une plateforme incontournable pour les modèles d’IA open-source, avec plus de 10 millions d’utilisateurs. L’acquisition, annoncée par Rémi Cadene, ancien de Tesla et responsable du projet LeRobot chez Hugging Face, vise à intégrer les capacités avancées d’IA générative aux robots physiques. Cette synergie permettra de créer des robots plus autonomes et accessibles, capables d’apprendre et de s’adapter à des tâches complexes via des modèles comme ceux disponibles sur le Hugging Face Hub.</p>",
+        "<h3>Impact sur la robotique open-source</h3><p>L’un des objectifs majeurs de cette acquisition est de renforcer l’écosystème open-source de la robotique. Pollen Robotics a déjà développé LeRobot, une plateforme logicielle largement adoptée pour la programmation de robots. En s’appuyant sur la communauté de Hugging Face, les développeurs pourront désormais partager des comportements, des algorithmes et des simulations pour des robots comme Reachy Mini. Cette approche collaborative est essentielle pour accélérer l’innovation, notamment dans des domaines comme l’éducation, où Reachy Mini est utilisé pour enseigner la programmation et l’IA, et dans la recherche, où les robots humanoïdes servent à tester des modèles d’IA physique.</p>",
+        "<h3>Perspectives et défis</h3><p>Cette acquisition intervient dans un contexte de compétition mondiale intense entre la Chine et les États-Unis dans la robotique, comme le souligne Le Monde. La France, bien que moins dominante, excelle dans les logiciels et les interfaces IA, et ce rachat pourrait positionner Hugging Face comme un acteur clé. Cependant, des défis subsistent, notamment en matière de financement et d’échelle face aux géants asiatiques et américains. La journaliste Sophie Fay note que ce regroupement d’innovations pourrait inspirer les entreprises françaises à investir davantage dans l’IA et la robotique pour combler leur retard. Les livraisons de Reachy Mini, prévues pour l’été 2025, seront un test crucial pour évaluer l’impact de cette collaboration.</p>",
+        "<h3>Conclusion</h3><p>L’acquisition de Pollen Robotics par Hugging Face est une étape stratégique pour démocratiser la robotique open-source. En combinant les avancées en IA générative avec des robots physiques abordables et programmables, les deux entreprises ouvrent la voie à une adoption massive de la robotique dans l’éducation, la recherche et au-delà. La communauté mondiale, via des plateformes comme Discord et le Hugging Face Hub, jouera un rôle clé dans cette révolution. Ce mouvement pourrait redéfinir la place de la France dans l’écosystème mondial de la robotique, à condition de relever les défis financiers et techniques.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://huggingface.co/blog/assets/reachy-mini/reachy-mini-image.png",
+            "caption": "Reachy Mini, le robot compact de Pollen Robotics, désormais au cœur de la stratégie de Hugging Face."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Le Monde – Robotique Actualités",
+            "url": "https://www.lemonde.fr/robotique/"
+        },
+        {
+            "title": "Hugging Face annonce l’acquisition de Pollen Robotics",
+            "url": "https://t.co/9PVLP2Nq1H"
+        }
+    ]
+},
+{
+    "title": "Kawasaki révolutionne le transport avec CORLEO, un robot-cheval à hydrogène",
+    "description": "Lors de l’exposition universelle d’Osaka en avril 2025, Kawasaki a présenté CORLEO, un robot quadrupède à hydrogène capable de transporter deux personnes. Ce concept innovant, inspiré de l’agilité d’un cheval, pourrait transformer la mobilité sur terrains difficiles.",
+    "date": "15 avril 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le 3 avril 2025, à l’occasion de l’exposition universelle d’Osaka, le fabricant japonais Kawasaki a dévoilé CORLEO, un robot quadrupède révolutionnaire propulsé à l’hydrogène. Conçu pour transporter jusqu’à deux personnes, ce « robot-cheval » combine agilité, robustesse et une approche écologique grâce à son moteur à hydrogène. Présenté comme une alternative aux véhicules traditionnels sur terrains accidentés, CORLEO a suscité un vif intérêt, comme en témoignent les publications sur X et les articles de presse.</p>",
+        "<h3>Une innovation inspirée de la nature</h3><p>CORLEO, dont le nom évoque un coursier rapide, est un robot à quatre pattes capable de galoper, escalader et bondir avec une agilité comparable à celle d’un cheval. Selon L’Usine Nouvelle, ce robot est conçu pour naviguer sur des terrains difficiles, là où les véhicules à roues traditionnels échouent. Le pilote contrôle CORLEO par des mouvements corporels, similaires à ceux d’un cavalier, offrant une interface intuitive. Propulsé par un moteur à hydrogène, une technologie dans laquelle Kawasaki excelle, CORLEO se positionne comme une solution écologique pour la mobilité du futur, réduisant les émissions par rapport aux carburants fossiles.</p>",
+        "<h3>Applications potentielles</h3><p>Le design de CORLEO ouvre des perspectives dans plusieurs domaines. Dans les zones rurales ou montagneuses, il pourrait servir de moyen de transport alternatif pour les personnes ou les marchandises. En contexte militaire ou de secours, sa capacité à naviguer sur des terrains accidentés en fait un outil précieux, comme le suggèrent les posts sur X. De plus, son moteur à hydrogène s’aligne avec les objectifs de durabilité de l’ONU, en réduisant l’empreinte carbone des transports. Kawasaki envisage également des applications touristiques, où CORLEO pourrait offrir une expérience unique, mêlant technologie et aventure.</p>",
+        "<h3>Contexte et concurrence</h3><p>L’annonce de CORLEO intervient dans un contexte où la robotique connaît un essor fulgurant, notamment en Asie. La Chine, par exemple, a organisé un semi-marathon incluant 21 robots bipèdes à Pékin le 19 avril 2025, illustrant ses ambitions dans ce domaine. Kawasaki, avec CORLEO, se positionne comme un concurrent sérieux face aux innovations chinoises et américaines, notamment celles de Boston Dynamics, connu pour ses robots quadrupèdes comme Spot. Cependant, le coût de production et l’infrastructure nécessaire pour l’hydrogène restent des défis à relever pour une adoption à grande échelle.</p>",
+        "<h3>Conclusion</h3><p>Avec CORLEO, Kawasaki repousse les limites de la robotique et de la mobilité durable. Ce robot-cheval à hydrogène, dévoilé en avril 2025, illustre comment l’innovation technologique peut s’inspirer de la nature pour répondre aux défis modernes. Bien que son adoption généralisée dépende de l’évolution des infrastructures hydrogène, CORLEO marque une avancée significative dans la robotique quadrupède et pourrait redéfinir le transport dans des environnements complexes. L’exposition universelle d’Osaka a offert une vitrine mondiale à cette technologie, et l’enthousiasme sur les réseaux sociaux laisse présager un avenir prometteur.</p>"
+    ],
+    "images": [
+        {
+            "url": "Kawasaki-Corleo-demo.webp",
+            "caption": "CORLEO, le robot-cheval à hydrogène de Kawasaki, présenté à l’exposition universelle d’Osaka 2025."
+        }
+    ],
+    "sources": [
+        {
+            "title": "L’Usine Nouvelle – Robotique Actualités",
+            "url": "https://www.usinenouvelle.com/robotique/"
+        },
+        {
+            "title": "Le Figaro – Kawasaki dévoile un robot-cheval",
+            "url": "https://t.co/0JrCkKhlXv"
+        },
+        {
+            "title": "Le Monde – Robotique Actualités",
+            "url": "https://www.lemonde.fr/robotique/"
+        }
+    ]
+},
+// Mars
+{
         "title": "Nomagic lève 44 millions pour ses robots IA dans les entrepôts européens",
         "description": "La start-up polonaise Nomagic sécurise 44 millions d'euros en série B pour accélérer le déploiement de ses bras robotisés dopés à l'IA dans les entrepôts à travers l'Europe.",
         "date": "10 mars 2025",
@@ -68,6 +167,9 @@ export default [
             }
         ]
     },
+// Février
+
+// Janvier
     {
         title: "L'industrie boostée à l'IA avec NVIDIA Jetson",
         description: "NVIDIA Jetson est une gamme de plates-formes informatiques d'intelligence artificielle conçues pour apporter la puissance de l'IA aux systèmes embarqués et industriels. ( Nano Ordinateur )",
