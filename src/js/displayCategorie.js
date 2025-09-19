@@ -44,11 +44,7 @@ export function displayArticlesByCategory(categoryKey) {
         articleInfo.classList.add('article-info');
 
         const dateElement = document.createElement('span');
-        dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { 
-            year: 'numeric', 
-            month: 'short', 
-            day: 'numeric' 
-        });
+        dateElement.textContent = article.date;
         dateElement.classList.add('article-date');
 
         const descriptionElement = document.createElement('p');
@@ -86,12 +82,7 @@ function displayFullArticle(article) {
 
     const dateElement = document.createElement('div');
     dateElement.classList.add('article-header-date');
-    dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { 
-        weekday: 'long', 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-    });
+    dateElement.textContent = article.date;
 
     const descriptionElement = document.createElement('div');
     descriptionElement.classList.add('article-header-description');
