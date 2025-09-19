@@ -79,12 +79,7 @@ function displayArticle(article) {
 
     const dateElement = document.createElement('div');
     dateElement.classList.add('article-header-date');
-    dateElement.textContent = new Date(article.date).toLocaleDateString('fr-FR', { 
-        weekday: 'long', 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-    });
+    dateElement.textContent = article.date
 
     const descriptionElement = document.createElement('div');
     descriptionElement.classList.add('article-header-description');

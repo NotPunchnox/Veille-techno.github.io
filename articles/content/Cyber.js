@@ -66,6 +66,72 @@ export default [
         ]
     },
     {
+        "title": "Février 2025 : Qilin ransomware cible Lee Enterprises, paralysant 75 journaux locaux",
+        "description": "Le groupe Qilin frappe Lee Enterprises en février 2025, chiffrant des fichiers et exfiltrant des données sensibles, causant une interruption majeure de la production médiatique aux États-Unis.",
+        "date": "28 février 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Février 2025 a été marqué par une attaque ransomware dévastatrice contre Lee Enterprises, un géant médiatique américain gérant 350 publications dans 25 États. Le groupe Qilin a revendiqué l'assaut, soulignant la vulnérabilité des secteurs de l'information face aux menaces cyber croissantes.</p>",
+            "<h3>Chronologie</h3><p>L'attaque débute mi-février, avec un chiffrement rapide des fichiers critiques. Lee Enterprises confirme l'incident le 15 février, suspendant la production de 75 journaux locaux. Qilin publie des échantillons de données volées sur son site, exigeant une rançon non divulguée.</p>",
+            "<h3>Tactiques</h3><p>Qilin exploite des vulnérabilités initiales via phishing, puis déploie un ransomware pour chiffrer et exfiltrer des données. SOCRadar note une double extorsion, avec focus sur les médias pour maximiser l'impact public.</p>",
+            "<h3>Impact</h3><p>Interruptions de production affectent des millions de lecteurs, avec des pertes financières estimées à des millions. L'attaque expose des données sensibles, risquant fraudes et désinformation.</p>",
+            "<h3>Réponses</h3><p>Lee refuse la rançon, restaure via backups. CISA alerte sur Qilin, recommandant patches et MFA. L'entreprise renforce ses défenses post-incident.</p>",
+            "<h3>Conclusion</h3><p>Cette attaque illustre les risques pour les médias. Une préparation proactive, via simulations et audits, est essentielle pour contrer les ransomwares en hausse.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://socradar.io/wp-content/uploads/2025/03/qilin-ransomware-lee-enterprises.jpg",
+                "caption": "Attaque Qilin sur Lee Enterprises en février 2025."
+            }
+        ],
+        "sources": [
+            {
+                "title": "SOCRadar",
+                "url": "https://socradar.io/major-cyber-attacks-in-review-february-2025/"
+            },
+            {
+                "title": "CSIS",
+                "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents"
+            },
+            {
+                "title": "CM-Alliance",
+                "url": "https://www.cm-alliance.com/cybersecurity-blog/february-2025-major-cyber-attacks-ransomware-attacks-data-breaches"
+            }
+        ]
+    },
+    {
+        "title": "Avril 2025 : Attaque ToolShell sur Microsoft SharePoint, exploitée mondialement",
+        "description": "Des acteurs malveillants exploitent une vulnérabilité SharePoint en avril 2025 via ToolShell, menant à des ransomware et exfiltrations massives dans plusieurs secteurs.",
+        "date": "30 avril 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Avril 2025 est dominé par l'attaque ToolShell sur Microsoft SharePoint, une vulnérabilité zero-day permettant des accès non autorisés et des déploiements ransomware globaux.</p>",
+            "<h3>Chronologie</h3><p>Début avril, Microsoft patch CVE-2025-29824, mais des exploits persistent. ToolShell, un malware custom, est détecté mi-avril, affectant des milliers de serveurs on-premise.</p>",
+            "<h3>Tactiques</h3><p>Storm-2460 utilise PipeMagic pour escalader privilèges et lancer ransomware. Secureframe note une chaîne d'attaques ciblant finance et santé.</p>",
+            "<h3>Impact</h3><p>Disruptions massives, avec vol de données sensibles. CRN rapporte des attaques en cours, coûtant des millions en récupération.</p>",
+            "<h3>Réponses</h3><p>Microsoft urge des patches immédiats. CISA et FBI partagent IOCs, recommandant zero-trust et monitoring.</p>",
+            "<h3>Conclusion</h3><p>ToolShell révèle les dangers des legacy systems. Une gestion proactive des vulnérabilités est impérative pour 2025.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.crn.com/images/news/2025/ToolShell-SharePoint-Attack.jpg",
+                "caption": "Attaque ToolShell sur SharePoint en avril 2025."
+            }
+        ],
+        "sources": [
+            {
+                "title": "CRN",
+                "url": "https://www.crn.com/news/security/2025/10-major-cyberattacks-and-data-breaches-in-2025-so-far"
+            },
+            {
+                "title": "Secureframe",
+                "url": "https://secureframe.com/blog/recent-cyber-attacks"
+            },
+            {
+                "title": "CM-Alliance",
+                "url": "https://www.cm-alliance.com/cybersecurity-blog/april-2025-major-cyber-attacks-ransomware-attacks-and-data-breaches"
+            }
+        ]
+    },
+    {
         "title": "Avril 2025 : Scattered Spider frappe Marks & Spencer, paralysant le retail britannique",
         "description": "Scattered Spider cible M&S via social engineering en avril 2025, causant six semaines de disruptions et 300 millions de livres de pertes, révélant les risques des contractors externes.",
         "date": "30 avril 2025",
@@ -95,6 +161,39 @@ export default [
             {
                 "title": "Bright Defense",
                 "url": "https://www.brightdefense.com/resources/recent-data-breaches/"
+            }
+        ]
+    },
+    {
+        "title": "Mars 2025 : Brèche Oracle Cloud expose 6 millions de records via vulnérabilité non divulguée",
+        "description": "CloudSEK révèle une brèche majeure chez Oracle Cloud en mars 2025, avec 6 millions de records exfiltrés, impactant des clients globaux et soulignant les risques des clouds publics.",
+        "date": "31 mars 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Mars 2025 voit une brèche significative chez Oracle Cloud, découverte par CloudSEK. Cette faille non divulguée expose 6 millions de records, affectant des entreprises et gouvernements mondiaux.</p>",
+            "<h3>Chronologie</h3><p>La brèche est détectée fin mars, avec exfiltration via une vulnérabilité suspectée dans l'infrastructure cloud. Oracle confirme l'incident le 28 mars, notifiant les clients impactés.</p>",
+            "<h3>Tactiques</h3><p>Les attaquants exploitent une faille zero-day pour accéder aux bases de données, exfiltrant des données sensibles. CloudSEK note une exploitation stealthy, évitant les détections standards.</p>",
+            "<h3>Impact</h3><p>Exposition de données clients critiques, risquant vols d'identité et espionnage. CSHub estime des coûts en millions pour Oracle en remédiations.</p>",
+            "<h3>Réponses</h3><p>Oracle patch et isole les systèmes affectés. CISA émet des alertes sur les clouds, recommandant audits et chiffrement renforcé.</p>",
+            "<h3>Conclusion</h3><p>Cette brèche met en lumière les failles des clouds. Une vigilance accrue et des SBOM sont cruciaux pour sécuriser les infrastructures partagées.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.cshub.com/wp-content/uploads/2025/03/oracle-cloud-breach.jpg",
+                "caption": "Brèche Oracle Cloud en mars 2025."
+            }
+        ],
+        "sources": [
+            {
+                "title": "CSHub",
+                "url": "https://www.cshub.com/attacks/articles/cyber-attacks-data-breaches-march-2025"
+            },
+            {
+                "title": "CSIS",
+                "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents"
+            },
+            {
+                "title": "CM-Alliance",
+                "url": "https://www.cm-alliance.com/cybersecurity-blog/biggest-cyber-attacks-ransomware-attacks-data-breaches-of-march-2025"
             }
         ]
     },
