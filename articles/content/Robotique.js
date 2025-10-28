@@ -1,4 +1,69 @@
 export default [{
+    // Novembre
+    // Octobre
+    "title": "Figure AI Lance Figure 03 : Le Robot Humanoïde qui Veut S'Inviter Chez Vous",
+    "description": "Figure AI, start-up prometteuse de la Silicon Valley, dévoile Figure 03, son robot humanoïde de troisième génération conçu pour les tâches domestiques. Propulsé par l'IA Helix, il promet une production de masse allant jusqu'à 100 000 unités en quatre ans, marquant une avancée significative dans la robotique domestique.",
+    "date": "28 octobre 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Figure AI, l'une des start-ups les plus innovantes de la Silicon Valley, a récemment annoncé le lancement de Figure 03, son robot humanoïde de troisième génération. Contrairement aux prototypes précédents, ce modèle est spécifiquement conçu pour intégrer les foyers et assister dans les tâches ménagères quotidiennes. Alors que la concurrence chinoise et des acteurs comme Tesla avec Optimus dominent les headlines, Figure AI se positionne comme un leader occidental en robotique humanoïde, en mettant l'accent sur l'utilité domestique et la production à grande échelle.</p>",
+        "<h3>Conception et Fonctionnalités Physiques</h3><p>Figure 03 mesure environ 1,67 m (5'6\") de hauteur et pèse 60 kg, avec une capacité de charge utile de 20 kg. Son design est optimisé pour les environnements domestiques : il est recouvert de textiles amovibles et faciles à nettoyer, avec de la mousse multi-densité placée stratégiquement pour éviter les risques de pincement et améliorer la sécurité. Ces matériaux réduisent également la masse et le volume de 9 % par rapport aux versions antérieures, facilitant la navigation dans des espaces étroits comme les escaliers ou les coins serrés. Le robot est équipé d'une batterie certifiée UN38.3 avec plusieurs couches de sécurité, offrant jusqu'à 5 heures d'autonomie, et supporte une charge inductive sans fil à 2 kW via des bobines montées sur les pieds pour un rechargement automatique.</p>",
+        "<h3>Améliorations Sensorielles et de Manipulation</h3><p>Les mains de Figure 03 représentent une avancée majeure : les bouts des doigts sont plus souples et adaptatifs, augmentant la surface de contact pour une meilleure prise sur des objets variés en taille et en forme. Des capteurs tactiles de première génération, plus durables et sensibles, détectent des pressions aussi faibles que 3 grammes – l'équivalent du poids d'un trombone. Une caméra intégrée dans la paume fournit un feedback visuel à faible latence pour les saisies précises. Le système de vision comprend 6 caméras, doublant le taux de trames, réduisant la latence par quatre et élargissant le champ de vision de 60 %, avec une profondeur de champ étendue pour une perception stable dans des environnements complexes.</p>",
+        "<h3>Système Audio et Interaction</h3><p>Pour faciliter les interactions vocales naturelles, Figure 03 dispose d'un haut-parleur deux fois plus grand et quatre fois plus puissant, ainsi que d'un microphone repositionné. Cela permet des conversations fluides et une meilleure compréhension des commandes vocales, rendant le robot plus accessible pour les utilisateurs quotidiens. De plus, un système de transfert de données mmWave à 10 Gbps permet un téléchargement de données en flotte pour l'apprentissage continu sans fil.</p>",
+        "<h3>L'IA Helix : Le Cerveau du Robot</h3><p>Au cœur de Figure 03 se trouve Helix, l'IA propriétaire de Figure AI, annoncée en février 2025 et remplaçant une collaboration antérieure avec OpenAI. Helix est un modèle Vision-Language-Action (VLA) qui unifie la perception, la compréhension du langage et l'action en temps réel, tout en fonctionnant entièrement à bord du robot. Son architecture en deux parties inclut un Système 2 lent (VLM à 7-9 Hz) pour la compréhension du monde visuel et linguistique, et un Système 1 rapide (transformeur à 200 Hz) pour traduire les instructions en actions précises. Cela permet au robot de raisonner comme un humain, de percevoir son environnement, et d'effectuer des tâches de manière autonome, sans script prédéfini. Helix excelle dans la manipulation d'objets fragiles ou mobiles, et s'adapte aux espaces imprévisibles comme les foyers.</p>",
+        "<h3>Démonstrations et Capacités Actuelles</h3><p>Dans une vidéo de démonstration, Figure 03 est montré en train d'arroser des plantes, de faire la vaisselle, de servir des boissons, de charger un lave-linge ou un lave-vaisselle, et même de plier du linge – bien que cette dernière tâche reste imparfaite, ressemblant parfois plus à un roulage en boule. Ces scènes illustrent des progrès impressionnants, mais soulignent que le robot n'est pas encore pleinement autonome, nécessitant probablement plusieurs prises pour chaque action. Néanmoins, ses 35 degrés de liberté et ses actionneurs plus rapides (2x la vitesse, densité de couple améliorée) le rendent polyvalent pour des tâches logistiques, manufacturières et de service.</p>",
+        "<h3>Plans de Production et Échelle Industrielle</h3><p>Figure AI a conçu Figure 03 pour une production de masse dans son usine BotQ, avec des processus repensés comme le moulage sous pression et l'injection pour réduire les coûts et le nombre de pièces. L'entreprise prévoit de produire 12 000 unités par an initialement, pour atteindre 100 000 exemplaires sur quatre ans, avec une traçabilité complète via un système d'exécution de fabrication interne. Bien que le prix n'ait pas été annoncé, cette échelle vise à rendre le robot accessible pour les applications commerciales et domestiques, avec des options de personnalisation comme des uniformes et des écrans latéraux pour le branding.</p>",
+        "<h3>Comparaisons avec la Concurrence</h3><p>Face à des concurrents comme Tesla Optimus ou les robots chinois performants en acrobaties, Figure 03 se distingue par son focus sur les tâches ménagères pratiques plutôt que sur les démonstrations spectaculaires. Son architecture IA similaire à celle de Nvidia Isaac GR00T N1 met l'accent sur l'apprentissage end-to-end de pixels à actions, permettant une adaptation rapide. Des essais réussis dans des usines comme celles de BMW démontrent son potentiel industriel, tandis que sa conception sûre et lavable le positionne idéalement pour les foyers.</p>",
+        "<h3>Impact Potentiel sur la Vie Quotidienne et l'Industrie</h3><p>L'arrivée de Figure 03 pourrait transformer les foyers en libérant les humains des corvées répétitives, tout en aidant dans les secteurs logistiques et manufacturiers où la main-d'œuvre fait défaut. Avec Helix accélérant l'apprentissage en flotte, le robot pourrait s'améliorer continuellement via des données réelles. Cependant, des questions subsistent sur la fiabilité autonome, la sécurité à long terme et l'impact éthique sur l'emploi. Figure AI vise à combler ces lacunes en priorisant la scalabilité et l'intégration humaine.</p>",
+        "<h3>Conclusion</h3><p>Figure 03 représente un pas vers une robotique humanoïde accessible et utile, combinant design innovant, IA avancée et ambitions de production massive. Bien que des améliorations soient nécessaires pour une autonomie parfaite, cette troisième génération positionne Figure AI comme un pionnier dans l'intégration des robots dans la vie quotidienne, promettant un avenir où les tâches ménagères sont automatisées de manière intelligente et sûre.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://cms.interestingengineering.com/wp-content/uploads/2025/10/Untitled-design-98.jpg",
+            "caption": "Figure 03 en train d'effectuer des tâches ménagères."
+        },
+        {
+            "url": "https://api.time.com/wp-content/uploads/2025/10/figure-03-time-best-inventions-2025-03.jpg?w=1200&h=675",
+            "caption": "Vue du robot Figure 03 dans un environnement domestique."
+        },
+        {
+            "url": "https://www.therobotreport.com/wp-content/uploads/2025/02/figure-handoff.jpg",
+            "caption": "Figure 03 manipulant des objets avec précision."
+        },
+        {
+            "url": "https://i.pcmag.com/imagery/articles/07tGpPe3i4F68L0tyXv3myR-1..v1760032080.png",
+            "caption": "Démonstration de Figure 03 pliant du linge et faisant la vaisselle."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Les Numériques - Figure AI lance Figure 03",
+            "url": "https://www.lesnumeriques.com/intelligence-artificielle/figure-ai-lance-figure-03-le-robot-humanoide-qui-veut-s-inviter-chez-vous-n243769.html"
+        },
+        {
+            "title": "Site Officiel Figure AI - Introducing Figure 03",
+            "url": "https://www.figure.ai/news/introducing-figure-03"
+        },
+        {
+            "title": "Figure AI - Helix",
+            "url": "https://www.figure.ai/helix"
+        },
+        {
+            "title": "Robotics 24/7 - Figure AI Releases Figure 03",
+            "url": "https://www.robotics247.com/article/figure_ai_releases_figure_03_its_third_generation_humanoid_robot"
+        },
+        {
+            "title": "Design Boom - Humanoid Robot Figure 03",
+            "url": "https://www.designboom.com/technology/humanoid-robot-figure-03-clean-houses-do-laundry-deliver-packages-real-person-10-09-2025/"
+        },
+        {
+            "title": "Time Magazine - Figure 03 Is The Robot in Your Kitchen",
+            "url": "https://time.com/7324233/figure-03-robot-humanoid-reveal/"
+        }
+    ]
+}, {
+    // Septembre
+    // Aout
+    // juillet
     "title": "Reachy Mini : Le robot open-source qui démocratise l’IA et la robotique",
     "description": "Pollen Robotics et Hugging Face dévoilent Reachy Mini, un robot compact, abordable et open-source, conçu pour l’interaction homme-robot et l’expérimentation en IA. À partir de 299 $, il s’adresse aux développeurs, éducateurs et passionnés, avec une communauté mondiale pour partager comportements et applications.",
     "date": "10 juillet 2025",
