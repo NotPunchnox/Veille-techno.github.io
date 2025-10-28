@@ -1,6 +1,50 @@
 /* Articles concernant l'intelligence artificielle */
 
 export default [
+    // Novembre
+    // Octobre
+    {
+        "title": "Systèmes NVIDIA AGX : IA pour Machines Intelligentes, Automobile et Santé",
+        "description": "NVIDIA propose des systèmes AGX optimisés par l’IA pour révolutionner les véhicules autonomes, les machines intelligentes et l’imagerie médicale, avec des évolutions récentes comme le Jetson AGX Thor et DRIVE AGX Thor.",
+        "date": "28 octobre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Les systèmes NVIDIA AGX marquent l’entrée dans une ère de machines autonomes, en offrant une puissance de calcul IA inédite pour des applications comme les voitures sans conducteur, les robots et les dispositifs médicaux. Ces plateformes, basées sur des architectures évolutives, transforment la science‑fiction en réalité.</p>",
+            "<h3>Véhicules autonomes</h3><p><strong>NVIDIA DRIVE AGX</strong> est une plateforme ouverte dédiée aux véhicules autonomes, servant de «&nbsp;cerveau&nbsp;» IA avec des performances élevées et un rendement énergétique optimal. Elle supporte des assistants de conduite ainsi que des systèmes entièrement autonomes pour voitures, camions et robot‑taxis. Récemment, le <em>DRIVE AGX Thor Developer Kit</em> (août 2025) a été lancé pour accélérer le développement de véhicules plus sûrs.</p>",
+            "<h3>Machines intelligentes</h3><p>Le <strong>Jetson AGX Xavier</strong> offre une puissance de <strong>32 TOPS</strong> pour les applications IA Edge, dans un format compact consommant moins de 30 W. Il facilite la création de robots, drones et machines autonomes via des SDK dédiés. En 2025, le <strong>Jetson AGX Thor</strong> apporte un gain significatif (~5×) en performances pour l’IA générative par rapport à l’Orin précédent.</p>",
+            "<h3>Imagerie médicale</h3><p>Le kit <strong>NVIDIA Clara AGX</strong>, basé sur un SoC Xavier ARM, fournit des capacités d’IA et d’imagerie en temps réel pour les appareils médicaux. Il simplifie la gestion distante de parcs d’instruments et s’intègre à la pile logicielle <em>NVIDIA EGX</em> pour les déploiements cliniques.</p>",
+            "<h3>Évolutions récentes</h3><ul><li>Contributions aux frameworks ouverts pour la robotique et l’edge.</li><li>Projets pilotes industriels, dont des expérimentations de robot‑taxis basés sur DRIVE AGX Thor.</li><li>Optimisations matérielles et logicielles pour les déploiements à grande échelle.</li></ul>",
+            "<h3>Conclusion</h3><p>Les systèmes AGX de NVIDIA positionnent l’entreprise en leader de l’IA appliquée, transformant les secteurs automobile, industriel et médical grâce à des technologies scalables, performantes et adaptées au edge.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://developer.nvidia.com/blog/wp-content/uploads/2018/12/xavier-module-dev-kit-3qrtr-1945px.png",
+                "caption": "Le module NVIDIA Jetson AGX Xavier et son kit de développement."
+            },
+            {
+                "url": "https://developer.download.nvidia.com/images/drive/agx-drive-850x480.jpg",
+                "caption": "La plateforme NVIDIA DRIVE AGX pour véhicules autonomes."
+            }
+        ],
+        "sources": [
+            {
+                "title": "Site Officiel NVIDIA AGX Systems",
+                "url": "https://www.nvidia.com/fr-fr/deep-learning-ai/products/agx-systems/"
+            },
+            {
+                "title": "NVIDIA Blog - Jetson AGX Thor",
+                "url": "https://developer.nvidia.com/blog/unlock-faster-smarter-edge-models-with-7x-gen-ai-performance-on-nvidia-jetson-agx-thor/"
+            },
+            {
+                "title": "NVIDIA Blog - DRIVE AGX Thor Developer Kit",
+                "url": "https://blogs.nvidia.com/blog/drive-agx-developer-kit-general-availability/"
+            },
+            {
+                "title": "Electrive - NVIDIA Robot Taxi Project",
+                "url": "https://www.electrive.com/2025/10/24/nvidia-starts-working-on-robot-taxi-project/"
+            }
+        ]
+    },
+    // Septembre
     // Aout
     {
     "title": "OpenAI lance gpt-oss : une révolution open-source pour l’IA et la robotique",
