@@ -1,5 +1,187 @@
 export default [
     {
+        "title": "YggTorrent : Les coulisses du piratage et les révélations de gr0lum",
+        "description": "Suite à une indisponibilité majeure du tracker YggTorrent en mars 2026, l'ex-administrateur gr0lum a publié une base de données contenant des informations sensibles, révélant les failles de sécurité et les tensions internes du site.",
+        "date": "12 mars 2026",
+        "content": [
+            "<h3>Introduction</h3><p>Depuis le début du mois de mars 2026, le premier tracker BitTorrent francophone, YggTorrent, subit des turbulences sans précédent. Entre pannes techniques et rumeurs de trahison, l'impossibilité d'accéder au site a finalement été expliquée par une offensive interne menée par un ancien membre influent du staff : gr0lum.</p>",
+            "<h3>Le leak de gr0lum : Ce qui a vraiment fuité</h3><p>Contrairement aux premières rumeurs évoquant une simple vengeance, gr0lum a diffusé un fichier massif contenant les adresses e-mail, les adresses IP de connexion et les mots de passe hachés de près de 500 000 utilisateurs. L'analyse des données montre que les comptes créés entre 2023 et 2025 sont les plus exposés, mettant en péril l'anonymat de milliers de 'tipeurs'.</p>",
+            "<h3>Pourquoi le site est-il tombé ?</h3><p>L'accès à YggTorrent a été coupé non pas par une saisie judiciaire, mais par une mesure d'urgence des administrateurs actuels. Gr0lum aurait utilisé une 'backdoor' (porte dérobée) laissée lors de son passage dans l'équipe technique pour corrompre les fichiers de configuration des serveurs DNS, rendant le domaine principal totalement inopérant.</p>",
+            "<h3>Révélations sur la gestion financière</h3><p>Au-delà des données utilisateurs, le pirate a publié des échanges privés dénonçant l'opacité de la gestion des dons en cryptomonnaies. Ces documents suggèrent que les fonds récoltés pour la maintenance des serveurs auraient été en partie détournés vers des portefeuilles personnels, attisant la colère de la communauté.</p>",
+            "<h3>Quels risques pour les utilisateurs ?</h3><p>Le principal danger réside dans le 'credential stuffing' (réutilisation de mots de passe sur d'autres sites) et les tentatives de phishing ciblées. Les autorités de régulation comme l'Arcom pourraient également s'intéresser de près aux listes d'IP fuitées, bien que l'exploitation judiciaire de telles preuves reste complexe.</p>",
+            "<h3>Conclusion</h3><p>L'affaire gr0lum marque une rupture de confiance historique pour YggTorrent. Si le site tente de renaître sous un nouveau nom de domaine, la fuite massive de données et les révélations sur les coulisses financières pourraient précipiter la chute du géant du warez au profit de plateformes plus décentralisées.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/i/edit/ne/2026/03/yggtorrent-down.jpg",
+                "caption": "Capture d'écran de l'interface d'YggTorrent lors de l'attaque de gr0lum."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/voici-pourquoi-vous-ne-pouvez-plus-acceder-a-yggtorrent-et-ce-que-le-pirate-gr0lum-a-reellement-balance-491242.htm"
+            },
+            {
+                "title": "TorrentFreak",
+                "url": "https://torrentfreak.com/yggtorrent-internal-feud-leads-to-massive-user-data-leak-260310/"
+            }
+        ]
+    },
+    {
+        "title": "L'IA générative : Le nouvel arsenal des cyberattaquants en 2026",
+        "description": "L'intelligence artificielle générative ne se contente plus d'aider les développeurs ; elle est devenue un levier de productivité massif pour les cybercriminels, automatisant la création de malwares et la personnalisation des arnaques.",
+        "date": "4 février 2026",
+        "content": [
+            "<h3>Introduction</h3><p>En ce début d'année 2026, le constat est sans appel : l'IA générative a radicalement abaissé la barrière à l'entrée pour les cyberattaques. L'article de ZDNet souligne comment des acteurs offensifs, des simples 'script kiddies' aux groupes étatiques, exploitent les LLM (Large Language Models) pour industrialiser leurs opérations malveillantes avec une précision chirurgicale.</p>",
+            "<h3>Phishing 2.0 : La fin des fautes d'orthographe</h3><p>L'un des impacts les plus visibles concerne l'ingénierie sociale. Grâce à l'IA, les campagnes de phishing sont désormais exemptes de fautes de français et adoptent un ton parfaitement adapté au contexte de la victime. Les pirates utilisent des outils pour cloner le style rédactionnel de collègues ou de dirigeants, rendant les tentatives de fraude au président presque impossibles à détecter à l'œil nu.</p>",
+            "<h3>Automatisation du code malveillant</h3><p>L'IA aide les attaquants à générer du code polymorphe, capable de changer sa signature pour échapper aux antivirus traditionnels. Même sans compétences avancées en programmation, un attaquant peut demander à une IA de réécrire des portions de scripts d'exploitation ou de trouver des méthodes d'obfuscation complexes, accélérant ainsi le cycle de développement des malwares.</p>",
+            "<h3>Recherche de vulnérabilités accélérée</h3><p>Les outils offensifs dopés à l'IA sont désormais capables de scanner des bases de code massives pour identifier des failles de type '0-day' ou des erreurs de configuration en quelques secondes. Ce qui prenait auparavant des semaines de travail manuel à un chercheur en sécurité est maintenant à la portée d'algorithmes entraînés à détecter les signaux faibles dans le code source.</p>",
+            "<h3>Deepfakes et usurpation d'identité</h3><p>Au-delà du texte, l'IA générative audio et vidéo permet des attaques multimodales. Des cas d'usurpation d'identité lors de visioconférences (Deepfake en temps réel) ont été signalés, où l'attaquant prend l'apparence et la voix d'un cadre supérieur pour valider des transferts de fonds frauduleux, contournant ainsi les protocoles de double validation classique.</p>",
+            "<h3>Conclusion</h3><p>Face à cette menace hybride, la réponse ne peut être que technologique. La cybersécurité entre dans l'ère du 'clou contre clou' : seules des IA défensives capables d'analyser les comportements à la vitesse de la machine pourront contrer des offensives de plus en plus automatisées et imprévisibles.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/i/edit/ne/2026/02/ia-offensive-cyber.jpg",
+                "caption": "L'IA générative au service de l'automatisation des cyberattaques."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/comment-lia-generative-aide-les-acteurs-offensifs-489455.htm"
+            },
+            {
+                "title": "ANSSI - Menaces et Incidents",
+                "url": "https://www.ssi.gouv.fr/agence/publication/etat-de-la-menace-liee-a-lia-generative/"
+            }
+        ]
+    },
+    {
+        "title": "Faille EchoLeak : Vos données Copilot piratables sans le moindre clic",
+        "description": "Une vulnérabilité critique baptisée EchoLeak (CVE-2025-32711) permet d'exfiltrer des données sensibles depuis Microsoft 365 Copilot via une simple injection de prompt dissimulée dans un e-mail.",
+        "date": "15 janvier 2026",
+        "content": [
+            "<h3>Introduction</h3><p>Alors que l'IA générative s'impose dans les entreprises, une faille majeure nommée EchoLeak vient d'être révélée par les chercheurs d'Aim Security. Identifiée sous la référence CVE-2025-32711, cette vulnérabilité permettait de siphonner des informations confidentielles dans Microsoft 365 Copilot sans que l'utilisateur n'ait besoin de cliquer sur un lien ou d'ouvrir une pièce jointe.</p>",
+            "<h3>Le mécanisme de l'attaque « Zero-Click »</h3><p>L'attaque repose sur une injection de prompt indirecte. Un pirate envoie un e-mail contenant des instructions malveillantes cachées. Lorsque Copilot analyse la boîte de réception pour répondre à une question de l'utilisateur ou résumer sa journée, il interprète involontairement ces instructions comme des ordres légitimes de son administrateur.</p>",
+            "<h3>Exfiltration via Markdown</h3><p>Une fois « activé » par l'e-mail, l'assistant IA est manipulé pour extraire des documents de SharePoint ou OneDrive. Le malware utilise ensuite des fonctionnalités de rendu Markdown pour afficher des images invisibles dont l'URL contient les données volées, envoyant ainsi les secrets de l'entreprise vers un serveur contrôlé par l'attaquant.</p>",
+            "<h3>Des domaines de confiance détournés</h3><p>La force d'EchoLeak résidait dans sa capacité à contourner les protections de Microsoft en utilisant des domaines considérés comme sûrs, tels que Teams ou SharePoint. Cela rendait l'exfiltration presque indétectable pour les outils de surveillance réseau classiques qui ne bloquent pas le trafic vers l'écosystème Office 365.</p>",
+            "<h3>Réponse de Microsoft et Mitigation</h3><p>Microsoft a déployé un correctif côté serveur en mai 2025 après plusieurs mois de développement complexe. Bien qu'aucune exploitation massive n'ait été détectée, les experts recommandent de limiter les droits d'accès de Copilot au strict nécessaire (principe du moindre privilège) et de surveiller les comportements anormaux des agents IA.</p>",
+            "<h3>Conclusion</h3><p>EchoLeak marque un tournant dans la cyberdéfense : l'ennemi n'est plus seulement le code malveillant, mais le langage naturel lui-même. Cette faille prouve que l'intégration profonde de l'IA dans les flux de données d'entreprise crée de nouvelles surfaces d'attaque qu'il devient urgent de sécuriser par conception.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/i/edit/ne/2025/06/microsoft-copilot-security-flaw.jpg",
+                "caption": "Schéma de l'exfiltration de données via une injection indirecte dans Copilot."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/vos-donnees-copilot-pouvaient-etre-piratees-en-un-seul-clic-voici-comment-488246.htm"
+            },
+            {
+                "title": "SOC Prime",
+                "url": "https://socprime.com/fr/blog/cve-2025-32711-zero-click-ai-vulnerability/"
+            },
+            {
+                "title": "ZENDATA Cybersecurity",
+                "url": "https://zendata.security/fr/2025/06/11/faille-echoleak-sans-clic-dans-microsoft-365-copilot-un-risque-concret-dexfiltration-de-donnees-par-lia/"
+            }
+        ]
+},
+    {
+        "title": "Cyberattaque de Noël : Comment des pirates ont visé La Poste en plein pic d'activité",
+        "description": "En décembre 2025, le groupe pro-russe NoName057(16) lance une offensive massive par déni de service (DDoS) contre La Poste, paralysant le suivi des colis et la banque en ligne à quelques jours des fêtes.",
+        "date": "26 décembre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>La période de Noël 2025 a été marquée par une déstabilisation numérique majeure visant La Poste. Alors que l'institution traitait plus de 2 millions de colis par jour, une cyberattaque d'envergure a frappé ses services numériques le 22 décembre, plongeant les usagers et les entreprises dans l'incertitude quant à la réception de leurs cadeaux.</p>",
+            "<h3>Le mode opératoire : Le DDoS</h3><p>L'attaque, de type déni de service distribué (DDoS), a consisté à saturer les serveurs de La Poste via des millions de requêtes simultanées. Cette technique, bien que n'impliquant pas d'intrusion dans les bases de données, a rendu inaccessibles le portail de suivi Colissimo, le site institutionnel et les interfaces de La Banque Postale.</p>",
+            "<h3>Revendication et motivations</h3><p>Le groupe de hacktivistes pro-russes NoName057(16) a revendiqué l'assaut sur Telegram. Déjà connu pour des attaques contre le Sénat et la RATP, le groupe a explicitement lié cette offensive au soutien de la France envers l'Ukraine, affirmant vouloir envoyer ses propres « cadeaux » aux Français pour les fêtes.</p>",
+            "<h3>Impacts sur les usagers et PME</h3><p>Si la distribution physique des plis et colis a été maintenue par les facteurs, le chaos numérique a lourdement pénalisé les PME dépendantes des outils d'expédition en ligne. L'impossibilité d'éditer des bordereaux ou de suivre les envois a généré des retards critiques et une saturation des centres d'appels, restés injoignables pendant plus de 48 heures.</p>",
+            "<h3>Réponse technique et sécurité</h3><p>La Poste a assuré qu'aucune donnée sensible ou bancaire n'avait été dérobée. Les équipes de cybersécurité ont travaillé sans relâche pour filtrer le trafic malveillant et rétablir progressivement les accès. Cet incident souligne la vulnérabilité des services publics face à des attaques opportunistes visant des symboles de la souveraineté nationale lors de périodes de forte tension.</p>",
+            "<h3>Conclusion</h3><p>Ce « Noël noir » numérique illustre une nouvelle forme de guerre asymétrique. Au-delà de la gêne technique, l'objectif des pirates était psychologique : instiller le doute au cœur des foyers français. La résilience des infrastructures critiques devient désormais un enjeu majeur pour la sécurité nationale en 2026.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/i/edit/ne/2025/12/la-poste-cyber-noel.jpg",
+                "caption": "Les services numériques de La Poste paralysés par une attaque DDoS en plein mois de décembre."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/comment-des-pirates-ont-plombe-le-noel-de-la-poste-487386.htm"
+            },
+            {
+                "title": "Le Big Data",
+                "url": "https://www.lebigdata.fr/cyberattaque-contre-la-poste-les-hackers-ont-gache-noel-la-france-entre-en-guerre"
+            },
+            {
+                "title": "Webradio Media",
+                "url": "https://www.webradio.media/news/23401-la-poste-victime-d-une-cyberattaque-massive-en-pleine-periode-de-noel"
+            }
+        ]
+},
+    {
+        "title": "Cybersécurité : La course perdue d'avance face à l'IA ?",
+        "description": "L'évolution fulgurante de l'intelligence artificielle générative crée un déséquilibre majeur, où les attaquants exploitent l'IA plus vite que les défenseurs ne peuvent s'adapter.",
+        "date": "10 novembre 2024",
+        "content": [
+            "<h3>Introduction</h3><p>Le secteur de la cybersécurité fait face à un défi sans précédent : l'accélération imposée par l'IA. Alors que les entreprises intègrent ces outils à marche forcée, les experts s'inquiètent d'une défense qui « cavale derrière » des menaces de plus en plus sophistiquées et automatisées.</p>",
+            "<h3>L'avantage de l'attaquant</h3><p>L'IA générative facilite la création de malwares polymorphes et de campagnes de phishing ultra-personnalisées. Les cybercriminels utilisent ces technologies pour industrialiser leurs attaques, réduisant drastiquement le coût et le temps nécessaires pour compromettre un système.</p>",
+            "<h3>Une adoption trop rapide ?</h3><p>La pression de la productivité pousse les entreprises à déployer des solutions d'IA sans audits de sécurité préalables. Cette précipitation crée des failles structurelles, notamment via l'ombre numérique (Shadow AI), où les employés utilisent des outils non sécurisés avec des données sensibles.</p>",
+            "<h3>IA contre IA : La riposte</h3><p>Pour compenser ce retard, la défense doit elle aussi s'automatiser. Les outils de détection de type EDR et SIEM intègrent désormais l'IA pour analyser les signaux faibles et réagir en temps réel, mais la complexité des modèles reste un frein pour de nombreuses PME.</p>",
+            "<h3>Enjeux de gouvernance</h3><p>Au-delà de la technique, le retard est aussi législatif et organisationnel. Les experts préconisent une approche 'Security by Design' pour tout projet d'IA et une formation accrue des collaborateurs pour contrer l'ingénierie sociale dopée aux algorithmes.</p>",
+            "<h3>Conclusion</h3><p>La cybersécurité ne pourra rattraper son retard qu'en changeant de paradigme. Il ne s'agit plus seulement de bloquer des menaces, mais d'anticiper l'usage malveillant de l'IA pour construire des infrastructures résilientes par défaut.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/i/edit/ne/2024/03/cyber-ai-race.jpg",
+                "caption": "La course effrénée entre attaquants et défenseurs à l'ère de l'intelligence artificielle."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/on-cavale-derriere-la-cybersecurite-a-la-traine-face-a-lavancee-a-marche-forcee-de-lia-483005.htm"
+            }
+        ]
+},
+    {
+    "title": "Audit ANSSI 2014 : Les failles de sécurité catastrophiques du Louvre révélées",
+    "description": "Un audit confidentiel de l'ANSSI datant de 2014, révélé suite à un braquage en 2025, expose des négligences critiques dans la cybersécurité du Musée du Louvre, incluant des mots de passe triviaux et des systèmes obsolètes.",
+    "date": "4 octobre 2025",
+    "content": [
+        "<h3>Introduction</h3><p>En novembre 2025, des révélations basées sur un audit de l'ANSSI de 2014 mettent en lumière l'état alarmant de la sécurité informatique du Musée du Louvre. Ces documents, restés confidentiels pendant plus de dix ans, refont surface après le vol spectaculaire de joyaux dans la Galerie d'Apollon en octobre 2025, suggérant que les vulnérabilités identifiées n'ont jamais été totalement corrigées.</p>",
+        "<h3>Des mots de passe dérisoires</h3><p>L'audit de 2014 révèle une gestion des accès particulièrement laxiste. Les experts de l'ANSSI avaient réussi à prendre le contrôle du système de vidéosurveillance en utilisant simplement le mot de passe « LOUVRE ». D'autres accès critiques, notamment liés à des logiciels fournis par Thales, étaient protégés par l'identifiant par défaut « THALES », facilitant toute tentative d'intrusion.</p>",
+        "<h3>Obsolescence technique</h3><p>Le rapport souligne l'utilisation de systèmes d'exploitation totalement dépassés, tels que Windows Server 2003, dont le support technique avait cessé depuis longtemps. Cette obsolescence logicielle créait des brèches de sécurité majeures, rendant les infrastructures du musée vulnérables aux cyberattaques modernes et aux manipulations internes du réseau bureautique vers le réseau de sûreté.</p>",
+        "<h3>Impact sur la sûreté physique</h3><p>L'audit démontrait qu'un attaquant pouvait, depuis un simple poste informatique, modifier les droits des badges d'accès ou neutraliser les caméras de surveillance. Cette porosité entre les réseaux numériques et les systèmes de sécurité physique a été pointée du doigt comme un facteur ayant pu faciliter le braquage de 2025, estimé à 88 millions d'euros de préjudice.</p>",
+        "<h3>Négligences persistantes</h3><p>Malgré les alertes de l'ANSSI, les mises à jour et la modernisation des infrastructures n'auraient pas suivi le rythme nécessaire. Les experts notent une « fatigue du clic » et une mauvaise gestion des flux, illustrant le défi de protéger une institution accueillant plus de neuf millions de visiteurs par an avec des outils numériques archaïques.</p>",
+        "<h3>Conclusion</h3><p>L'affaire du Louvre souligne que la cybersécurité est désormais le pilier indispensable de la sûreté physique. L'absence de réaction proactive suite à l'audit de 2014 rappelle que la négligence technique, même ancienne, finit toujours par se payer au prix fort dans la protection du patrimoine national.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.zdnet.fr/i/edit/ne/2025/11/louvre-securite.jpg",
+            "caption": "Le Musée du Louvre confronté à ses failles de sécurité historiques."
+        }
+    ],
+    "sources": [
+        {
+            "title": "ZDNet France",
+            "url": "https://www.zdnet.fr/actualites/cet-audit-catastrophique-de-lanssi-en-2014-sur-la-securite-informatique-du-louvre-484410.htm"
+        },
+        {
+            "title": "Solutions Numériques",
+            "url": "https://www.solutions-numeriques.com/laudit-de-lanssi-met-en-lumiere-les-failles-numeriques-du-musee-du-louvre/"
+        },
+        {
+            "title": "Pragmatika Media",
+            "url": "https://pragmatika.media/fr/news/proval-kiberbezpeky-parolem-systemy-videosposterezhennia-luvru-buv-luvr/"
+        }
+    ]
+    },
+    {
         "title": "Attaque NPM 2025 : Le ver Shai-Hulud infecte 500+ paquets",
         "description": "En septembre 2025, le ver auto-réplicatif Shai-Hulud compromet plus de 500 paquets NPM, volant des identifiants via un phishing ciblé, exposant les failles de l'écosystème open-source.",
         "date": "19 septembre 2025",
