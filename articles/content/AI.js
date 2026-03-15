@@ -2,6 +2,112 @@
 
 export default [
     {
+    "title": "DeepSeek-V3 : Le modèle qui a fait trembler la Silicon Valley",
+    "description": "En février 2025, la start-up chinoise DeepSeek publie son modèle V3, prouvant qu'il est possible d'égaler GPT-4o avec un coût d'entraînement 20 fois inférieur, provoquant un krach boursier dans le secteur des semi-conducteurs.",
+    "date": "10 février 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le mois de février 2025 restera comme celui du 'moment Spoutnik' de l'IA. DeepSeek, une entreprise jusqu'alors peu connue du grand public, a publié DeepSeek-V3, un modèle open-weights aux performances époustouflantes, entraîné pour seulement 6 millions de dollars.</p>",
+        "<h3>Disruption économique</h3><p>L'annonce a provoqué une chute de 17 % de l'action NVIDIA. Les investisseurs ont réalisé que l'optimisation algorithmique de DeepSeek (Multi-head Latent Attention) réduisait drastiquement la dépendance à la puissance de calcul brute, menaçant le monopole des infrastructures américaines.</p>",
+        "<h3>Performances et Open Source</h3><p>DeepSeek-V3 a surclassé Claude 3.5 et GPT-4o dans de nombreux benchmarks de codage et de mathématiques. En rendant son architecture publique, DeepSeek a forcé OpenAI et Meta à revoir leur stratégie de tarification et de transparence.</p>",
+        "<h3>Conclusion</h3><p>Cette sortie a marqué la fin de l'ère de l'IA 'brute-force' au profit de l'IA 'frugale', déplaçant le centre de gravité de l'innovation vers l'efficience logicielle.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.coface.com/var/site/storage/images/5/0/8/1/321805-1-fre-FR/DeepSeek-V3.jpg",
+            "caption": "L'impact de DeepSeek sur les marchés financiers mondiaux."
+        }
+    ],
+    "sources": [
+        { "title": "Coface", "url": "https://www.coface.com/fr/actualites-economie-conseils-d-experts/deepseek-secoue-l-industrie-de-l-ia-et-les-marches-financiers" },
+        { "title": "Banque Richelieu", "url": "https://news.banquerichelieu.com/2025/02/10/ledito-fevrier-2025/" }
+    ]
+},
+    {
+    "title": "OpenAI dévoile la feuille de route de GPT-5 et l'intégration de o3",
+    "description": "Sam Altman annonce en mars 2025 une unification majeure : le modèle de raisonnement 'o3' sera intégré nativement dans GPT-5 pour offrir une intelligence fluide et sans limites pour tous les utilisateurs.",
+    "date": "28 mars 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Face à la concurrence accrue, OpenAI a repris la parole en mars 2025 pour présenter son futur. Le PDG Sam Altman a confirmé que GPT-5 ne serait pas une simple mise à jour, mais une refonte totale de l'expérience utilisateur.</p>",
+        "<h3>L'unification o3</h3><p>Le modèle o3, axé sur le raisonnement complexe et la vérification par étapes, ne sera plus un outil à part mais le moteur central de GPT-5. Cette fusion permet à l'IA de réfléchir avant de répondre de manière native, éliminant les temps de pause entre la pensée et l'action.</p>",
+        "<h3>Accessibilité et multimodalité</h3><p>Mars a également vu le lancement d'une nouvelle fonction de génération d'images ultra-réalistes à partir de photos personnelles, ancrant ChatGPT comme un assistant créatif quotidien pour sa base d'utilisateurs qui dépasse désormais les records de trafic de Google.</p>",
+        "<h3>Conclusion</h3><p>OpenAI mise sur la polyvalence extrême pour conserver son trône, transformant son chatbot en un système d'exploitation de l'intelligence.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://leclaireur.fnac.com/wp-content/uploads/2025/02/openai-gpt5.jpg",
+            "caption": "Sam Altman présentant la roadmap d'OpenAI pour 2025."
+        }
+    ],
+    "sources": [
+        { "title": "Leclaireur Fnac", "url": "https://leclaireur.fnac.com/article/573470-chatgpt-5-le-grand-projet-dopenai-qui-va-tout-changer-pour-le-leader-de-lia/" },
+        { "title": "Blog Ossia", "url": "https://www.blog-ossiaconseil.com/blogs/tech-news---mars-2025" }
+    ]
+},
+    {
+    "title": "Llama 4 : Meta lance ses modèles Scout et Maverick",
+    "description": "Meta frappe fort avec Llama 4, introduisant une architecture Mixture-of-Experts (MoE) et une fenêtre contextuelle de 10 millions de tokens, tout en lançant sa première application mobile dédiée.",
+    "date": "5 avril 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le 5 avril 2025, Mark Zuckerberg a dévoilé Llama 4. Divisé en deux versions initiales, Scout et Maverick, ce modèle open-source redéfinit les attentes en matière de performance et de coût pour les développeurs.</p>",
+        "<h3>Architecture MoE et Behemoth</h3><p>Llama 4 utilise un système d'experts (MoE) permettant d'activer seulement une fraction de ses paramètres pour chaque requête. Le modèle phare en cours d'entraînement, 'Behemoth', promet déjà de dépasser GPT-4.5 sur les benchmarks scientifiques.</p>",
+        "<h3>Une application dédiée</h3><p>En complément, Meta a lancé l'application Meta AI, utilisant Llama 4 pour offrir un assistant personnalisé capable de se souvenir du contexte sur le long terme et d'interagir nativement avec les flux Facebook et Instagram.</p>",
+        "<h3>Conclusion</h3><p>Avec Llama 4, Meta consolide sa position de leader de l'IA ouverte, rendant les capacités de pointe accessibles à tous sans abonnement coûteux.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://about.fb.com/wp-content/uploads/2025/04/Llama-4-Meta-AI.jpg",
+            "caption": "Lancement de la famille Llama 4 et de la nouvelle application Meta AI."
+        }
+    ],
+    "sources": [
+        { "title": "InfoQ", "url": "https://www.infoq.com/news/2025/04/meta-ai-llama-4/" },
+        { "title": "Meta Newsroom", "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/" }
+    ]
+},
+    {
+    "title": "Google I/O 2025 : Gemini 2.5 et le déploiement de Project Astra",
+    "description": "Google transforme l'IA en agent proactif avec Gemini 2.5 et Project Astra, une technologie permettant à l'IA de voir et de comprendre l'environnement via la caméra en temps réel.",
+    "date": "20 mai 2025",
+    "content": [
+        "<h3>Introduction</h3><p>La conférence Google I/O de mai 2025 a été centrée sur l'IA 'agente'. Google a dévoilé Gemini 2.5 Pro et Flash, optimisés pour une vitesse fulgurante et une sécurité accrue contre les injections de prompts.</p>",
+        "<h3>Project Astra</h3><p>La véritable star fut Project Astra, désormais intégré à Gemini Live. Cette technologie permet à l'IA de se souvenir de ce qu'elle a vu (comme l'endroit où vous avez posé vos clés) et d'interagir de manière fluide avec le monde physique.</p>",
+        "<h3>Multimodalité native</h3><p>Gemini 2.5 supporte désormais l'audio natif, permettant des dialogues sans latence et une compréhension parfaite des nuances de la voix humaine, dépassant les capacités de transcription classiques.</p>",
+        "<h3>Conclusion</h3><p>Google a démontré qu'il possédait l'écosystème le plus intégré, préparant le terrain pour des lunettes connectées capables de remplacer le smartphone.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.plainconcepts.com/wp-content/uploads/2025/05/google-io-2025.jpg",
+            "caption": "Project Astra : l'IA qui voit et comprend le monde en temps réel."
+        }
+    ],
+    "sources": [
+        { "title": "Counterpoint Research", "url": "https://counterpointresearch.com/en/insights/post-insight-research-notes-blogs-google-io-2025-5-key-takeaways-as-google-goes-all-in-on-gemini" },
+        { "title": "Plain Concepts", "url": "https://www.plainconcepts.com/google-io-2025-recap/" }
+    ]
+},
+    {
+    "title": "WWDC 2025 : Apple Intelligence 2.0 révolutionne Siri",
+    "description": "Apple présente la version 2.0 de son système d'IA à la WWDC, introduisant la traduction en direct, l'intelligence visuelle et une intégration profonde des 'App Intents'.",
+    "date": "9 juin 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Lors de la WWDC 2025, Apple a prouvé que son retard initial n'était qu'un souvenir. Apple Intelligence 2.0 transforme Siri en un véritable agent capable d'agir à travers toutes les applications du système.</p>",
+        "<h3>Intelligence Visuelle et Genmoji</h3><p>Les utilisateurs peuvent désormais pointer leur caméra sur un objet pour obtenir des informations instantanées ou créer des 'Genmoji' (emojis générés par IA) directement dans les messages. La fonction de traduction en direct s'étend désormais aux appels téléphoniques et FaceTime.</p>",
+        "<h3>Confidentialité et Private Cloud Compute</h3><p>Apple a mis l'accent sur la sécurité avec son architecture on-device complétée par un cloud privé ultra-sécurisé, garantissant qu'aucune donnée personnelle n'est stockée ou accessible par Apple pour l'entraînement des modèles.</p>",
+        "<h3>Conclusion</h3><p>En rendant l'IA invisible et utile au quotidien, Apple a réussi à imposer sa vision d'une technologie centrée sur l'utilisateur plutôt que sur la démonstration technique.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.apple.com/newsroom/images/2025/06/apple-intelligence-wwdc.jpg",
+            "caption": "Les nouvelles capacités d'Apple Intelligence 2.0 présentées à la WWDC."
+        }
+    ],
+    "sources": [
+        { "title": "Apple Newsroom", "url": "https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/" },
+        { "title": "Mashable", "url": "https://mashable.com/article/wwdc-2025-apple-intelligence-ai-features" }
+    ]
+},
+    
+    {
         "title": "OpenClaw : L'agent d'interface utilisateur open-source qui « rend le monde fou »",
         "description": "Véritable phénomène de ce début d'année 2026, OpenClaw (ex-ClawdBot) s'impose comme l'alternative open-source aux assistants propriétaires, capable de prendre le contrôle d'un système pour automatiser emails, tâches et messageries 24h/24.",
         "date": "11 mars 2026",
