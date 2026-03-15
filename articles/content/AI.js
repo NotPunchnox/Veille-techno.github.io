@@ -1,7 +1,113 @@
 /* Articles concernant l'intelligence artificielle */
 
 export default [
-    
+    {
+        "title": "OpenClaw : L'agent d'interface utilisateur open-source qui « rend le monde fou »",
+        "description": "Véritable phénomène de ce début d'année 2026, OpenClaw (ex-ClawdBot) s'impose comme l'alternative open-source aux assistants propriétaires, capable de prendre le contrôle d'un système pour automatiser emails, tâches et messageries 24h/24.",
+        "date": "11 mars 2026",
+        "content": [
+            "<h3>Introduction</h3><p>Depuis janvier 2026, un projet GitHub affole la communauté tech : <strong>OpenClaw</strong>. Créé par Peter Steinberger, cet agent d'interface utilisateur (UI Agent) n'est pas un simple chatbot avec lequel on discute, mais un agent autonome capable d'exécuter des actions concrètes sur votre machine, marquant le passage de l'IA conversationnelle à l'IA 'agente'.</p>",
+            "<h3>Le concept : Un employé virtuel permanent</h3><p>Contrairement à ChatGPT, OpenClaw fonctionne comme un service Node.js permanent en arrière-plan. Sa pièce maîtresse, le <strong>« Heartbeat »</strong>, lui permet de rester actif sans intervention humaine. Il peut ainsi vérifier vos emails, surveiller vos calendriers ou initier une communication sur WhatsApp ou Telegram pour vous récapituler votre journée dès le réveil.</p>",
+            "<h3>L'écosystème des « Skills »</h3><p>La force d'OpenClaw réside dans sa modularité. Via son registre <strong>ClawHub</strong>, les utilisateurs peuvent installer des milliers de « skills » (compétences). Ces modules permettent à l'IA d'interagir avec Gmail, Slack, Notion ou même de réaliser du scraping web complexe. Fin février 2026, on dénombrait déjà plus de 3 000 extensions créées par la communauté.</p>",
+            "<h3>Sécurité : Le revers de la médaille</h3><p>Cette puissance de contrôle total s'accompagne de risques majeurs. En février 2026, plus de <strong>135 000 instances</strong> d'OpenClaw ont été détectées comme exposées sur internet sans protection, créant une vulnérabilité massive (CVE-2026-25253). L'exécution de scripts tiers non vérifiés a également permis l'émergence de plugins malveillants capables d'exfiltrer des données personnelles.</p>",
+            "<h3>Moltbook et l'avenir de l'IA sociale</h3><p>Le projet a pris une dimension sociale avec <strong>Moltbook</strong>, un réseau social où seuls les agents OpenClaw peuvent poster. Ce concept a tellement séduit qu'en mars 2026, Meta a annoncé le rachat de Moltbook pour intégrer ces agents autonomes dans ses propres plateformes, préfigurant un futur où nos IA 'discutent' et négocient entre elles.</p>",
+            "<h3>Conclusion</h3><p>OpenClaw symbolise la démocratisation de l'IA agnostique. En permettant d'utiliser n'importe quel modèle (Claude, GPT-5, ou local via Ollama), il rend le contrôle à l'utilisateur. Cependant, sa complexité d'installation et ses défis sécuritaires rappellent que l'autonomie totale de l'IA demande une vigilance accrue en 2026.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.racunalniske-novice.com/wp-content/uploads/2026/02/openclaw-ui-agent.jpg",
+                "caption": "L'interface d'OpenClaw orchestrant des tâches entre plusieurs applications."
+            },
+            {
+                "url": "https://github.com/openclaw/openclaw/raw/main/assets/lobster-logo.png",
+                "caption": "Le logo 'Lobster' d'OpenClaw, devenu le symbole de l'IA agnostique."
+            }
+        ],
+        "sources": [
+            {
+                "title": "Računalniške novice",
+                "url": "https://www.racunalniske-novice.com/fr/quel-est-cet-agent-dinterface-utilisateur-openclaw-qui-rend-le-monde-fou/"
+            },
+            {
+                "title": "Clubic",
+                "url": "https://www.clubic.com/dossier-597712-j-ai-laisse-une-ia-bosser-pendant-que-je-dormais-le-guide-ultime-pour-installer-openclaw-votre-employe-24-7.html"
+            },
+            {
+                "title": "Valletta Software",
+                "url": "https://vallettasoftware.com/blog/post/openclaw-2026-guide"
+            }
+        ]
+},
+    {
+        "title": "Gemini 3 : Google déploie sa nouvelle architecture d'IA multimodale native",
+        "description": "En novembre 2025, Google a officialisé le lancement de Gemini 3, une mise à jour majeure marquant le passage à une multimodalité native totale, capable de raisonner simultanément sur du texte, des images, de la vidéo et de l'audio en temps réel.",
+        "date": "11 Novembre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Google franchit une étape décisive dans la course à l'intelligence artificielle générale avec l'annonce de <strong>Gemini 3</strong>. Cette troisième génération de modèles ne se contente plus de 'traduire' un média vers un autre ; elle repose sur une architecture unifiée capable de traiter n'importe quelle combinaison d'entrées sensorielles (vidéo, voix, texte) de manière fluide et synchrone.</p>",
+            "<h3>Une multimodalité native et en temps réel</h3><p>La grande force de Gemini 3 réside dans sa capacité de raisonnement multimodal natif. Contrairement aux versions précédentes, le modèle n'a plus besoin de passer par des étapes intermédiaires de transcription ou d'analyse d'image séparée. Cela permet des interactions ultra-rapides, notamment via le mode <strong>Gemini Live</strong>, où l'IA peut commenter une vidéo en direct ou traduire une conversation audio avec une latence imperceptible.</p>",
+            "<h3>Gemini 3 Flash : Le fer de lance des développeurs</h3><p>Pour l'écosystème Cloud, Google mise sur <strong>Gemini 3 Flash</strong>. Ce modèle, qui intègre les capacités de génération d'images <em>Nano Banana 2</em>, offre un rapport performance/prix imbattable. Avec une fenêtre contextuelle portée à <strong>5 millions de tokens</strong>, il permet d'analyser des bibliothèques entières de code ou des heures de vidéo haute définition en une seule requête, facilitant le travail des ingénieurs et analystes.</p>",
+            "<h3>Veo et Lyria 3 : L'intégration créative</h3><p>Gemini 3 sert de cerveau central aux nouveaux outils de création de Google. Il pilote désormais <strong>Veo</strong> pour la génération de vidéos cinématiques avec audio spatialisé, et <strong>Lyria 3</strong> pour la composition musicale. Cette intégration permet aux créateurs de générer des contenus complexes où le son, l'image et le rythme sont parfaitement synchronisés par une intelligence unique.</p>",
+            "<h3>Sécurité et Transparence avec SynthID</h3><p>Face aux enjeux de désinformation en 2026, Google généralise l'utilisation de <strong>SynthID</strong> sur l'ensemble de la famille Gemini 3. Chaque contenu généré par l'IA (texte, image, son ou vidéo) inclut un tatouage numérique invisible et inviolable, permettant aux plateformes et aux utilisateurs de vérifier l'origine synthétique des médias en un clic.</p>",
+            "<h3>Conclusion</h3><p>Avec Gemini 3, Google ne propose plus seulement un outil, mais un système nerveux numérique complet. En alliant une compréhension contextuelle massive à une vitesse d'exécution record, la firme de Mountain View s'impose comme le leader de l'IA multimodale utile au quotidien, du smartphone aux infrastructures militaires complexes.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.usine-digitale.fr/mediatheque/0/5/1/001234150_896x598_c.jpg",
+                "caption": "L'architecture unifiée de Gemini 3 permet un raisonnement multimodal natif en temps réel."
+            },
+            {
+                "url": "https://blog.google/static/blog/images/gemini-3-multimodal-vision.jpg",
+                "caption": "Gemini 3 Flash : une fenêtre contextuelle de 5 millions de tokens pour les entreprises."
+            }
+        ],
+        "sources": [
+            {
+                "title": "L'Usine Digitale",
+                "url": "https://www.usine-digitale.fr/article/gemini-3.N2241507"
+            },
+            {
+                "title": "Google Cloud Blog",
+                "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-3-architecture"
+            }
+        ]
+},
+    {
+        "title": "Pentagone : Gemini devient le moteur de la nouvelle plateforme militaire GenAI.mil",
+        "description": "Le département de la Défense américain a lancé GenAI.mil, une plateforme d'IA générative basée sur Google Gemini. L'objectif affiché par le Pentagone est de rendre les forces armées « plus létales que jamais » tout en optimisant la bureaucratie militaire.",
+        "date": "11 décembre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Le 11 mars 2026 marque un tournant majeur dans l'intégration de l'IA au sein de la défense américaine. Le secrétaire à la Défense, Pete Hegseth, a officialisé le lancement de <strong>GenAI.mil</strong>, la première plateforme interne d'IA générative du Pentagone. Propulsée par le modèle Gemini de Google, cette infrastructure vise à transformer radicalement l'efficacité opérationnelle des millions de personnels du DoD (Department of Defense).</p>",
+            "<h3>Une armée « plus létale que jamais »</h3><p>Lors de l'annonce, le ton employé par les officiels américains a été particulièrement direct. Pete Hegseth a déclaré que l'intégration massive de l'IA « rendra nos forces de combat plus létales que jamais ». Si la plateforme se concentre initialement sur des réseaux non classifiés, l'ambition est d'étendre ces capacités aux systèmes tactiques et classifiés pour accélérer la prise de décision sur le champ de bataille.</p>",
+            "<h3>De la bureaucratie au combat</h3><p>Dans un premier temps, Gemini sera utilisé pour automatiser des tâches administratives chronophages : résumé de documents de politique de défense, création de listes de conformité, évaluation des risques et extraction de termes critiques dans des contrats complexes. Selon Bloomberg, l'usage de ces outils a déjà permis de réduire le temps de planification d'exercices militaires d'envergure (50 000 soldats) de six mois à seulement six semaines.</p>",
+            "<h3>Le virage éthique de Google</h3><p>Ce partenariat révèle un changement de doctrine profond chez Google. En février 2026, l'entreprise a discrètement supprimé de ses « Principes IA » les clauses interdisant l'usage de ses technologies pour le développement d'armes ou la surveillance. Ce revirement intervient après des années de tensions internes (projet Maven) et permet à Google de s'aligner sur les exigences de flexibilité opérationnelle du Pentagone.</p>",
+            "<h3>Anthropic sur liste noire</h3><p>Le lancement de GenAI.mil s'inscrit dans un climat de tension avec d'autres acteurs de l'IA. Anthropic, qui refusait d'ouvrir son modèle Claude aux applications létales autonomes, a été placée sur une « liste noire » par l'administration américaine, qualifiée de « risque pour la chaîne d'approvisionnement ». Ce bras de fer souligne la volonté de l'État américain de ne pas laisser la Silicon Valley dicter les règles d'engagement militaire.</p>",
+            "<h3>Conclusion</h3><p>L'alliance entre Google et le Pentagone via GenAI.mil illustre la militarisation accélérée de l'IA générative. En 2026, la supériorité technologique ne se mesure plus seulement à la puissance de feu, mais à la vitesse de traitement de l'information, plaçant les modèles de langage au cœur de la stratégie de défense mondiale.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.usine-digitale.fr/mediatheque/5/7/3/001234375_896x598_c.jpg",
+                "caption": "Le Pentagone intègre les agents d'IA Gemini pour transformer ses opérations."
+            },
+            {
+                "url": "https://www.clubic.com/actualite-604093-google-pentagone-genai.jpg",
+                "caption": "Le secrétaire à la Défense Pete Hegseth lors de la présentation de GenAI.mil."
+            }
+        ],
+        "sources": [
+            {
+                "title": "L'Usine Digitale",
+                "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/rendre-nos-forces-armees-plus-letales-que-jamais-le-pentagone-lance-une-plateforme-dia-basee-sur-gemini.BWE7CULGCBGEDBTLKD7HMUXRVY.html"
+            },
+            {
+                "title": "Clubic",
+                "url": "https://www.clubic.com/actualite-604093-google-n-a-visiblement-peur-de-rien-et-signe-a-son-tour-avec-le-pentagone.html"
+            },
+            {
+                "title": "Servicesmobiles.fr",
+                "url": "https://www.servicesmobiles.fr/google-va-doter-le-pentagone-dagents-dia-pilotes-par-gemini-110694"
+            }
+        ]
+},
     {
         "title": "QuitGPT : Le mouvement citoyen qui fait trembler l'empire OpenAI",
         "description": "Lancée en février 2026, la campagne virale 'QuitGPT' appelle au boycott massif de ChatGPT. En cause : des révélations sur les liens politiques de la direction et un contrat militaire controversé avec le Pentagone.",
