@@ -2,6 +2,35 @@
 
 export default [
     {
+    "title": "L'IA Agente : OpenAI déploie le mode 'Action' en Europe",
+    "description": "En septembre 2025, ChatGPT franchit une étape historique avec le déploiement du mode Agent. L'IA ne se contente plus de parler : elle peut désormais naviguer sur le web et les applications pour exécuter des tâches complexes de bout en bout.",
+    "date": "19 septembre 2025",
+    "content": [
+        "<h3>Introduction</h3><p>La rentrée 2025 est marquée par la transformation de ChatGPT en agent autonome. Grâce au nouveau mode 'Action', l'IA d'OpenAI peut désormais prendre le contrôle (sous supervision) du navigateur ou de logiciels tiers pour accomplir des missions réelles sans intervention humaine constante.</p>",
+        "<h3>L'IA qui 'fait' au lieu de 'dire'</h3><p>Contrairement à la simple génération de texte, l'agent peut par exemple planifier un voyage complet, comparer les vols, réserver les hôtels et remplir les formulaires de visa en se connectant directement aux sites marchands. Cette capacité repose sur une meilleure compréhension des interfaces graphiques (Computer Use).</p>",
+        "<h3>Intégrations professionnelles</h3><p>OpenAI a officialisé des partenariats avec Microsoft et Salesforce pour intégrer ces agents dans les flux de travail B2B. Un agent peut désormais assurer le suivi d'un ticket client, mettre à jour le CRM et envoyer un e-mail de récapitulatif sans que l'employé n'ait à ouvrir plusieurs onglets.</p>",
+        "<h3>Sécurité et Souveraineté</h3><p>Le déploiement en Europe s'accompagne de garanties strictes liées à l'AI Act. Chaque action menée par l'agent est enregistrée dans un 'journal d'audit' immuable, et l'utilisateur doit valider les transactions financières supérieures à un certain montant via une authentification biométrique.</p>",
+        "<h3>Conséquences pour le marché de l'emploi</h3><p>L'étude 'AI at Work' d'Indeed montre que cette vague d'automatisation transforme plus qu'elle ne remplace : les juniors délèguent l'exécution pour se concentrer sur l'orchestration, bien que les craintes d'atrophie des compétences professionnelles persistent.</p>",
+        "<h3>Conclusion</h3><p>L'arrivée des agents en septembre 2025 signe la mort de l'IA passive. Nous entrons dans une ère où l'intelligence est synonyme d'action, faisant de chaque utilisateur le chef d'orchestre d'une flotte d'assistants numériques spécialisés.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.informatiquenews.fr/wp-content/uploads/2025/09/openai-agent-mode.jpg",
+            "caption": "Le mode Agent d'OpenAI automatisant une gestion de projet complexe."
+        }
+    ],
+    "sources": [
+        {
+            "title": "InformatiqueNews",
+            "url": "https://www.informatiquenews.fr/recap-2025-les-principales-actualites-ia-de-lannee-108702"
+        },
+        {
+            "title": "Orange Business",
+            "url": "https://perspective.orange-business.com/fr/revue-de-presse-data-ia-septembre-2025/"
+        }
+    ]
+},
+    {
     "title": "DeepSeek-V3 : Le modèle qui a fait trembler la Silicon Valley",
     "description": "En février 2025, la start-up chinoise DeepSeek publie son modèle V3, prouvant qu'il est possible d'égaler GPT-4o avec un coût d'entraînement 20 fois inférieur, provoquant un krach boursier dans le secteur des semi-conducteurs.",
     "date": "10 février 2025",
