@@ -179,7 +179,7 @@ export default [
     {
         "title": "Anthropic : Le risque d'atrophie des compétences chez les jeunes accros à l'IA",
         "description": "Une étude d'Anthropic publiée en mars 2026 alerte sur le déclin du recrutement des juniors (-14 %) et le risque de compromettre l'acquisition de compétences fondamentales chez les jeunes professionnels trop dépendants de l'IA générative.",
-        "date": "15 février 2026",
+        "date": "13 mars 2026",
         "content": [
             "<h3>Introduction</h3><p>Dans un rapport publié le 11 mars 2026, la pépite de l'IA Anthropic tire la sonnette d'alarme sur un effet secondaire inattendu de l'automatisation. Selon l'étude, l'usage intensif des assistants IA par les jeunes diplômés pourrait freiner leur apprentissage métier, créant une génération de professionnels dépendants de l'outil plutôt que maîtres de leur expertise.</p>",
             "<h3>Le recul des recrutements juniors</h3><p>Le constat est chiffré : les embauches de jeunes âgés de 22 à 25 ans dans les secteurs les plus exposés à l'IA (informatique, finance, juridique) ont reculé de <strong>14 %</strong> depuis 2024. Les entreprises hésitent désormais à recruter des profils débutants pour des tâches que Claude ou GPT-5 réalisent déjà plus vite et à moindre coût.</p>",
@@ -381,7 +381,7 @@ export default [
     {
         title: "L'orange Pi & RKLLM",
         description: "Rockchip RKLLM, une pile logicielle pour déployer des modèles d'IA génératifs sur les SoC Rockchip RK3588, RK3588S et RK3576, exploite le NPU intégré pour offrir des performances IA de 6 TOPS.",
-        date: "17 juillet 2024",
+        date: "17 décembre 2024",
         content: [
             "<h3>Présentation de l'Orange Pi</h3><p>L'Orange Pi est une solution innovante dans le monde des micro-ordinateurs, offrant une combinaison unique de faible consommation énergétique, de puissance de calcul et d'accessibilité financière. Avec sa capacité à répondre à des besoins divers, il devient un choix incontournable pour les développeurs, les makers et même les entreprises cherchant à déployer des infrastructures performantes à moindre coût.</p>",
             "<h3>Caractéristiques principales</h3><ul><li><strong>Consommation énergétique minimale :</strong> L'Orange Pi est conçu pour être extrêmement économe en énergie, ce qui en fait un choix idéal pour des applications à faible consommation.</li><li><strong>Processeur puissant :</strong> Équipé d'un processeur RK (Rockchip) avec une NPU (Neural Processing Unit), il offre des performances exceptionnelles pour le traitement de données d'intelligence artificielle.</li><li><strong>Extensibilité de la RAM :</strong> L'Orange Pi prend en charge jusqu'à 32 Go de RAM, offrant ainsi une grande capacité de traitement pour des tâches complexes et des applications gourmandes en ressources.</li><li><strong>Coût abordable :</strong> À un prix très compétitif, l'Orange Pi est l'une des solutions les plus accessibles sur le marché.</li></ul>",
