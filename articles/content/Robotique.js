@@ -1,5 +1,72 @@
 export default [
     {
+    "title": "Figure 03 : Le premier robot doté d'une conscience physique contextuelle",
+    "description": "Dévoilé en février 2026, Figure 03 intègre le modèle de fondation PI-1 d'OpenAI, permettant au robot de raisonner sur ses actions physiques et de comprendre la causalité dans des environnements complexes.",
+    "date": "12 février 2026",
+    "content": [
+        "<h3>Introduction</h3><p>La start-up Figure AI, en collaboration étroite avec OpenAI, a lancé en février 2026 le modèle Figure 03. Ce robot n'est pas seulement plus agile ; il est 'intelligent' au sens cognitif du terme. Il s'agit de la première application commerciale à grande échelle d'une intelligence artificielle capable de lier le langage, la vision et l'action physique de manière unifiée et causale.</p>",
+        "<h3>Le modèle de fondation PI-1</h3><p>Au cœur de Figure 03 se trouve PI-1 (Physical Intelligence 1). Ce modèle permet au robot de comprendre pourquoi il fait une action. Si vous lui demandez de 'nettoyer le café renversé', il ne va pas simplement passer un chiffon ; il va d'abord ramasser la tasse pour éviter d'aggraver la situation, identifier le type de surface pour choisir le bon nettoyant, et réagir en temps réel si quelqu'un marche dans la zone.</p>",
+        "<h3>Raisonnement et planification</h3><p>Contrairement aux modèles de 2024 qui fonctionnaient par imitation, Figure 03 peut planifier des tâches sur le long terme. Lors de la présentation, le robot a été capable de préparer un repas simple en ouvrant le réfrigérateur, en identifiant les ingrédients périmés et en utilisant des ustensiles variés. S'il rencontre un obstacle, il 'réfléchit' (pause de 0,5 seconde) et propose une solution alternative à voix haute.</p>",
+        "<h3>Communication naturelle bidirectionnelle</h3><p>Grâce à l'intégration de Gemini 3 et GPT-5 pour la couche vocale, l'interaction est totalement naturelle. L'utilisateur peut interrompre le robot, lui donner des conseils ou lui demander d'expliquer ses choix. Le robot ajuste également son langage corporel (inclinaison de la tête, gestes des mains) pour rassurer l'humain avec qui il travaille, réduisant le sentiment de malaise lié à la robotique.</p>",
+        "<h3>Conclusion</h3><p>Figure 03 représente l'aboutissement de la fusion entre la Silicon Valley et l'industrie lourde. En dotant les machines d'un cerveau capable de comprendre les lois de la physique et de la causalité, Figure AI ouvre la voie à des robots capables d'occuper n'importe quel poste de travail sans formation spécifique préalable.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.figure.ai/static/media/figure-03-hero.png",
+            "caption": "Figure 03 utilisant son modèle de raisonnement pour trier des objets complexes."
+        }
+    ],
+    "sources": [
+        { "title": "Figure AI Press", "url": "https://www.figure.ai/blog/introducing-figure-03-physical-intelligence" },
+        { "title": "TechCrunch", "url": "https://techcrunch.com/2026/02/12/figure-ai-openai-pi-1-model/" }
+    ]
+},
+    
+    {
+    "title": "Agility Robotics ouvre 'Robofab' : La production de masse de Digit commence",
+    "description": "En septembre 2025, Agility Robotics inaugure à Salem sa première usine géante dédiée à la fabrication de robots humanoïdes, capable de produire 10 000 unités de 'Digit' par an pour le secteur logistique.",
+    "date": "05 septembre 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le secteur de la robotique franchit une étape historique en septembre 2025 avec l'ouverture de 'Robofab'. C'est la première fois qu'une usine est conçue spécifiquement pour produire des robots humanoïdes à une échelle industrielle. Cette usine marque la transition d'une production artisanale à une production de masse, essentielle pour faire baisser les coûts unitaires des assistants logistiques.</p>",
+        "<h3>Le robot Digit v4</h3><p>L'usine produit la quatrième itération du robot Digit. Ce modèle a été simplifié pour faciliter sa fabrication : moins de pièces mobiles, une structure en polymères composites plus légère et une tête dotée d'un écran LED pour communiquer ses intentions aux humains. Digit est capable de marcher, de monter des escaliers et de manipuler des bacs plastiques (totes) standardisés dans les entrepôts automatisés.</p>",
+        "<h3>Intégration avec les LLM</h3><p>La grande nouveauté de septembre 2025 est l'intégration d'un modèle de langage (LLM) qui permet aux superviseurs de commander une flotte de Digit par la voix. 'Prépare la zone 4 pour l'arrivée du camion de 14h' suffit désormais pour que les robots se coordonnent entre eux, optimisant le placement des bacs sans intervention humaine sur le logiciel de gestion d'entrepôt (WMS).</p>",
+        "<h3>Partenariat avec Amazon</h3><p>Amazon, partenaire stratégique d'Agility Robotics, a déjà réservé les 2 000 premières unités sortant de Robofab. Ces robots seront déployés dans les centres de tri pour effectuer les tâches les plus répétitives et pénibles physiquement, comme le vidage de bacs de tri. L'objectif est de réduire les troubles musculo-squelettiques (TMS) chez les employés humains tout en augmentant la cadence nocturne.</p>",
+        "<h3>Conclusion</h3><p>Avec Robofab, la robotique humanoïde devient une réalité économique. En prouvant qu'il est possible de fabriquer ces machines à grande échelle, Agility Robotics impose un standard industriel et force ses concurrents à accélérer leurs propres plans de production pour rester compétitifs.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://agilityrobotics.com/wp-content/uploads/2025/09/robofab-factory-interior.jpg",
+            "caption": "L'usine Robofab capable de produire un robot Digit toutes les deux heures."
+        }
+    ],
+    "sources": [
+        { "title": "Agility Robotics News", "url": "https://agilityrobotics.com/news/robofab-opening-salem-oregon" },
+        { "title": "Bloomberg Tech", "url": "https://www.bloomberg.com/news/articles/2025-09-05/the-first-humanoid-robot-factory-is-officially-open" }
+    ]
+},
+    {
+    "title": "Tesla Optimus Gen 2 : Du prototype à l'ouvrier d'usine",
+    "description": "En décembre 2024, Elon Musk confirme que plusieurs unités du robot Optimus Gen 2 sont désormais actives dans la Gigafactory du Texas, effectuant des tâches réelles de logistique de batteries.",
+    "date": "18 décembre 2024",
+    "content": [
+        "<h3>Introduction</h3><p>La fin de l'année 2024 marque un tournant pour Tesla. Ce n'est plus une simple démonstration technique : le robot Optimus Gen 2 a officiellement quitté les laboratoires de R&D pour intégrer les lignes de production. Ce déploiement en conditions réelles vise à prouver que l'approche 'vision-only' de Tesla peut s'adapter aux environnements industriels complexes et changeants.</p>",
+        "<h3>Capacités de manipulation fine</h3><p>L'une des avancées majeures réside dans les nouvelles mains d'Optimus. Dotées de 11 degrés de liberté et de capteurs tactiles sur tous les doigts, elles permettent au robot de manipuler des cellules de batterie 4680 avec une délicatesse surprenante. Le robot est capable de saisir, déplacer et positionner des composants sans les écraser, une tâche qui nécessitait auparavant des bras robotiques fixes extrêmement coûteux et rigides.</p>",
+        "<h3>Apprentissage par réseaux de neurones</h3><p>Contrairement aux robots industriels classiques programmés par trajectoires, Optimus fonctionne sur un réseau de neurones de bout-en-bout. En observant des ouvriers humains via ses caméras, le robot apprend à corriger ses propres erreurs. En décembre, Tesla a démontré qu'Optimus pouvait trier des composants par couleur et forme, tout en gérant les imprévus comme un obstacle placé sur son chemin de manière dynamique.</p>",
+        "<h3>Autonomie et équilibre</h3><p>Le robot a gagné en fluidité de marche (+30 % de vitesse) et en stabilité. Il est désormais capable de s'accroupir et de se relever tout en portant une charge de 10 kg, tout en maintenant un équilibre parfait grâce à des actionneurs conçus en interne. Cette polyvalence est la clé pour remplacer les chariots automatisés (AGV) qui sont limités à des trajectoires prédéfinies au sol.</p>",
+        "<h3>Conclusion</h3><p>Le déploiement d'Optimus fin 2024 est le premier pas vers l'ambition de Tesla de produire des millions d'unités. En utilisant ses propres usines comme banc d'essai, Tesla accélère la collecte de données nécessaires pour affiner l'IA physique avant une commercialisation plus large prévue pour 2026.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.tesla.com/ns_videos/humanoid-robot-optimus-gen2.jpg",
+            "caption": "Optimus Gen 2 manipulant des composants dans la Gigafactory Texas."
+        }
+    ],
+    "sources": [
+        { "title": "Tesla IR", "url": "https://ir.tesla.com/press-release/optimus-gen-2-update" },
+        { "title": "Electrek", "url": "https://electrek.co/2024/12/18/tesla-optimus-bots-working-factories/" }
+    ]
+},
+    {
     "title": "Régulation IA & Robotique : L'Europe adopte le 'Robot Safety Act'",
     "description": "Face à la multiplication des robots dans les lieux publics, le Parlement européen vote en mars 2026 une législation stricte encadrant l'autonomie des machines et la responsabilité civile des constructeurs.",
     "date": "12 mars 2026",
