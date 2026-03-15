@@ -1,4 +1,73 @@
-export default [{
+export default [
+    {
+    "title": "Régulation IA & Robotique : L'Europe adopte le 'Robot Safety Act'",
+    "description": "Face à la multiplication des robots dans les lieux publics, le Parlement européen vote en mars 2026 une législation stricte encadrant l'autonomie des machines et la responsabilité civile des constructeurs.",
+    "date": "12 mars 2026",
+    "content": [
+        "<h3>Introduction</h3><p>L'omniprésence des robots de livraison, de nettoyage et de sécurité dans les villes européennes a poussé les législateurs à agir. Le 'Robot Safety Act' voté ce 12 mars 2026 définit pour la première fois les droits et les devoirs des machines autonomes évoluant parmi les humains.</p>",
+        "<h3>Responsabilité et 'Boîte Noire'</h3><p>La loi impose désormais que tout robot autonome de plus de 15 kg soit équipé d'une 'boîte noire' inviolable, enregistrant toutes les décisions prises par l'IA. En cas d'accident, la responsabilité sera partagée entre le propriétaire et le constructeur, sauf si une modification logicielle non autorisée est détectée.</p>",
+        "<h3>Interdiction de l'armement autonome</h3><p>Un article clé du texte interdit formellement toute capacité d'agression ou d'armement sur les robots civils. Les modèles de sécurité ne peuvent utiliser que des dispositifs de dissuasion visuelle ou sonore, et toute intervention physique doit être validée par un opérateur humain distant via une interface sécurisée.</p>",
+        "<h3>Protection de la vie privée</h3><p>Les robots étant équipés de caméras permanentes, le texte impose un floutage en temps réel des visages et des plaques d'immatriculation. Les données ne peuvent être stockées que localement sur le robot et doivent être supprimées toutes les 24 heures, sauf en cas d'incident signalé.</p>",
+        "<h3>Conclusion</h3><p>Cette régulation est perçue comme un frein par certains industriels, mais comme une étape nécessaire pour garantir l'acceptabilité sociale de la robotique. L'Europe se positionne une nouvelle fois comme le régulateur mondial de l'IA incarnée.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.europarl.europa.eu/news/images/robot-regulation-2026.jpg",
+            "caption": "Le Parlement européen statue sur l'avenir des robots dans l'espace public."
+        }
+    ],
+    "sources": [
+        { "title": "European Parliament", "url": "https://www.europarl.europa.eu/news/en/press-room/20260312IPR" },
+        { "title": "Le Monde Tech", "url": "https://www.lemonde.fr/pixels/article/2026/03/12/robot-safety-act-l-europe-cadre-l-intelligence-physique_6221507_4408996.html" }
+    ]
+},
+    
+    {
+    "title": "CES 2026 : L'année où le robot domestique est devenu abordable",
+    "description": "Le CES 2026 à Las Vegas a été dominé par une nouvelle vague d'assistants domestiques. Entre le 1X Neo et les nouveaux modèles Unitree, la robotique de service sort enfin des laboratoires pour entrer dans les foyers.",
+    "date": "10 janvier 2026",
+    "content": [
+        "<h3>Introduction</h3><p>Si le CES 2024 était celui de l'IA logicielle, l'édition 2026 est incontestablement celle de l'IA matérielle. Les allées du salon ont été envahies par des humanoïdes et des robots de service dont le prix moyen est descendu sous la barre des 20 000 $, rendant l'acquisition possible pour les ménages aisés et les petites entreprises.</p>",
+        "<h3>1X Neo : La sécurité avant tout</h3><p>La start-up norvégienne 1X (soutenue par OpenAI) a présenté la version finale de Neo. Conçu avec une 'musculature' souple à base de câbles plutôt que d'engrenages rigides, Neo est le premier robot certifié pour une interaction directe avec les enfants et les personnes âgées sans cage de protection. Sa peau en textile technique lui donne un aspect moins intimidant.</p>",
+        "<h3>Unitree G1 : Le PC de la robotique</h3><p>Unitree a créé l'événement avec son modèle G1, vendu à 16 000 $. Bien que moins 'raffiné' que Neo, il offre une puissance de calcul embarquée impressionnante pour sa taille. Capable de courir, de sauter et d'effectuer des tâches ménagères basiques, il est présenté comme la plateforme de développement ultime pour les foyers connectés.</p>",
+        "<h3>L'écosystème des 'Robo-Apps'</h3><p>La grande nouveauté de ce CES est l'apparition des magasins d'applications pour robots. Au lieu de programmer votre robot, vous téléchargez des 'compétences' : 'Cuisine italienne', 'Entretien du jardin' ou 'Aide au lever'. Ces applications sont alimentées par des réseaux de neurones spécialisés vendus par des éditeurs tiers.</p>",
+        "<h3>Conclusion</h3><p>Le CES 2026 marque le passage de la robotique du statut de curiosité technologique à celui d'appareil électroménager intelligent. Les prévisions de ventes pour l'année 2026 s'élèvent à plus de 500 000 unités à travers le monde.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.1x.tech/images/neo-home-assistant.jpg",
+            "caption": "Le robot Neo de 1X interagissant dans un salon au CES 2026."
+        }
+    ],
+    "sources": [
+        { "title": "CES Official", "url": "https://www.ces.tech/news/robotics-2026-highlights" },
+        { "title": "TechCrunch", "url": "https://techcrunch.com/2026/01/10/the-year-of-the-home-humanoid/" }
+    ]
+},
+    {
+    "title": "Modèles VLA : Quand l'IA donne enfin un cerveau aux robots",
+    "description": "Février 2025 marque l'adoption massive des modèles Vision-Language-Action (VLA), permettant aux robots de comprendre des ordres complexes et de s'adapter à des environnements imprévus sans programmation préalable.",
+    "date": "22 février 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Pendant des décennies, programmer un robot demandait des milliers de lignes de code pour chaque geste. En février 2025, la sortie des nouveaux modèles VLA par NVIDIA et Google DeepMind change la donne : les robots 'apprennent' désormais comme des enfants, en observant et en recevant des instructions en langage naturel.</p>",
+        "<h3>L'architecture RT-3 et GR00T</h3><p>NVIDIA a lancé la mise à jour de son projet GR00T, un modèle de fondation pour les humanoïdes. Associé à RT-3 de Google, il permet aux robots de faire le pont entre la compréhension textuelle ('Range les fruits rouges dans le panier') et l'action physique précise, tout en gérant les occlusions ou les objets glissants.</p>",
+        "<h3>Apprentissage par imitation et simulation</h3><p>Le succès de ces modèles repose sur la simulation massive dans l'Omniverse de NVIDIA. Avant de toucher un objet réel, un robot s'exerce des millions de fois dans un monde virtuel physiquement exact (Isaac Lab). En février, le taux de transfert 'Sim-to-Real' a atteint le chiffre record de 95%, réduisant drastiquement le temps d'entraînement.</p>",
+        "<h3>Généralisation à de nouveaux objets</h3><p>La grande percée réside dans la généralisation : un robot entraîné à ranger des tasses peut désormais manipuler des verres ou des bols qu'il n'a jamais vus, en comprenant la sémantique de l'objet et sa fragilité. Cela ouvre la voie à des robots domestiques capables de s'adapter à n'importe quel intérieur.</p>",
+        "<h3>Conclusion</h3><p>L'intelligence artificielle n'est plus seulement numérique ; elle est désormais incarnée. Cette fusion entre les LLM et la robotique lève le dernier verrou qui empêchait l'usage massif des robots dans des environnements non structurés.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://nvidianews.nvidia.com/news/project-gr00t-humanoid-robot-foundation-model.jpg",
+            "caption": "Les robots humanoïdes s'entraînant virtuellement grâce aux modèles VLA."
+        }
+    ],
+    "sources": [
+        { "title": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gr00t-humanoid-robot-foundation-model/" },
+        { "title": "Science Robotics", "url": "https://www.science.org/journal/robotics/vla-models-breakthrough" }
+    ]
+},
+    
+    {
     // Novembre
     // Octobre
     "title": "Figure AI Lance Figure 03 : Le Robot Humanoïde qui Veut S'Inviter Chez Vous",
