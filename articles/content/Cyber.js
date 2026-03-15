@@ -1,5 +1,26 @@
 export default [
     {
+    "title": "Le 'Blackout' Microsoft : 19 heures de chaos mondial",
+    "description": "Une panne majeure de Microsoft Azure et Microsoft 365 paralyse des millions d'entreprises le 9 juillet 2025, révélant la vulnérabilité extrême des infrastructures cloud centralisées.",
+    "date": "9 juillet 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le 9 juillet 2025, le monde numérique s'est arrêté. Une mise à jour défectueuse des configurations DNS et d'Active Directory a provoqué une cascade de pannes sur les services Microsoft à l'échelle planétaire.</p>",
+        "<h3>Impact sectoriel</h3><p>Des banques aux compagnies aériennes en passant par les hôpitaux, l'indisponibilité d'Exchange, Teams et Azure Kubernetes Service (AKS) a causé des pertes estimées à plusieurs milliards de dollars. La panne a duré plus de 19 heures pour une restauration complète.</p>",
+        "<h3>La 'Pandémie Numérique'</h3><p>Les experts ont qualifié cet événement de 'pandémie numérique', illustrant comment un point de défaillance unique peut paralyser des pans entiers de l'économie mondiale.</p>",
+        "<h3>Conclusion</h3><p>Cet incident a relancé le débat sur la souveraineté numérique et la nécessité pour les entreprises de ne plus dépendre d'un seul fournisseur de cloud.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://aardwolfsecurity.com/wp-content/uploads/2025/10/azure-outage-2025.jpg",
+            "caption": "L'impact mondial de la panne Microsoft Azure en juillet 2025."
+        }
+    ],
+    "sources": [
+        { "title": "Messageware", "url": "https://www.messageware.com/microsofts-july-2025-outage-a-19-hour-disruption/" },
+        { "title": "Aardwolf Security", "url": "https://aardwolfsecurity.com/microsoft-azure-suffers-major-global-outage/" }
+    ]
+},
+    {
         "title": "YggTorrent : Les coulisses du piratage et les révélations de gr0lum",
         "description": "Suite à une indisponibilité majeure du tracker YggTorrent en mars 2026, l'ex-administrateur gr0lum a publié une base de données contenant des informations sensibles, révélant les failles de sécurité et les tensions internes du site.",
         "date": "12 mars 2026",
