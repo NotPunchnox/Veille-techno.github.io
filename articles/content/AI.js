@@ -15,7 +15,7 @@ export default [
     ],
     "images": [
         {
-            "url": "https://www.informatiquenews.fr/wp-content/uploads/2025/09/openai-agent-mode.jpg",
+            "url": "https://www.informatiquenews.fr/wp-content/uploads/2025/12/2025-une-annee-IA-1024x408.jpg",
             "caption": "Le mode Agent d'OpenAI automatisant une gestion de projet complexe."
         }
     ],
@@ -292,12 +292,9 @@ export default [
             "<h3>Applications : Vers une IA incarnée</h3><p>Contrairement aux chatbots, la technologie d'AMI Labs est pensée pour la robotique, les dispositifs industriels et les assistants personnels capables de planifier des actions complexes. En se libérant des contraintes de Meta, LeCun espère accélérer la création de systèmes capables de raisonner sur les causes et les effets, une brique manquante de l'IA moderne.</p>",
             "<h3>Conclusion</h3><p>Le lancement d'AMI Labs est plus qu'une simple création d'entreprise ; c'est un pari sur le futur de la recherche mondiale. En quittant Meta, Yann LeCun rebat les cartes et replace la compréhension du monde physique au cœur de l'innovation technologique de 2026.</p>"
         ],
-        "images": [{
-                "url": "https://wp.technologyreview.com/wp-content/uploads/2026/01/yann-lecun-departure-meta-ami.jpg",
-                "caption": "Yann LeCun lors de l'officialisation de son départ de Meta pour lancer AMI Labs."
-            },
+        "images": [
             {
-                "url": "https://www.usine-digitale.fr/mediatheque/4/5/3/001234354_896x598_c.jpg",
+                "url": "https://www.usine-digitale.fr/resizer/v2/NWT2IS7ZEZBQHFQKNNMII4RAKE.jpg?smart=true&auth=3a25e667ca919dfd6b89294684d7c9dce98224c1e77bbb9a152d46942d3a544c&width=1080&height=720",
                 "caption": "AMI Labs : la vision d'une IA capable de modéliser le monde réel."
             }
         ],
@@ -324,26 +321,14 @@ export default [
             "<h3>Conclusion</h3><p>L'IA est un multiplicateur de force, mais elle ne peut pas remplacer le socle de connaissances théoriques. Le défi de 2026 sera de former une génération d'« architectes de l'IA » plutôt que de simples exécutants d'algorithmes, sous peine de voir disparaître l'expertise humaine à moyen terme.</p>"
         ],
         "images": [{
-                "url": "https://www.usine-digitale.fr/mediatheque/4/7/3/001234374_896x598_c.jpg",
-                "caption": "Le recrutement des profils juniors impacté par l'automatisation réelle des tâches cognitives."
+                "url": "https://www.usine-digitale.fr/resizer/v2/U3262V6Z7ZKX3E4PMSCL4MILXE.png?smart=true&auth=c9fe17614692c717c6a40cf8d3fe1732d5b30eaaedaa0d2b422a5a5a60f933cb&width=1080&height=720",
+                "caption": "Claude Code."
             },
-            {
-                "url": "https://www.blogdumoderateur.com/wp-content/uploads/2026/03/anthropic-etude-emploi-ia.jpg",
-                "caption": "Graphique montrant l'écart entre le potentiel de l'IA et son adoption réelle dans les métiers qualifiés."
-            }
         ],
         "sources": [{
                 "title": "L'Usine Digitale",
                 "url": "https://www.usine-digitale.fr/intelligence-artificielle/anthropic/anthropic-ladmet-les-jeunes-qui-sappuient-fortement-sur-lia-risquent-de-compromettre-leur-acquisition-de-competences-professionnelles.LUX7D277WNGIRO7BVYFFGUB3MQ.html"
             },
-            {
-                "title": "Blog du Modérateur",
-                "url": "https://www.blogdumoderateur.com/anthropic-classement-metiers-menaces-ia/"
-            },
-            {
-                "title": "DailyDigital",
-                "url": "https://dailydigital.fr/professions-vulnerables-ia/"
-            }
         ]
     },
     {
@@ -359,26 +344,14 @@ export default [
             "<h3>Conclusion</h3><p>Avec Nano Banana 2, Google ne se contente pas de rattraper son retard sur Midjourney ou DALL-E ; il redéfinit les standards de l'industrie en termes d'accessibilité et de vitesse. L'intégration systématique du tatouage numérique <strong>SynthID</strong> garantit par ailleurs une transparence accrue sur l'origine synthétique des contenus produits.</p>"
         ],
         "images": [{
-                "url": "https://blog.google/static/blog/images/google-logo.png",
+                "url": "https://www.usine-digitale.fr/resizer/v2/PXFJVXQDLBAUJMXUTXLYGN33VI.jpg?smart=true&auth=9e328a86106e54651af4da07684557adae21635d7912540626490067f52f0299&width=1080&height=720",
                 "caption": "Nano Banana 2 : l'alliance de la qualité Pro et de la vitesse Flash."
             },
-            {
-                "url": "https://www.blogdumoderateur.com/wp-content/uploads/2026/02/google-nano-banana-2-image-gen.jpg",
-                "caption": "Exemple de génération 4K avec rendu de texte précis par Nano Banana 2."
-            }
         ],
         "sources": [{
                 "title": "L'Usine Digitale",
                 "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/google-rend-la-generation-dimages-plus-rapide-et-moins-chere-avec-nano-banana-2.YVTOZH377FBX3HN3CLV537CEMM.html"
             },
-            {
-                "title": "Google Blog",
-                "url": "https://blog.google/intl/fr-fr/nouveautes-produits/nano-banana-2/"
-            },
-            {
-                "title": "Blog du Modérateur (BDM)",
-                "url": "https://www.blogdumoderateur.com/google-devoile-nano-banana-2-successeur-modele-image-phare/"
-            }
         ]
     },
 
@@ -397,30 +370,14 @@ export default [
             "<h3>Conclusion</h3><p>Les systèmes AGX de NVIDIA positionnent l’entreprise en leader de l’IA appliquée, transformant les secteurs automobile, industriel et médical grâce à des technologies scalables, performantes et adaptées au edge.</p>"
         ],
         "images": [{
-                "url": "https://developer.nvidia.com/blog/wp-content/uploads/2018/12/xavier-module-dev-kit-3qrtr-1945px.png",
-                "caption": "Le module NVIDIA Jetson AGX Xavier et son kit de développement."
+                "url": "https://img1.lemondeinformatique.fr/fichiers/telechargement/nvidia-ceo-jetson-xavier.jpg",
+                "caption": "ensen Huang, CEO de Nvidia, présente la carte Jetson Xavier."
             },
-            {
-                "url": "https://developer.download.nvidia.com/images/drive/agx-drive-850x480.jpg",
-                "caption": "La plateforme NVIDIA DRIVE AGX pour véhicules autonomes."
-            }
         ],
         "sources": [{
-                "title": "Site Officiel NVIDIA AGX Systems",
-                "url": "https://www.nvidia.com/fr-fr/deep-learning-ai/products/agx-systems/"
+                "title": "lemondeinformatique.fr",
+                "url": "https://www.lemondeinformatique.fr/actualites/lire-nvidia-livre-jetson-agx-xavier-pour-les-applications-de-robotique-73791.html"
             },
-            {
-                "title": "NVIDIA Blog - Jetson AGX Thor",
-                "url": "https://developer.nvidia.com/blog/unlock-faster-smarter-edge-models-with-7x-gen-ai-performance-on-nvidia-jetson-agx-thor/"
-            },
-            {
-                "title": "NVIDIA Blog - DRIVE AGX Thor Developer Kit",
-                "url": "https://blogs.nvidia.com/blog/drive-agx-developer-kit-general-availability/"
-            },
-            {
-                "title": "Electrive - NVIDIA Robot Taxi Project",
-                "url": "https://www.electrive.com/2025/10/24/nvidia-starts-working-on-robot-taxi-project/"
-            }
         ]
     },
     // Septembre
@@ -438,7 +395,7 @@ export default [
             "<h3>Conclusion</h3><p>Avec gpt-oss-120b et gpt-oss-20b, OpenAI redéfinit l’accès à l’IA avancée en offrant des modèles open-weight performants, sécurisés et abordables. Leur potentiel en robotique, de l’automatisation industrielle aux interactions homme-robot, est immense, comme en témoigne leur intégration avec des écosystèmes comme Hugging Face. En démocratisant l’IA pour les marchés émergents et les petites organisations, OpenAI pose les bases d’un écosystème open-source dynamique. Les chercheurs et développeurs sont invités à explorer ces modèles, contribuant ainsi à une innovation collaborative et responsable. Cette annonce marque une étape décisive vers une IA accessible à tous.</p>"
         ],
         "images": [{
-            "url": "https://openai.com/content/images/2025/08/gpt-oss-launch.jpg",
+            "url": "https://miro.medium.com/v2/resize:fit:1400/1*HLGfgSx0odWqyDHTuGAUbg.png",
             "caption": "Illustration des modèles gpt-oss-120b et gpt-oss-20b, lancés par OpenAI pour démocratiser l’IA open-source."
         }],
         "sources": [{
@@ -461,7 +418,7 @@ export default [
             "<h3>Conclusion</h3><p>Avec Mega, testé par Accenture et Kion pour créer des jumeaux numériques d’entrepôts, Nvidia vise un marché logistique de 1000 milliards de dollars. En combinant Nemotron et la robotique, l’entreprise se positionne comme un pionnier de l’IA physique, prête à transformer industries et entrepôts grâce à des simulations avancées et des robots intelligents.</p>"
         ],
         "images": [{
-            "url": "https://www.usine-digitale.fr/mediatheque/3/6/2/001521263_896x598_c.jpg",
+            "url": "https://www.usine-digitale.fr/resizer/v2/57WTVYBMG5KCNGJ27AZ472LK5M.jpg?smart=true&auth=55e5aa0057997f80dda497a3972a149ac4008a0b9afc2b4348c8ecc15ed85bdb&width=1080&height=720",
             "caption": "Un jumeau numérique d’entrepôt simulé avec Nvidia Cosmos pour entraîner des robots."
         }],
         "sources": [{
@@ -484,10 +441,7 @@ export default [
             url: "deepseek.avif",
             caption: "DeepSeek vs OpenAI",
         }, ],
-        sources: [{
-                title: "Reuters",
-                url: "https://www.reuters.com/technology/artificial-intelligence/chinese-ai-startup-deepseek-overtakes-chatgpt-apple-app-store-2025-01-27/",
-            },
+        sources: [
             {
                 title: "Le Monde",
                 url: "https://www.lemonde.fr/pixels/article/2025/01/30/deepseek-face-au-concurrent-chinois-de-chatgpt-l-inquietude-des-autorites-de-protection-des-donnees-personnelles_6523968_4408996.html",
@@ -505,7 +459,7 @@ export default [
             "<h3>Présentation à l'Open Source Experience 2024</h3><p>LUCIE sera présentée lors de l'événement Open Source Experience :</p><ul><li><strong>Date :</strong> 4 décembre 2024</li><li><strong>Lieu :</strong> Salle Alice Recoque, à 14h</li><li><strong>Programme :</strong> Retour sur la genèse de LUCIE avec Michel-Marie Maudet, Directeur Général de LINAGORA.</li></ul><p>Cette présentation sera l'occasion de découvrir les avancées du projet et de comprendre son importance pour la souveraineté numérique en France et en Europe.</p>",
         ],
         images: [{
-            url: "lucie-ia.webp",
+            url: "https://i0.wp.com/goodtech.info/wp-content/uploads/2024/11/23417493b5be7ff1bc426c1a0a696fea699286ce1521523e5293bc56fe0569f6.jpg?resize=1024%2C640&ssl=1",
             caption: "LUCIE, l'IA open source française",
         }, ],
         sources: [{
