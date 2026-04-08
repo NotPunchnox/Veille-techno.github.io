@@ -259,4 +259,218 @@ export default [
             },
         ],
     },
+    {
+        "title": "GitHub Copilot Workspace : L'ère du 'Natural Language Programming' est arrivée",
+        "description": "En avril 2025, GitHub franchit une étape historique avec la disponibilité générale de Copilot Workspace, un environnement de développement où l'IA transforme une intention textuelle en un dépôt de code complet et fonctionnel.",
+        "date": "18 avril 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Le mois d'avril 2025 marque une rupture fondamentale dans la manière de concevoir le logiciel. Avec le lancement de <strong>Copilot Workspace</strong>, GitHub ne propose plus seulement un assistant d'autocomplétion, mais un véritable orchestrateur de projets. Pour la première fois, un développeur peut passer d'une 'issue' (problème ou fonctionnalité) à une 'pull request' sans avoir écrit une seule ligne de code manuellement.</p>",
+            "<h3>Du concept au code : Le flux itératif</h3><p>Le fonctionnement de Workspace repose sur une compréhension profonde du contexte du dépôt. L'IA génère d'abord un plan d'implémentation en langage naturel. Le développeur valide ou modifie ce plan, puis l'IA génère l'intégralité des fichiers nécessaires. Ce processus réduit drastiquement le 'temps de démarrage' sur de nouvelles fonctionnalités, permettant de se concentrer sur l'architecture plutôt que sur la syntaxe.</p>",
+            "<h3>Un environnement de développement éphémère</h3><p>Workspace introduit le concept d'environnements de développement éphémères et pré-configurés. En un clic, l'IA monte une instance cloud capable d'exécuter, de tester et de déboguer le code qu'elle vient de générer. Si un test échoue, l'agent IA analyse l'erreur et propose un correctif immédiatement, automatisant la boucle de rétroaction qui était jusqu'alors la tâche la plus chronophage pour les ingénieurs.</p>",
+            "<h3>Démocratisation ou dépendance ?</h3><p>Si la productivité bondit de 50% selon les premiers retours, le secteur s'interroge sur l'évolution du métier. <strong>Le Monde Informatique</strong> souligne que le rôle du développeur glisse vers celui de 'relecteur de code' et d'architecte. La maîtrise des fondamentaux reste cruciale pour valider les choix de l'IA, mais la barrière à l'entrée pour créer des logiciels complexes n'a jamais été aussi basse.</p>",
+            "<h3>Conclusion</h3><p>GitHub Copilot Workspace n'est pas seulement un outil de plus, c'est le signal que la programmation devient un dialogue de haut niveau avec la machine. En avril 2025, coder ne signifie plus forcément écrire des lignes de texte, mais savoir exprimer une logique métier assez claire pour qu'un agent autonome puisse la matérialiser.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://visualstudiomagazine.com/articles/2024/04/29/~/media/ECG/visualstudiomagazine/Images/2024/04/Workspace_Template_s.ashx",
+                "caption": "L'interface de GitHub Copilot Workspace générant un plan d'action à partir d'une description textuelle."
+            }
+        ],
+        "sources": [
+            {
+                "title": "l'usine digitale",
+                "url": "https://www.usine-digitale.fr/article/avec-copilot-workspace-github-va-toujours-plus-loin-dans-l-aide-au-developpement.N2212498"
+            }
+        ]
+    },
+    {
+        "title": "Google I/O 2025 : Gemini 2.5 s'installe au cœur d'Android Studio et Firebase",
+        "description": "Lors de sa conférence annuelle en mai 2025, Google a dévoilé l'intégration profonde de Gemini 2.5 dans ses outils de développement, introduisant le 'multimodal live coding' et Firebase Genkit pour simplifier la création d'apps IA.",
+        "date": "15 mai 2025",
+        "content": [
+            "<h3>Introduction</h3><p>La conférence Google I/O de mai 2025 a marqué une étape décisive pour l'écosystème Android. Loin des simples gadgets grand public, Google a frappé fort côté 'Dev' en infusant l'IA générative directement dans les flux de travail quotidiens. L'objectif est clair : transformer chaque développeur en 'super-développeur' grâce à une assistance contextuelle qui ne se contente plus de suggérer du code, mais de comprendre l'architecture complète d'une application.</p>",
+            "<h3>Android Studio : Le code devient visuel</h3><p>La nouvelle version d'Android Studio, boostée par <strong>Gemini 2.5</strong>, introduit une fonctionnalité de 'Vision-to-Code'. Les développeurs peuvent désormais soumettre une capture d'écran d'une interface design (Figma ou croquis) pour que l'IDE génère automatiquement le code Jetpack Compose correspondant. L'IA analyse non seulement l'esthétique, mais propose également une structure de données logique, réduisant le temps de prototypage de l'interface utilisateur de près de 70 %.</p>",
+            "<h3>Firebase Genkit : Le backend pour l'ère de l'IA</h3><p>Pour répondre à la complexité croissante des applications intégrant des modèles de langage, Google a lancé <strong>Firebase Genkit</strong>. Ce framework open-source permet aux développeurs de construire, déployer et surveiller des flux de travail IA complexes en TypeScript ou en Go. L'outil simplifie l'intégration des vecteurs de recherche et la gestion des prompts, permettant d'ajouter des capacités de raisonnement à une application web ou mobile en quelques lignes de configuration.</p>",
+            "<h3>Le débogage multimodal en temps réel</h3><p>L'une des annonces les plus impressionnantes concerne l'intégration de <strong>Project Astra</strong> dans les outils de débogage. Un développeur peut désormais 'montrer' son écran ou ses logs à l'IA via une interface vidéo et lui poser des questions complexes sur des erreurs de rendu ou des fuites de mémoire. L'IA, capable de voir et de raisonner en direct sur le flux vidéo, identifie les anomalies comportementales que les analyseurs statiques classiques ne parviennent pas toujours à détecter.</p>",
+            "<h3>Éthique et souveraineté du code</h3><p>Conscient des enjeux de propriété intellectuelle soulevés par <strong>Le Monde Informatique</strong>, Google a précisé que les modèles utilisés pour l'assistance au code sont entraînés sur des dépôts de haute qualité avec des licences permissives. De plus, une option de 'Local Inference' permet désormais d'exécuter une version allégée de Gemini directement sur la machine du développeur, garantissant que le code sensible ne quitte jamais le poste de travail.</p>",
+            "<h3>Conclusion</h3><p>En mai 2025, Google a prouvé que l'IA n'était plus une option mais le nouveau socle de la programmation. En unifiant la vision, le langage et l'exécution dans Android Studio, la firme de Mountain View tente de s'imposer face à GitHub Copilot en proposant une expérience 'full-stack' totalement intégrée, de l'interface au déploiement cloud.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://developer.android.com/static/images/gemini-in-android/gias-hero-image_1440.png?hl=fr",
+                "caption": "Présentation de l'intégration de Gemini 2.5 dans l'IDE Android Studio lors de la Google I/O 2025."
+            }
+        ],
+        "sources": [
+            {
+                "title": "Documentation android studio",
+                "url": "https://developer.android.com/studio/gemini/overview?hl=fr"
+            }
+        ]
+    },
+    {
+        "title": "WWDC 2025 : Apple lance Swift Assist pour automatiser le développement d'applications",
+        "description": "À l'occasion de la WWDC 2025, Apple a présenté Swift Assist, un compagnon d'IA intégré à Xcode 17 capable de générer des fonctionnalités entières à partir d'une simple requête, tout en garantissant une confidentialité totale du code source.",
+        "date": "10 juin 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Le mois de juin 2025 a été marqué par la conférence mondiale des développeurs d'Apple (WWDC), où la firme de Cupertino a franchi une étape décisive dans l'intégration de l'IA générative au sein de son écosystème. Selon <strong>L'Usine Digitale</strong>, l'annonce phare pour les développeurs n'était autre que <strong>Swift Assist</strong>, une fonctionnalité qui propulse Xcode 17 au rang d'environnement de développement intelligent de nouvelle génération.</p>",
+            "<h3>Swift Assist : L'IA qui code à votre place</h3><p>Swift Assist n'est pas qu'un simple outil d'autocomplétion. Il s'agit d'un modèle de langage spécialisé, entraîné sur les frameworks et les bibliothèques logicielles d'Apple (SwiftUI, Combine, SwiftData). Un développeur peut désormais demander : 'Ajoute une vue de calendrier qui synchronise les événements avec iCloud et applique un design sombre', et l'outil génère l'intégralité du code, des modèles de données aux interfaces graphiques. L'objectif avoué d'Apple est de supprimer les tâches répétitives pour permettre aux ingénieurs de se concentrer sur l'innovation et l'expérience utilisateur.</p>",
+            "<h3>Xcode 17 : Un IDE métamorphosé</h3><p>L'intégration de Swift Assist dans Xcode 17 transforme radicalement le flux de travail. L'IDE est désormais capable de prédire les prochaines étapes du développement, de générer automatiquement des tests unitaires pour chaque nouvelle fonction, et de documenter le code en temps réel selon les standards d'Apple. Une nouvelle fonctionnalité de 'Code Explainer' permet également aux juniors de comprendre instantanément des structures complexes ou des API obsolètes, facilitant ainsi la maintenance de projets hérités (legacy).</p>",
+            "<h3>La confidentialité au cœur de la stratégie</h3><p>Contrairement à ses concurrents qui reposent souvent sur un traitement cloud systématique, Apple mise sur la protection des données. Swift Assist fonctionne principalement en local sur les puces Apple Silicon (M3 et M4). Pour les requêtes plus lourdes, Apple utilise son architecture <strong>Private Cloud Compute</strong>, garantissant que le code source, propriété intellectuelle critique des entreprises, ne soit jamais stocké ni accessible par Apple ou des tiers. C'est un argument de poids pour les secteurs sensibles comme la banque ou la santé, souvent réticents à utiliser des outils comme GitHub Copilot.</p>",
+            "<h3>L'impact sur l'écosystème SwiftUI</h3><p>L'IA d'Apple a été spécifiquement optimisée pour <strong>SwiftUI</strong>, le framework déclaratif de la marque. Cette spécialisation permet d'obtenir un code plus propre, plus performant et parfaitement conforme aux 'Human Interface Guidelines'. Pour les développeurs indépendants, cela signifie une réduction drastique du temps de mise sur le marché (Time-to-Market), permettant à une seule personne de gérer des projets qui nécessitaient auparavant une petite équipe.</p>",
+            "<h3>Conclusion</h3><p>En juin 2025, Apple a prouvé qu'il ne se contentait pas de suivre la tendance de l'IA, mais qu'il l'adaptait aux besoins réels de sa communauté. Swift Assist marque le début d'une ère où la programmation sur iOS et macOS devient plus accessible, plus rapide et plus sûre, consolidant la domination d'Apple sur le segment des applications premium.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://f.hellowork.com/blogdumoderateur/2025/06/Apple-WWDC25-macOS-Tahoe-26-XCode-26-250609_big.jpg.large_2x.jpeg",
+                "caption": "Présentation de Swift Assist et de l'intégration de l'IA dans Xcode 17 lors de la WWDC 2025."
+            }
+        ],
+        "sources": [
+            {
+                "title": "L'Usine Digitale",
+                "url": "https://www.blogdumoderateur.com/apple-5-nouveautes-wwdc-2025/"
+            },
+        ]
+    },
+    {
+        "title": "Mistral AI lance Codestral 2 : Le nouveau maître français du code open-weight",
+        "description": "En septembre 2025, Mistral AI bouscule le marché des assistants de programmation avec Codestral 2, un modèle surpassant GPT-4o sur le Python et le SQL, tout en restant optimisé pour une exécution locale sécurisée.",
+        "date": "12 septembre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>La rentrée technologique de septembre 2025 est marquée par une annonce majeure en provenance de Paris. Mistral AI, le fer de lance de l'intelligence artificielle européenne, a officialisé le lancement de <strong>Codestral 2</strong>. Ce modèle de langage spécialisé dans la programmation n'est pas seulement une mise à jour incrémentale ; il s'agit d'une refonte complète visant à offrir aux développeurs une alternative souveraine, performante et surtout plus rapide que les solutions propriétaires américaines.</p>",
+            "<h3>Une supériorité technique sur plus de 80 langages</h3><p>Codestral 2 se distingue par sa polyvalence exceptionnelle. Selon les tests relayés par <strong>L'Usine Digitale</strong>, le modèle surclasse ses concurrents directs sur les langages piliers comme Python, Java, C++, et JavaScript. Mais c'est sur le SQL et les langages plus complexes comme Rust que la différence est la plus flagrante. Le modèle utilise une architecture optimisée qui lui permet de comprendre des structures logiques imbriquées avec une précision de 92 % sur le benchmark HumanEval, dépassant pour la première fois les scores de GPT-4o dans un contexte de développement pur.</p>",
+            "<h3>Le remplissage au milieu (FIM) : La botte secrète</h3><p>L'une des innovations les plus appréciées par la communauté est l'amélioration de la capacité 'Fill-in-the-Middle' (FIM). Cette fonction permet au modèle de ne pas seulement prédire la suite d'un script, mais de générer du code cohérent au milieu d'un fichier existant en tenant compte de ce qui précède et de ce qui suit. Pour les développeurs utilisant VS Code ou JetBrains, cela se traduit par une autocomplétion contextuelle beaucoup plus intelligente, capable de suggérer des blocs de fonctions entiers qui respectent les variables et les imports déjà définis dans le reste du projet.</p>",
+            "<h3>Exécution locale et confidentialité des données</h3><p>À une époque où la fuite de code source vers le cloud est une préoccupation majeure pour les entreprises, Mistral AI mise sur la légèreté. Codestral 2 est décliné en plusieurs versions, dont une version 'Lite' de 22B paramètres capable de tourner nativement sur des stations de travail équipées de GPU grand public (type NVIDIA RTX 5080) ou de puces Apple M4. Cette approche permet aux entreprises du secteur de la défense ou de la finance de bénéficier d'une assistance au code de pointe sans qu'aucune ligne de leur propriété intellectuelle ne quitte leur réseau interne sécurisé.</p>",
+            "<h3>Fenêtre contextuelle et gestion de projets massifs</h3><p>Le modèle intègre une fenêtre contextuelle élargie à 256 000 tokens. Cette capacité permet au développeur de charger l'intégralité d'une documentation technique ou de plusieurs dizaines de fichiers sources en une seule fois. Codestral 2 peut ainsi identifier des bugs de régression sur l'ensemble d'un dépôt (repository) ou proposer des refactorisations globales qui maintiennent la cohérence de l'architecture logicielle, une tâche que les modèles à petite fenêtre contextuelle échouaient souvent à réaliser de manière fiable.</p>",
+            "<h3>Conclusion</h3><p>Avec Codestral 2, Mistral AI ne se contente pas de rivaliser avec les géants californiens ; la pépite française redéfinit le standard de l'assistant de programmation moderne. En combinant performance brute, spécialisation métier et respect de la confidentialité, Mistral offre aux ingénieurs un outil de souveraineté numérique essentiel pour l'avenir du développement logiciel en Europe.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.informatiquenews.fr/wp-content/uploads/2025/12/Devtral-2-de-Mistral-AI-1024x408.jpg",
+                "caption": "Codestral 2 de Mistral AI : l'alternative européenne de référence pour les développeurs."
+            }
+        ],
+        "sources": [
+            {
+                "title": "L'Usine Digitale",
+                "url": "https://www.informatiquenews.fr/mistral-bouscule-le-marche-du-coding-assiste-par-lia-108488"
+            }
+        ]
+    },
+    {
+        "title": "L'IA agentique va bouleverser le métier de développeur selon le Gartner",
+        "description": "En octobre 2025, le cabinet Gartner alerte sur une mutation profonde : les développeurs ne coderont plus, ils orchestreront des flottes d'agents IA spécialisés capables de gérer des projets entiers.",
+        "date": "1 octobre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>La période d'octobre 2025 marque la fin de l'IA perçue comme un simple 'copilote'. Selon les analyses publiées par <strong>L'Usine Digitale</strong>, nous entrons dans l'ère de l'IA agentique. Ce n'est plus le développeur qui sollicite l'IA pour une ligne de code, mais des agents autonomes qui prennent l'initiative de résoudre des tickets, de refactoriser du code et d'optimiser les bases de données sans intervention humaine constante.</p>",
+            "<h3>La fin du 'Copilot' passif</h3><p>Le Gartner souligne que les outils actuels sont en surchauffe. Les entreprises délaissent les assistants de complétion pour des systèmes capables d'orchestration. Un agent peut désormais recevoir une instruction de haut niveau comme 'Migre ce service vers une architecture micro-services' et générer non seulement le code, mais aussi les configurations Terraform, les pipelines CI/CD et les tests de charge associés. Le développeur devient alors un architecte de systèmes IA plutôt qu'un scripteur.</p>",
+            "<h3>Productivité et nouvelles compétences</h3><p>Les gains de productivité sont estimés à 40 % pour les équipes ayant déjà intégré ces agents. Cependant, cela impose une montée en compétences radicale. Le métier glisse vers la validation et le 'Prompt Engineering' avancé. Savoir identifier une erreur logique dans un flux généré par une machine devient la compétence la plus prisée du marché en cette fin d'année 2025.</p>",
+            "<h3>Défis de gouvernance</h3><p>L'Usine Digitale rappelle que cette autonomie pose des questions de sécurité majeures. Si un agent décide seul de mettre à jour une dépendance, comment garantir qu'il n'introduit pas une vulnérabilité ? Les entreprises commencent à déployer des 'IA de garde' dont le seul rôle est de surveiller et de valider les actions des IA agentes de développement, créant une double couche de vérification automatisée.</p>",
+            "<h3>Conclusion</h3><p>Octobre 2025 restera comme le mois où le paradigme du développement a basculé. L'orchestration d'agents autonomes n'est plus une curiosité de laboratoire mais le nouveau standard industriel pour les directions informatiques cherchant à réduire leur dette technique.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.informatiquenews.fr/wp-content/uploads/2025/09/ia-agentique-pour-devs-1024x408.jpg",
+                "caption": "L'orchestration d'agents IA devient le pilier de la stratégie IT en octobre 2025."
+            }
+        ],
+        "sources": [
+            {
+                "title": "informatiquenews",
+                "url": "https://www.informatiquenews.fr/developpeurs-ia-agentique-comme-catalyseur-de-vocation-et-dinnovation-pour-notre-pays-tug-grall-github-107068"
+            }
+        ]
+    },
+{
+    "title": "Cyber Resilience Act : Pourquoi Rust s'impose dans le code industriel",
+    "description": "Sous l'impulsion du cadre européen CRA, les entreprises technologiques migrent massivement leurs briques critiques vers Rust en novembre 2025 pour éliminer les failles mémoire par conception.",
+    "date": "14 novembre 2025",
+    "content": [
+        "<h3>Introduction</h3><p>En novembre 2025, la pression réglementaire du Cyber Resilience Act (CRA) européen oblige les éditeurs de logiciels à garantir une sécurité accrue. Selon <strong>Le Monde Informatique</strong>, le langage Rust est devenu le grand gagnant de cette transition, détrônant le C++ dans les couches critiques des infrastructures cloud et embarquées.</p>",
+        "<h3>Élimination des vulnérabilités mémoire</h3><p>Rust garantit la sécurité mémoire sans 'garbage collector', ce qui le rend idéal pour les systèmes à hautes performances. En empêchant les erreurs de type 'buffer overflow' dès la compilation, il permet aux entreprises de répondre aux exigences de conformité du CRA sans sacrifier la rapidité d'exécution. Des géants français de la tech intègrent désormais Rust dans leurs pipelines de développement sécurisés (DevSecOps).</p>",
+        "<h3>L'essor des outils de migration assistée</h3><p>Pour faciliter le passage du C++ vers Rust, de nouveaux outils basés sur l'IA générative ont vu le jour. Ces 'transpilateurs intelligents' analysent la logique métier et proposent une réécriture conforme aux règles strictes d'emprunt (ownership) de Rust, réduisant le temps de migration de 60 % par rapport à une conversion manuelle.</p>",
+        "<h3>Conclusion</h3><p>Novembre 2025 confirme que la sécurité n'est plus une option mais une composante structurelle du code. Rust s'impose comme le garant de la souveraineté numérique européenne, protégé contre les cyberattaques les plus courantes ciblant la mémoire vive.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.ambient-it.net/wp-content/uploads/2025/12/Image-article-rust-en-2025-980x694.jpg.webp",
+            "caption": "Le langage Rust au cœur de la stratégie de cyber-résilience européenne."
+        }
+    ],
+    "sources": [
+        {
+            "title": "ambient-it",
+            "url": "https://www.ambient-it.net/adopter-rust-2025/"
+        }
+    ]
+},
+{
+    "title": "Python 3.14 : Le langage Pi brise enfin le verrou du GIL",
+    "description": "Sortie début janvier 2026, la version 3.14 de Python concrétise des années de recherche en permettant un vrai parallélisme multicœur, transformant le langage pour le calcul haute performance.",
+    "date": "06 janvier 2026",
+    "content": [
+        "<h3>Introduction</h3><p>La communauté Python commence l'année 2026 avec une version historique : Python 3.14, surnommée 'Pi'. Cette mouture marque l'aboutissement du projet de suppression du Global Interpreter Lock (GIL), permettant enfin aux programmes Python d'exploiter la pleine puissance des processeurs multicœurs de manière native.</p>",
+        "<h3>Performances et parallélisme réel</h3><p>Le mode 'No-GIL' stabilisé dans cette version permet aux threads Python de s'exécuter en parallèle sur plusieurs cœurs sans se bloquer mutuellement. Pour les bibliothèques d'IA et de Data Science, cela signifie un bond de performance majeur pour les tâches gourmandes en calcul, sans avoir recours à des extensions complexes en C ou C++.</p>",
+        "<h3>Optimisations JIT et compilation</h3><p>En plus de la gestion du GIL, Python 3.14 affine son compilateur JIT (Just-In-Time) introduit dans les versions précédentes. Les boucles et les appels de fonctions répétitifs voient leur vitesse augmenter de 20 à 40 %, rapprochant Python des performances de langages plus rapides pour les micro-services web.</p>",
+        "<h3>Conclusion</h3><p>Avec cette version 3.14, Python réaffirme sa position de leader incontesté de la programmation moderne. En résolvant son plus vieux défaut structurel, il s'ouvre les portes du calcul haute performance tout en conservant la simplicité qui a fait son succès mondial.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://images.itnewsinfo.com/lmi/articles/grande/000000093202.jpg",
+            "caption": "Python 3.14 libère le potentiel des architectures multicœurs."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Le Monde Informatique",
+            "url": "https://www.lemondeinformatique.fr/actualites/lire-python-enfin-pret-a-faire-sauter-le-verrou-gil-91216.html"
+        }
+    ]
+},
+{
+    "title": "Mistral AI rachète Koyeb : Vers une plateforme de Cloud IA souveraine",
+    "description": "Le 17 février 2026, Mistral AI annonce l'acquisition de la start-up Koyeb pour intégrer une infrastructure serverless à ses modèles de pointe, offrant aux développeurs un environnement de déploiement complet et souverain.",
+    "date": "17 février 2026",
+    "content": [
+        "<h3>Introduction</h3><p>C'est la première acquisition majeure pour Mistral AI. En s'offrant Koyeb, le champion français de l'IA ne se contente plus de fournir des modèles (LLM), mais devient un acteur de l'infrastructure cloud. Comme le souligne <strong>L'Usine Digitale</strong>, ce rachat vise à simplifier radicalement le déploiement d'applications IA pour les développeurs européens.</p>",
+        "<h3>L'IA au service du déploiement serverless</h3><p>Koyeb apporte son expertise dans le 'serverless' et la gestion simplifiée des conteneurs. L'objectif de Mistral est de proposer un SDK unique : le développeur code son application, appelle les modèles Mistral et déploie le tout sur une infrastructure souveraine en une seule commande, sans gérer de serveurs complexes.</p>",
+        "<h3>Souvenaité et conformité RGPD</h3><p>Ce mouvement stratégique permet de garantir que les données et le code source restent en Europe, protégés contre les lois extraterritoriales. Mistral Compute s'appuie désormais sur la technologie de Koyeb pour offrir une alternative crédible et locale aux géants américains (AWS, Google Cloud) pour tout ce qui concerne l'IA générative en entreprise.</p>",
+        "<h3>Conclusion</h3><p>L'acquisition de Koyeb en février 2026 marque le passage de Mistral AI à une dimension supérieure : celle d'un fournisseur de services cloud intégré. Pour les développeurs, c'est la promesse d'une plateforme de développement 'IA-native' performante et conforme aux valeurs européennes.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://cdn.kulturegeek.fr/wp-content/uploads/2026/02/Koyeg-is-joigning-Mistral--1024x537.jpg",
+            "caption": "Mistral AI renforce sa maîtrise de l'infrastructure cloud avec le rachat de Koyeb."
+        }
+    ],
+    "sources": [
+        {
+            "title": "L'Usine Digitale",
+            "url": "https://kulturegeek.fr/news-347348/mistral-ai-rachete-koyeb-accelere-strategie-cloud-ia-souverain-europe"
+        }
+    ]
+},
+{
+    "title": "La Nuit du Code 2026 : 10 ans de passion pour la programmation créative",
+    "description": "Le 30 mars 2026, la 10ème édition de la Nuit du Code a réuni des milliers d'élèves à travers le monde pour une compétition de création de jeux vidéo en 6 heures, célébrant le code comme outil de créativité.",
+    "date": "30 mars 2026",
+    "content": [
+        "<h3>Introduction</h3><p>Le 30 mars 2026, la 10ème édition de la **Nuit du Code** a battu tous les records de participation. Ce concours international, qui consiste à coder un jeu vidéo en Python ou Scratch en un temps limité (6 heures), est devenu le rendez-vous incontournable pour sensibiliser les jeunes aux métiers du numérique et de la programmation logicielle.</p>",
+        "<h3>Le code comme outil d'expression</h3><p>Au-delà de l'aspect compétitif, l'événement souligne l'importance de la logique de programmation dès le plus jeune âge. En 2026, avec l'omniprésence de l'IA, la Nuit du Code met l'accent sur la compréhension des algorithmes plutôt que sur la simple syntaxe, encourageant les participants à inventer des mécaniques de jeu originales et complexes.</p>",
+        "<h3>Conclusion</h3><p>En célébrant sa première décennie, la Nuit du Code prouve que l'intérêt pour la programmation 'humaine' reste intact. L'événement favorise la collaboration et l'entraide entre les futurs développeurs, assurant la relève d'un secteur toujours en quête de nouveaux talents créatifs.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.nuitducode.net/img/ndc-logo-edition.png",
+            "caption": "10ème édition de la Nuit du Code : un succès mondial pour la programmation ludique."
+        }
+    ],
+    "sources": [
+        {
+            "title": "La Nuit du Code",
+            "url": "https://www.nuitducode.net/"
+        }
+    ]
+}
 ]
