@@ -91,7 +91,7 @@ export default [
                 "url": "https://fr.motor1.com/news/713451/tesla-robots-humanoides-produire-ve/"
             }
         ]
-    }
+    },
     {
         "title": "Régulation IA & Robotique : L'Europe adopte le 'Robot Safety Act'",
         "description": "Face à la multiplication des robots dans les lieux publics, le Parlement européen vote en mars 2026 une législation stricte encadrant l'autonomie des machines et la responsabilité civile des constructeurs.",
@@ -128,15 +128,22 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.1x.tech/images/neo-home-assistant.jpg",
-                "caption": "Le robot Neo de 1X interagissant dans un salon au CES 2026."
+                "url": "https://www.lebigdata.fr/wp-content/uploads/2025/10/1x-neo-tout-savoir-660x330.jpeg.webp",
+                "caption": "Le robot Neo de 1X."
             }
         ],
         "sources": [
-            { "title": "CES Official", "url": "https://www.ces.tech/news/robotics-2026-highlights" },
-            { "title": "TechCrunch", "url": "https://techcrunch.com/2026/01/10/the-year-of-the-home-humanoid/" }
+            {
+                "title": "Clubic - Cet incroyable robot fait tout à la maison",
+                "url": "https://www.clubic.com/actualite-585010-cet-incroyable-robot-fait-tout-a-la-maison-et-il-arrive-plus-vite-et-moins-cher-que-prevu.html"
+            },
+            {
+                "title": "Le Big Data - 1X Neo : vous pouvez acheter ce robot pour 20 000 $",
+                "url": "https://www.lebigdata.fr/1x-neo-vous-pouvez-acheter-ce-robot-pour-20-000-et-lui-apprendre-toutes-les-corvees"
+            },
         ]
     },
+
     {
         "title": "Modèles VLA : Quand l'IA donne enfin un cerveau aux robots",
         "description": "Février 2025 marque l'adoption massive des modèles Vision-Language-Action (VLA), permettant aux robots de comprendre des ordres complexes et de s'adapter à des environnements imprévus sans programmation préalable.",
@@ -150,79 +157,19 @@ export default [
         ],
         "images": [
             {
-                "url": "https://nvidianews.nvidia.com/news/project-gr00t-humanoid-robot-foundation-model.jpg",
+                "url": "https://iprsoftwaremedia.com/219/files/202603/69b739943d6332360d74de39_robotics-ecosystem-gtc26/robotics-ecosystem-gtc26_mid.jpg",
                 "caption": "Les robots humanoïdes s'entraînant virtuellement grâce aux modèles VLA."
             }
         ],
         "sources": [
-            { "title": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gr00t-humanoid-robot-foundation-model/" },
-            { "title": "Science Robotics", "url": "https://www.science.org/journal/robotics/vla-models-breakthrough" }
+            {
+                "title": "Clubic",
+                "url": "https://www.clubic.com/actualite-557694-je-s-appelle-gr00t-nvidia-lance-un-modele-ia-qui-transforme-les-robots-humanoides-en-travailleurs-polyvalents.html"
+            }
         ]
     },
 
     {
-        // Novembre
-        // Octobre
-        "title": "Figure AI Lance Figure 03 : Le Robot Humanoïde qui Veut S'Inviter Chez Vous",
-        "description": "Figure AI, start-up prometteuse de la Silicon Valley, dévoile Figure 03, son robot humanoïde de troisième génération conçu pour les tâches domestiques. Propulsé par l'IA Helix, il promet une production de masse allant jusqu'à 100 000 unités en quatre ans, marquant une avancée significative dans la robotique domestique.",
-        "date": "28 octobre 2025",
-        "content": [
-            "<h3>Introduction</h3><p>Figure AI, l'une des start-ups les plus innovantes de la Silicon Valley, a récemment annoncé le lancement de Figure 03, son robot humanoïde de troisième génération. Contrairement aux prototypes précédents, ce modèle est spécifiquement conçu pour intégrer les foyers et assister dans les tâches ménagères quotidiennes. Alors que la concurrence chinoise et des acteurs comme Tesla avec Optimus dominent les headlines, Figure AI se positionne comme un leader occidental en robotique humanoïde, en mettant l'accent sur l'utilité domestique et la production à grande échelle.</p>",
-            "<h3>Conception et Fonctionnalités Physiques</h3><p>Figure 03 mesure environ 1,67 m (5'6\") de hauteur et pèse 60 kg, avec une capacité de charge utile de 20 kg. Son design est optimisé pour les environnements domestiques : il est recouvert de textiles amovibles et faciles à nettoyer, avec de la mousse multi-densité placée stratégiquement pour éviter les risques de pincement et améliorer la sécurité. Ces matériaux réduisent également la masse et le volume de 9 % par rapport aux versions antérieures, facilitant la navigation dans des espaces étroits comme les escaliers ou les coins serrés. Le robot est équipé d'une batterie certifiée UN38.3 avec plusieurs couches de sécurité, offrant jusqu'à 5 heures d'autonomie, et supporte une charge inductive sans fil à 2 kW via des bobines montées sur les pieds pour un rechargement automatique.</p>",
-            "<h3>Améliorations Sensorielles et de Manipulation</h3><p>Les mains de Figure 03 représentent une avancée majeure : les bouts des doigts sont plus souples et adaptatifs, augmentant la surface de contact pour une meilleure prise sur des objets variés en taille et en forme. Des capteurs tactiles de première génération, plus durables et sensibles, détectent des pressions aussi faibles que 3 grammes – l'équivalent du poids d'un trombone. Une caméra intégrée dans la paume fournit un feedback visuel à faible latence pour les saisies précises. Le système de vision comprend 6 caméras, doublant le taux de trames, réduisant la latence par quatre et élargissant le champ de vision de 60 %, avec une profondeur de champ étendue pour une perception stable dans des environnements complexes.</p>",
-            "<h3>Système Audio et Interaction</h3><p>Pour faciliter les interactions vocales naturelles, Figure 03 dispose d'un haut-parleur deux fois plus grand et quatre fois plus puissant, ainsi que d'un microphone repositionné. Cela permet des conversations fluides et une meilleure compréhension des commandes vocales, rendant le robot plus accessible pour les utilisateurs quotidiens. De plus, un système de transfert de données mmWave à 10 Gbps permet un téléchargement de données en flotte pour l'apprentissage continu sans fil.</p>",
-            "<h3>L'IA Helix : Le Cerveau du Robot</h3><p>Au cœur de Figure 03 se trouve Helix, l'IA propriétaire de Figure AI, annoncée en février 2025 et remplaçant une collaboration antérieure avec OpenAI. Helix est un modèle Vision-Language-Action (VLA) qui unifie la perception, la compréhension du langage et l'action en temps réel, tout en fonctionnant entièrement à bord du robot. Son architecture en deux parties inclut un Système 2 lent (VLM à 7-9 Hz) pour la compréhension du monde visuel et linguistique, et un Système 1 rapide (transformeur à 200 Hz) pour traduire les instructions en actions précises. Cela permet au robot de raisonner comme un humain, de percevoir son environnement, et d'effectuer des tâches de manière autonome, sans script prédéfini. Helix excelle dans la manipulation d'objets fragiles ou mobiles, et s'adapte aux espaces imprévisibles comme les foyers.</p>",
-            "<h3>Démonstrations et Capacités Actuelles</h3><p>Dans une vidéo de démonstration, Figure 03 est montré en train d'arroser des plantes, de faire la vaisselle, de servir des boissons, de charger un lave-linge ou un lave-vaisselle, et même de plier du linge – bien que cette dernière tâche reste imparfaite, ressemblant parfois plus à un roulage en boule. Ces scènes illustrent des progrès impressionnants, mais soulignent que le robot n'est pas encore pleinement autonome, nécessitant probablement plusieurs prises pour chaque action. Néanmoins, ses 35 degrés de liberté et ses actionneurs plus rapides (2x la vitesse, densité de couple améliorée) le rendent polyvalent pour des tâches logistiques, manufacturières et de service.</p>",
-            "<h3>Plans de Production et Échelle Industrielle</h3><p>Figure AI a conçu Figure 03 pour une production de masse dans son usine BotQ, avec des processus repensés comme le moulage sous pression et l'injection pour réduire les coûts et le nombre de pièces. L'entreprise prévoit de produire 12 000 unités par an initialement, pour atteindre 100 000 exemplaires sur quatre ans, avec une traçabilité complète via un système d'exécution de fabrication interne. Bien que le prix n'ait pas été annoncé, cette échelle vise à rendre le robot accessible pour les applications commerciales et domestiques, avec des options de personnalisation comme des uniformes et des écrans latéraux pour le branding.</p>",
-            "<h3>Comparaisons avec la Concurrence</h3><p>Face à des concurrents comme Tesla Optimus ou les robots chinois performants en acrobaties, Figure 03 se distingue par son focus sur les tâches ménagères pratiques plutôt que sur les démonstrations spectaculaires. Son architecture IA similaire à celle de Nvidia Isaac GR00T N1 met l'accent sur l'apprentissage end-to-end de pixels à actions, permettant une adaptation rapide. Des essais réussis dans des usines comme celles de BMW démontrent son potentiel industriel, tandis que sa conception sûre et lavable le positionne idéalement pour les foyers.</p>",
-            "<h3>Impact Potentiel sur la Vie Quotidienne et l'Industrie</h3><p>L'arrivée de Figure 03 pourrait transformer les foyers en libérant les humains des corvées répétitives, tout en aidant dans les secteurs logistiques et manufacturiers où la main-d'œuvre fait défaut. Avec Helix accélérant l'apprentissage en flotte, le robot pourrait s'améliorer continuellement via des données réelles. Cependant, des questions subsistent sur la fiabilité autonome, la sécurité à long terme et l'impact éthique sur l'emploi. Figure AI vise à combler ces lacunes en priorisant la scalabilité et l'intégration humaine.</p>",
-            "<h3>Conclusion</h3><p>Figure 03 représente un pas vers une robotique humanoïde accessible et utile, combinant design innovant, IA avancée et ambitions de production massive. Bien que des améliorations soient nécessaires pour une autonomie parfaite, cette troisième génération positionne Figure AI comme un pionnier dans l'intégration des robots dans la vie quotidienne, promettant un avenir où les tâches ménagères sont automatisées de manière intelligente et sûre.</p>"
-        ],
-        "images": [
-            {
-                "url": "https://cms.interestingengineering.com/wp-content/uploads/2025/10/Untitled-design-98.jpg",
-                "caption": "Figure 03 en train d'effectuer des tâches ménagères."
-            },
-            {
-                "url": "https://api.time.com/wp-content/uploads/2025/10/figure-03-time-best-inventions-2025-03.jpg?w=1200&h=675",
-                "caption": "Vue du robot Figure 03 dans un environnement domestique."
-            },
-            {
-                "url": "https://www.therobotreport.com/wp-content/uploads/2025/02/figure-handoff.jpg",
-                "caption": "Figure 03 manipulant des objets avec précision."
-            },
-            {
-                "url": "https://i.pcmag.com/imagery/articles/07tGpPe3i4F68L0tyXv3myR-1..v1760032080.png",
-                "caption": "Démonstration de Figure 03 pliant du linge et faisant la vaisselle."
-            }
-        ],
-        "sources": [
-            {
-                "title": "Les Numériques - Figure AI lance Figure 03",
-                "url": "https://www.lesnumeriques.com/intelligence-artificielle/figure-ai-lance-figure-03-le-robot-humanoide-qui-veut-s-inviter-chez-vous-n243769.html"
-            },
-            {
-                "title": "Site Officiel Figure AI - Introducing Figure 03",
-                "url": "https://www.figure.ai/news/introducing-figure-03"
-            },
-            {
-                "title": "Figure AI - Helix",
-                "url": "https://www.figure.ai/helix"
-            },
-            {
-                "title": "Robotics 24/7 - Figure AI Releases Figure 03",
-                "url": "https://www.robotics247.com/article/figure_ai_releases_figure_03_its_third_generation_humanoid_robot"
-            },
-            {
-                "title": "Design Boom - Humanoid Robot Figure 03",
-                "url": "https://www.designboom.com/technology/humanoid-robot-figure-03-clean-houses-do-laundry-deliver-packages-real-person-10-09-2025/"
-            },
-            {
-                "title": "Time Magazine - Figure 03 Is The Robot in Your Kitchen",
-                "url": "https://time.com/7324233/figure-03-robot-humanoid-reveal/"
-            }
-        ]
-    }, {
         // Septembre
         // Aout
         // juillet
@@ -239,8 +186,12 @@ export default [
         ],
         "images": [
             {
-                "url": "reachy-mini.png",
+                "url": "https://www.frenchtechbordeaux.com/storage/rich-editor/DSC00181-1024x576.jpg",
                 "caption": "Reachy Mini, le robot compact et expressif conçu pour l’IA et l’interaction homme-robot."
+            },
+            {
+                "url": "https://www.planeterobots.com/media/2026/01/kit.jpg",
+                "caption": "Le kit du robot Reachy Mini à fabriquer."
             }
         ],
         "sources": [
@@ -259,105 +210,83 @@ export default [
         ]
     },
 
-    // Juin
     {
-        "title": "Automatica 2025 : Hexagon et NEURA Robotics révolutionnent la robotique humanoïde",
-        "description": "Lors du salon Automatica 2025 à Munich, Hexagon AB a dévoilé AEON, son premier robot humanoïde, tandis que NEURA Robotics a présenté la troisième génération de son robot 4NE1 et le robot domestique MiPA. Ces innovations marquent une étape clé dans l’automatisation industrielle et domestique.",
+        "title": "OpenAI bouleverse la robotique : ChatGPT devient le cerveau des humanoïdes",
+        "description": "En juin 2025, l'intégration des modèles multimodaux d'OpenAI (comme GPT-4o) dans les robots humanoïdes franchit un cap majeur. Les machines peuvent désormais raisonner, converser et agir en temps réel dans des environnements complexes.",
         "date": "25 juin 2025",
         "content": [
-            "<h3>Introduction</h3><p>Du 24 au 27 juin 2025, le salon Automatica à Munich a été le théâtre d’annonces majeures dans le domaine de la robotique, avec Hexagon AB et NEURA Robotics en tête d’affiche. Hexagon a lancé AEON, son premier robot humanoïde conçu pour répondre aux pénuries de main-d’œuvre, tandis que NEURA Robotics a dévoilé la troisième génération de son robot 4NE1 et le robot domestique MiPA. Ces avancées, rapportées par The Robot Report, illustrent l’essor de la robotique humanoïde et son potentiel pour transformer les industries et les foyers. Automatica 2025 a également mis en lumière l’intégration croissante de l’IA dans la robotique, renforçant l’autonomie et la polyvalence des systèmes.</p>",
-            "<h3>Hexagon AB entre dans la course aux humanoïdes</h3><p>Hexagon AB, une entreprise suisse spécialisée dans les technologies de mesure, a surpris les observateurs en dévoilant AEON lors de son événement Hexagon LIVE Global. Conçu pour répondre aux besoins réels des clients, AEON vise à pallier les pénuries de main-d’œuvre dans des secteurs comme la fabrication et la logistique. Selon The Robot Report, ce robot combine des capteurs avancés et une IA embarquée pour effectuer des tâches complexes avec une précision inégalée. AEON se distingue par sa capacité à s’intégrer dans des environnements industriels existants, réduisant le besoin de reprogrammation coûteuse. Cette entrée d’Hexagon dans la robotique humanoïde souligne l’attrait croissant de ces technologies pour les entreprises confrontées à des défis de main-d’œuvre.</p>",
-            "<h3>NEURA Robotics : une vision pour l’industrie et la maison</h3><p>NEURA Robotics, basée en Allemagne, a profité d’Automatica 2025 pour présenter deux innovations majeures. La troisième génération de son robot humanoïde 4NE1, optimisée pour l’automatisation industrielle, intègre des capacités cognitives avancées pour des tâches comme l’assemblage et la manipulation. Par ailleurs, le robot MiPA, destiné aux applications domestiques et de service, marque l’ambition de NEURA de pénétrer le marché grand public. Selon Robotics & Automation News, MiPA utilise l’écosystème ouvert Neuraverse pour permettre aux développeurs de créer des comportements personnalisés. Ces annonces, combinées à un partenariat avec HD Hyundai pour des applications en construction navale, positionnent NEURA comme un acteur clé dans la robotique cognitive.</p>",
-            "<h3>Contexte et tendances globales</h3><p>Automatica 2025 s’inscrit dans un contexte où la robotique connaît une croissance fulgurante, avec un marché mondial des robots industriels atteignant 16,5 milliards de dollars en 2025, selon l’International Federation of Robotics. L’intégration de l’IA, comme les modèles d’apprentissage par renforcement et les systèmes de vision, permet aux robots de s’adapter à des environnements dynamiques. Cependant, des défis subsistent, notamment le coût élevé des humanoïdes et la nécessité de normes de sécurité, comme celles en cours de développement par l’IEEE Robotics & Automation Society. Les posts sur X, tels que celui de @MarioNawfal, reflètent l’enthousiasme pour ces technologies, mais aussi les inquiétudes sur leur impact économique et social.</p>",
-            "<h3>Conclusion</h3><p>Automatica 2025 a confirmé que la robotique humanoïde est à un tournant, avec des acteurs comme Hexagon et NEURA Robotics repoussant les limites de l’automatisation. AEON et 4NE1 illustrent le potentiel des robots pour répondre aux besoins industriels, tandis que MiPA ouvre la voie à une adoption domestique. Ces innovations, soutenues par des avancées en IA et des écosystèmes ouverts, promettent de transformer la manière dont nous travaillons et vivons. Cependant, leur succès dépendra de la capacité à surmonter les obstacles techniques et économiques, ainsi que de l’acceptation par le public. Automatica 2025 restera un jalon dans cette révolution robotique.</p>"
+            "<h3>Introduction</h3><p>Alors que l'industrie s'attendait à de simples mises à jour logicielles, le mois de juin 2025 a été marqué par une annonce retentissante d'OpenAI. Le célèbre créateur de ChatGPT a accéléré son retour dans le domaine du matériel en déployant ses modèles d'IA multimodaux directement dans des châssis robotiques. Cette avancée majeure confirme que la prochaine grande évolution de l'intelligence artificielle passe par une incarnation physique, permettant aux robots d'interagir avec notre monde.</p>",
+            "<h3>Le retour d'OpenAI dans le hardware</h3><p>Après avoir un temps mis en pause ses projets robotiques internes, OpenAI revient en force en tant que fournisseur de \"cerveau\" pour des constructeurs tiers. Plutôt que de fabriquer le métal et les moteurs, l'entreprise intègre ses réseaux de neurones de bout-en-bout. Résultat : les robots peuvent désormais voir leur environnement via des caméras, entendre des instructions et y répondre vocalement avec la même fluidité et le même naturel qu'un humain utilisant l'application ChatGPT.</p>",
+            "<h3>L'apprentissage par renforcement au cœur du système</h3><p>L'intégration de l'IA générative met fin à la programmation classique où chaque mouvement devait être codé manuellement. Les nouveaux robots équipés par OpenAI apprennent par l'observation et le raisonnement logique (RLHF). Si l'utilisateur demande au robot de \"nettoyer la table après le repas\", la machine identifie d'elle-même la vaisselle sale, choisit la bonne éponge et nettoie la surface. S'il y a un obstacle imprévu, le robot adapte son geste en temps réel et peut même expliquer son choix à voix haute.</p>",
+            "<h3>Une concurrence acharnée pour le standard de l'industrie</h3><p>Cette initiative vient bousculer un secteur déjà ultra-compétitif, dominé par Tesla avec son Optimus et Boston Dynamics. L'objectif d'OpenAI est clair : imposer son intelligence artificielle comme le système d'exploitation universel de la robotique domestique et industrielle. En rendant la communication avec la machine aussi simple qu'une discussion entre humains, OpenAI lève le plus grand frein à l'adoption massive de la robotique de service.</p>",
+            "<h3>Conclusion</h3><p>Le couplage de la puissance cognitive des grands modèles de langage (LLM) avec l'agilité des robots humanoïdes marque la fin de la science-fiction. Le mois de juin 2025 restera comme la période où nos assistants numériques ont littéralement pris corps. Les experts s'accordent à dire que cette fusion va transformer à court terme nos foyers, nos hôpitaux et nos usines.</p>"
         ],
         "images": [
             {
-                "url": "https://www.therobotreport.com/wp-content/uploads/2025/06/hexagon-aeon-robot.jpg",
-                "caption": "AEON, le premier robot humanoïde de Hexagon AB, dévoilé à Automatica 2025."
+                "url": "https://pic.clubic.com/016b2f242201991/1600x1068/smart/chatgpt-sur-mobile.webp",
+                "caption": ""
             }
         ],
         "sources": [
             {
-                "title": "The Robot Report – Top 10 Robotics Developments of June 2025",
-                "url": "https://www.therobotreport.com/top-10-robotics-developments-june-2025/"
+                "title": "Clubic - OpenAI veut maintenant intégrer ChatGPT dans des robots",
+                "url": "https://www.clubic.com/actualite-528501-openai-veut-maintenant-integrer-chatgpt-dans-des-robots.html"
             },
-            {
-                "title": "Robotics & Automation News – NEURA Robotics at Automatica 2025",
-                "url": "https://roboticsandautomationnews.com/2025/06/23/neura-robotics-automatica-2025/"
-            },
-            {
-                "title": "International Federation of Robotics – Top 5 Global Robotics Trends 2025",
-                "url": "https://ifr.org/news/top-5-global-robotics-trends-2025/"
-            }
         ]
     },
-    {
-        "title": "Locus Robotics atteint 5 milliards d’unités manipulées et redéfinit la logistique",
-        "description": "En juin 2025, Locus Robotics a annoncé avoir dépassé les 5 milliards d’unités manipulées par ses robots mobiles autonomes (AMRs), consolidant son leadership dans l’automatisation des entrepôts. Cette étape, soutenue par l’IA, illustre la transformation de la logistique mondiale.",
-        "date": "20 juin 2025",
-        "content": [
-            "<h3>Introduction</h3><p>Le 17 juin 2025, Locus Robotics, leader mondial de l’automatisation des entrepôts, a annoncé avoir dépassé le cap des 5 milliards d’unités manipulées par ses robots mobiles autonomes (AMRs). Cette réalisation, rapportée par un communiqué de presse sur leur site, souligne l’impact croissant de l’IA dans la logistique. Alors que les entrepôts mondiaux font face à une demande croissante et à des pénuries de main-d’œuvre, les solutions de Locus Robotics, comme la plateforme LocusONE, transforment la gestion des flux de marchandises. Cet exploit intervient dans un contexte où la robotique logistique attire l’attention, comme en témoigne un post de @MarioNawfal sur X à propos du robot Helix.</p>",
-            "<h3>Une performance record grâce à l’IA</h3><p>Les AMRs de Locus Robotics, tels que Locus Origin et Locus Vector, utilisent l’IA pour optimiser la collecte, le tri et le transport des marchandises dans les entrepôts. La plateforme LocusONE, dotée de capacités d’apprentissage automatique, permet aux robots de s’adapter en temps réel aux environnements dynamiques, réduisant les temps de traitement. Selon le communiqué, le cap des 5 milliards d’unités manipulées reflète l’adoption massive de ces technologies par des géants comme DHL et GEODIS. Le robot Helix, mentionné dans un post sur X, illustre cette tendance avec un temps moyen de manipulation de colis réduit à 4,05 secondes, démontrant l’efficacité des AMRs modernes.</p>",
-            "<h3>Impact sur la logistique mondiale</h3><p>La logistique est un secteur clé pour la robotique, avec un marché estimé à 46 milliards de dollars en 2024, projeté à 169,8 milliards d’ici 2032, selon Duro Labs. Les AMRs de Locus Robotics répondent aux besoins des détaillants et des entreprises de commerce électronique, comme en témoigne leur collaboration avec K-Parts pour optimiser le tri des pièces de moto. Cette automatisation réduit les erreurs, améliore la sécurité et permet aux travailleurs humains de se concentrer sur des tâches à plus haute valeur ajoutée. De plus, les robots de Locus contribuent aux objectifs de durabilité en réduisant les déchets et en optimisant l’utilisation des ressources, alignés sur les objectifs de l’ONU.</p>",
-            "<h3>Défis et perspectives</h3><p>Malgré ces avancées, l’adoption massive des AMRs fait face à des défis, notamment le coût initial et la nécessité de former le personnel pour interagir avec les robots. La pénurie mondiale d’ingénieurs, avec seulement 45 000 diplômés en mécanique aux États-Unis contre 350 000 en Chine, pourrait également freiner l’innovation, selon The Robot Report. Cependant, des partenariats comme celui de Locus avec GEODIS, qui établit de nouvelles normes de vitesse et d’efficacité, montrent que ces obstacles peuvent être surmontés. Locus Robotics prévoit de continuer à développer sa plateforme LocusINTELLIGENCE pour fournir des analyses prédictives et améliorer la prise de décision.</p>",
-            "<h3>Conclusion</h3><p>En atteignant les 5 milliards d’unités manipulées, Locus Robotics démontre le potentiel de l’IA pour révolutionner la logistique. Ses AMRs, soutenus par la plateforme LocusONE, offrent une solution scalable pour les entrepôts du monde entier, répondant aux défis de la main-d’œuvre et de l’efficacité. Alors que la demande pour l’automatisation continue de croître, Locus Robotics se positionne comme un leader, ouvrant la voie à une logistique plus intelligente et durable. Les progrès dans ce domaine, combinés à l’enthousiasme observé sur des plateformes comme X, suggèrent que la robotique logistique est à l’aube d’une transformation majeure.</p>"
-        ],
-        "images": [
-            {
-                "url": "https://locusrobotics.com/wp-content/uploads/2025/06/locus-amr-warehouse.jpg",
-                "caption": "Un robot mobile autonome de Locus Robotics en action dans un entrepôt."
-            }
-        ],
-        "sources": [
-            {
-                "title": "Locus Robotics – Press Release June 17, 2025",
-                "url": "https://locusrobotics.com/news/locus-robotics-surpasses-5-billion-units-picked-milestone/"
-            },
-            {
-                "title": "The Robot Report – Top 10 Robotics Developments of June 2025",
-                "url": "https://www.therobotreport.com/top-10-robotics-developments-june-2025/"
-            },
-            {
-                "title": "Duro Labs – Robotics Trends 2025",
-                "url": "https://durolabs.co/the-robotics-trends-to-watch-in-2025/"
-            }
-        ]
-    },
+{
+    "title": "Locus Robotics atteint 5 milliards d’unités manipulées et redéfinit la logistique",
+    "description": "En juin 2025, Locus Robotics a annoncé avoir dépassé les 5 milliards d’unités manipulées par ses robots mobiles autonomes (AMRs), consolidant son leadership dans l’automatisation des entrepôts. Cette étape, soutenue par l’IA, illustre la transformation de la logistique mondiale.",
+    "date": "20 juin 2025",
+    "content": [
+        "<h3>Introduction</h3><p>Le 17 juin 2025, Locus Robotics, leader mondial de l’automatisation des entrepôts, a annoncé avoir dépassé le cap des 5 milliards d’unités manipulées par ses robots mobiles autonomes (AMRs). Cette réalisation, rapportée par un communiqué de presse sur leur site, souligne l’impact croissant de l’IA dans la logistique. Alors que les entrepôts mondiaux font face à une demande croissante et à des pénuries de main-d’œuvre, les solutions de Locus Robotics, comme la plateforme LocusONE, transforment la gestion des flux de marchandises. Cet exploit intervient dans un contexte où la robotique logistique attire l’attention, comme en témoigne un post de @MarioNawfal sur X à propos du robot Helix.</p>",
+        "<h3>Une performance record grâce à l’IA</h3><p>Les AMRs de Locus Robotics, tels que Locus Origin et Locus Vector, utilisent l’IA pour optimiser la collecte, le tri et le transport des marchandises dans les entrepôts. La plateforme LocusONE, dotée de capacités d’apprentissage automatique, permet aux robots de s’adapter en temps réel aux environnements dynamiques, réduisant les temps de traitement. Selon le communiqué, le cap des 5 milliards d’unités manipulées reflète l’adoption massive de ces technologies par des géants comme DHL et GEODIS. Le robot Helix, mentionné dans un post sur X, illustre cette tendance avec un temps moyen de manipulation de colis réduit à 4,05 secondes, démontrant l’efficacité des AMRs modernes.</p>",
+        "<h3>Impact sur la logistique mondiale</h3><p>La logistique est un secteur clé pour la robotique, avec un marché estimé à 46 milliards de dollars en 2024, projeté à 169,8 milliards d’ici 2032, selon Duro Labs. Les AMRs de Locus Robotics répondent aux besoins des détaillants et des entreprises de commerce électronique, comme en témoigne leur collaboration avec K-Parts pour optimiser le tri des pièces de moto. Cette automatisation réduit les erreurs, améliore la sécurité et permet aux travailleurs humains de se concentrer sur des tâches à plus haute valeur ajoutée. De plus, les robots de Locus contribuent aux objectifs de durabilité en réduisant les déchets et en optimisant l’utilisation des ressources, alignés sur les objectifs de l’ONU.</p>",
+        "<h3>Défis et perspectives</h3><p>Malgré ces avancées, l’adoption massive des AMRs fait face à des défis, notamment le coût initial et la nécessité de former le personnel pour interagir avec les robots. La pénurie mondiale d’ingénieurs, avec seulement 45 000 diplômés en mécanique aux États-Unis contre 350 000 en Chine, pourrait également freiner l’innovation, selon The Robot Report. Cependant, des partenariats comme celui de Locus avec GEODIS, qui établit de nouvelles normes de vitesse et d’efficacité, montrent que ces obstacles peuvent être surmontés. Locus Robotics prévoit de continuer à développer sa plateforme LocusINTELLIGENCE pour fournir des analyses prédictives et améliorer la prise de décision.</p>",
+        "<h3>Conclusion</h3><p>En atteignant les 5 milliards d’unités manipulées, Locus Robotics démontre le potentiel de l’IA pour révolutionner la logistique. Ses AMRs, soutenus par la plateforme LocusONE, offrent une solution scalable pour les entrepôts du monde entier, répondant aux défis de la main-d’œuvre et de l’efficacité. Alors que la demande pour l’automatisation continue de croître, Locus Robotics se positionne comme un leader, ouvrant la voie à une logistique plus intelligente et durable. Les progrès dans ce domaine, combinés à l’enthousiasme observé sur des plateformes comme X, suggèrent que la robotique logistique est à l’aube d’une transformation majeure.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://www.voxlog.fr/src/actualites/00/00/24/1C/geodis_deploie_ses_43_premiers_amr_l_564219_a.jpg",
+            "caption": "Un robot mobile autonome de Locus Robotics en action dans un entrepôt."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Voxlog - À Douvrin (62), Geodis déploie ses premiers AMR de Locus Robotics en France",
+            "url": "https://www.voxlog.fr/actualite/9244/a-douvrin-62-geodis-deploie-ses-premiers-amr-de-locus-robotics-en-france"
+        },
+        {
+            "title": "FAQ Logistique - GEODIS signe un accord avec Locus Robotics pour déployer 1 000 LocusBots",
+            "url": "https://www.faq-logistique.com/CP20220825-GEODIS-Locus-Robotics-Accord-Deploiement-1000-LocusBots.htm"
+        }
+    ]
+},
+{
+    "title": "Une micro-imprimante 3D pour reconstruire les cordes vocales",
+    "description": "Des chercheurs de l'Université McGill ont mis au point MIISB, la plus petite bio-imprimante 3D au monde, capable de déposer un hydrogel cicatrisant directement sur les cordes vocales lors d'une intervention chirurgicale pour éviter les séquelles vocales.",
+    "date": "09 janvier 2026",
+    "content": [
+        "<h3>Introduction</h3><p>Entre 3 et 9 % de la population développe un trouble de la voix au cours de sa vie, souvent dû à des kystes, polypes ou nodules sur les cordes vocales. Bien que la chirurgie permette de les retirer, la cicatrisation entraîne souvent une fibrose qui rigidifie les tissus, provoquant une voix rauque de manière irréversible. Pour pallier ce problème médical majeur, des ingénieurs biomécaniques de l'Université McGill ont développé une solution révolutionnaire : une micro-imprimante 3D qui s'insère directement dans la gorge du patient au bloc opératoire.</p>",
+        "<h3>La plus petite bio-imprimante au monde</h3><p>Dénommée MIISB, cette imprimante 3D miniature possède une tête d'impression d'un diamètre de seulement 2,7 millimètres. Son design s'inspire de la souplesse de la trompe d'un éléphant : il s'agit d'un bras robotisé souple, actionné par des câbles imitant des tendons. Cette taille ultra-compacte permet de l'introduire par la bouche ouverte du patient via un laryngoscope sans obstruer la visibilité du chirurgien, un véritable exploit technique face aux contraintes d'espace (qui ne dépasse pas 20 mm) dans le larynx.</p>",
+        "<h3>Un hydrogel pour régénérer la voix</h3><p>Au lieu d'imprimer des plastiques durs, la machine dépose un hydrogel à base d'acide hyaluronique, un biomatériau favorisant la régénération cellulaire et la cicatrisation sans cicatrice rigide. La bio-imprimante applique cet hydrogel avec une précision micrométrique par de très fines lignes de 1,2 millimètre directement sur les tissus tout juste opérés. L'objectif est d'imiter la structure naturelle des cordes vocales pour que les cellules puissent se reconstituer avec une souplesse parfaite.</p>",
+        "<h3>Perspectives et déploiement</h3><p>L'étude, publiée dans la prestigieuse revue scientifique <em>Device</em> par le chercheur Swen Groen et son équipe, montre que l'appareil s'intègre parfaitement aux protocoles chirurgicaux existants. Actuellement contrôlée manuellement en temps réel par le chirurgien via un microscope opératoire, l'équipe travaille à l'automatisation du dépôt de gel. Après des tests réussis sur des modèles artificiels, les prochaines étapes incluront des essais sur des modèles animaux avant un déploiement sur l'être humain.</p>",
+        "<h3>Conclusion</h3><p>Cette innovation marque une rupture en chirurgie régénérative. En transposant la technologie de bio-impression depuis les laboratoires directement vers le bloc opératoire (in situ), les médecins pourront non seulement opérer avec une grande précision, mais aussi s'assurer de la restauration complète des fonctions physiologiques de l'organe vocal.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://assets-decodeurs.lemonde.fr/redacweb/INFOG-SCIE-0126-imprimante3D-cordes-vocales/web-35002.webp",
+            "caption": "Schéma et illustration du processus de bio-impression 3D appliqué à la médecine régénérative tissulaire."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Le Monde - Une imprimante 3D pour réparer les cordes vocales",
+            "url": "https://www.lemonde.fr/sciences/article/2026/01/09/une-imprimante-3d-pour-reparer-les-cordes-vocales_6661107_1650684.html"
+        },
+    ]
+},
     // Mai
-
-    {
-        "title": "ICRA 2025 : NVIDIA et Boston Dynamics repoussent les limites de l’IA physique",
-        "description": "Lors de l’ICRA 2025 à Atlanta, NVIDIA et Boston Dynamics ont dévoilé des avancées majeures en IA physique, avec des innovations comme Isaac GR00T N1.5 et une collaboration pour doter le robot Atlas de capacités d’apprentissage par renforcement, ouvrant la voie à des robots humanoïdes plus autonomes.",
-        "date": "25 mai 2025",
-        "content": [
-            "<h3>Introduction</h3><p>Du 19 au 23 mai 2025, l’International Conference on Robotics and Automation (ICRA) à Atlanta a été le théâtre de percées majeures en robotique, avec NVIDIA et Boston Dynamics en tête d’affiche. NVIDIA a présenté des innovations en IA physique, notamment son modèle Isaac GR00T N1.5, tandis que Boston Dynamics a annoncé une collaboration avec NVIDIA pour améliorer son robot humanoïde Atlas via l’apprentissage par renforcement. Ces avancées, relayées par des posts sur X et des articles spécialisés, marquent un tournant pour les robots autonomes capables de naviguer et d’interagir dans des environnements complexes.</p>",
-            "<h3>Les avancées de NVIDIA à l’ICRA 2025</h3><p>NVIDIA, sous la direction de Dieter Fox, a dévoilé plusieurs projets révolutionnaires lors de l’ICRA 2025. Le modèle Isaac GR00T N1.5, une plateforme d’IA pour robots à usage général, permet de générer des milliers de variations d’une tâche à partir d’une seule démonstration humaine, grâce à l’outil Cosmos pour la simulation physique. Selon un post de @heyshrutimishra sur X, cette approche réduit drastiquement le temps d’entraînement des robots. Parmi les autres innovations, le système HOVER offre une transition fluide entre locomotion et manipulation pour les robots humanoïdes, tandis que DreamDrive génère des scènes de conduite 4D réalistes pour les véhicules autonomes. Ces travaux, détaillés dans le blog NVIDIA, visent à combler le fossé des données et à améliorer la sécurité des robots.</p>",
-            "<h3>Collaboration NVIDIA-Boston Dynamics</h3><p>Boston Dynamics, connu pour son robot Atlas, a renforcé son partenariat avec NVIDIA pour intégrer le framework Isaac GR00T et la plateforme Jetson Thor. Cette collaboration, annoncée en mars et mise en avant à l’ICRA, vise à doter Atlas de capacités d’apprentissage par renforcement pour des tâches de manipulation mobile dynamiques. Un article de The Robot Report souligne que cette alliance illustre la convergence entre l’IA et les robots humanoïdes, avec un potentiel pour des applications industrielles, comme l’automatisation des entrepôts, et des usages domestiques. Une vidéo publiée par Boston Dynamics en mars, montrant Atlas en cours d’assemblage, a également suscité un vif intérêt sur les réseaux sociaux, reflétant l’enthousiasme pour ces technologies.</p>",
-            "<h3>Impact et perspectives</h3><p>Ces avancées s’inscrivent dans une tendance plus large, où l’IA physique devient un moteur clé de la robotique. Selon l’International Federation of Robotics, le marché mondial des robots industriels a atteint 16,5 milliards de dollars en 2025, avec l’IA comme principal levier d’innovation. Les technologies présentées à l’ICRA, comme les systèmes de NVIDIA pour la manipulation en contact riche ou la détection des défaillances de perception, pourraient transformer des secteurs comme la logistique, l’automobile et même la santé. Cependant, des défis subsistent, notamment en matière de scalabilité et de coûts, comme le note The Robot Report à propos des robots humanoïdes. La collaboration entre NVIDIA et Boston Dynamics pourrait toutefois établir une norme pour les robots polyvalents, capables d’apprendre et de s’adapter comme des humains.</p>",
-            "<h3>Conclusion</h3><p>L’ICRA 2025 a confirmé le rôle central de l’IA physique dans l’avenir de la robotique. Les innovations de NVIDIA, combinées à la collaboration avec Boston Dynamics, ouvrent des perspectives excitantes pour des robots humanoïdes plus intelligents et autonomes. Alors que le marché mondial de la robotique continue de croître, ces avancées pourraient redéfinir la manière dont les robots interagissent avec le monde, de l’usine à la maison. La communauté scientifique et industrielle, galvanisée par des événements comme l’ICRA, est prête à transformer ces prototypes en solutions concrètes d’ici la fin de la décennie.</p>"
-        ],
-        "images": [
-            {
-                "url": "https://blogs.nvidia.com/wp-content/uploads/2025/05/robotics-research-icra-2025.jpg",
-                "caption": "Présentation des innovations en IA physique par NVIDIA à l’ICRA 2025 à Atlanta."
-            }
-        ],
-        "sources": [
-            {
-                "title": "NVIDIA Blog – Robotics Research Breakthroughs at ICRA 2025",
-                "url": "https://blogs.nvidia.com/blog/2025/05/19/robotics-research-icra-2025/"
-            },
-            {
-                "title": "The Robot Report – Top 10 Robotics Developments of March 2025",
-                "url": "https://www.therobotreport.com/top-10-robotics-developments-march-2025/"
-            },
-            {
-                "title": "Post on X by @heyshrutimishra",
-                "url": "https://t.co/GnBsDyck1e"
-            }
-        ]
-    },
     {
         "title": "Robotics Summit & Expo 2025 : Les robots humanoïdes et autonomes à l’honneur",
         "description": "Le Robotics Summit & Expo 2025, tenu à Boston en mai, a rassemblé des milliers d’acteurs de la robotique pour présenter des innovations comme les robots humanoïdes de Persona AI et les AMRs améliorés d’ABB, marquant une étape clé dans l’automatisation industrielle et logistique.",
@@ -384,12 +313,32 @@ export default [
                 "title": "International Federation of Robotics – Top 5 Global Robotics Trends 2025",
                 "url": "https://ifr.org/news/top-5-global-robotics-trends-2025/"
             },
-            {
-                "title": "Post on X by @MarioNawfal",
-                "url": "https://t.co/raUs0GCPUx"
-            }
         ]
     },
+    {
+    "title": "Le « Terafab », l’immense usine de semi-conducteurs et de robotique promise par Elon Musk au Texas",
+    "description": "En mars 2026, Elon Musk a dévoilé Terafab, un projet d'usine de semi-conducteurs de 25 milliards de dollars à Austin. Destinée à Tesla, SpaceX et xAI, elle vise à produire l'équivalent d'un térawatt de puissance de calcul par an pour la robotique et l'aérospatial.",
+    "date": "22 mars 2026",
+    "content": [
+        "<h3>Introduction</h3><p>Face à la pénurie mondiale de semi-conducteurs et à la limitation de la croissance de ses entreprises, Elon Musk a officialisé en mars 2026 le lancement de « Terafab ». Située à Austin (Texas), à proximité directe de la Gigafactory actuelle, cette installation monumentale est le fruit d'une coentreprise inédite entre Tesla, SpaceX et xAI. Son but : sécuriser l'approvisionnement en puces de pointe pour soutenir les ambitions du milliardaire dans l'intelligence artificielle, les véhicules autonomes et la conquête de l'espace.</p>",
+        "<h3>Une intégration verticale totale</h3><p>La particularité majeure de Terafab réside dans la maîtrise de l'ensemble de la chaîne de valeur sous un seul et même toit. Contrairement au modèle industriel actuel où ces étapes sont divisées, cette usine couvrira la conception, la lithographie, la production de mémoire, le packaging et les tests. Selon Musk, cette boucle fermée et itérative permettra de réduire drastiquement les cycles de développement à 9 mois, en s'affranchissant de la dépendance envers des acteurs comme TSMC ou Samsung.</p>",
+        "<h3>Objectif : Un térawatt de puissance de calcul</h3><p>L'investissement initial est colossal, estimé entre 20 et 25 milliards de dollars. L'objectif de production l'est tout autant : l'usine vise à fabriquer jusqu'à 1 milliard de puces par an, pour fournir l'équivalent d'un térawatt (1 000 gigawatts) de capacité de calcul. Pour mettre ce chiffre en perspective, Musk affirme que les besoins seuls de ses robots humanoïdes Optimus exigeront entre 100 et 200 gigawatts d'ici la fin de la décennie.</p>",
+        "<h3>Deux architectures : Terre et Espace</h3><p>Les lignes de fabrication se concentreront sur deux types de processeurs. La première gamme concernera des puces d'inférence à faible consommation d'énergie, indispensables pour le Full Self-Driving (FSD) des Tesla, les Robotaxis, et l'animation des millions d'Optimus prévus. La seconde gamme sera constituée de puces ultra-puissantes et durcies contre les radiations, destinées à alimenter de vastes centres de données spatiaux déployés en orbite par SpaceX.</p>",
+        "<h3>Conclusion</h3><p>Le projet Terafab démontre qu'Elon Musk ne se contente plus de développer des intelligences artificielles ou des fusées : il cherche à verrouiller le matériel de base indispensable à la prochaine révolution technologique. Si cette usine parvient à contourner la complexité inhérente à la fonderie de silicium, elle redéfinira la géopolitique des semi-conducteurs et accélérera l'avènement des IA incarnées.</p>"
+    ],
+    "images": [
+        {
+            "url": "https://img.lemde.fr/2026/03/21/0/0/7922/5281/556/0/75/0/c12f57b_ftp-1-vo0tm7m9bnmj-5548569-01-06.jpg",
+            "caption": "Le complexe Giga Texas à Austin, où l'infrastructure Terafab doit voir le jour pour internaliser la production des puces."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Journal de l'Économie - Elon Musk et Terafab : une usine géante pour l'IA et la robotique",
+            "url": "https://www.lemonde.fr/economie/article/2026/03/22/elon-musk-annonce-le-lancement-de-terafab-une-giga-usine-de-puces-ia-et-de-robotique-basee-au-texas_6673775_3234.html"
+        }
+    ]
+},
     //Avril
     {
         "title": "Hugging Face rachète Pollen Robotics pour accélérer la robotique open-source",
@@ -404,18 +353,14 @@ export default [
         ],
         "images": [
             {
-                "url": "https://huggingface.co/blog/assets/reachy-mini/reachy-mini-image.png",
-                "caption": "Reachy Mini, le robot compact de Pollen Robotics, désormais au cœur de la stratégie de Hugging Face."
+                "url": "https://www.linformaticien.com/images/00-articles/2025-04/Capture_de%CC%81cran_2025-04-15_a%CC%80_14.20.25_-_copie.jpg",
+                "caption": "Rachat de pollen Robotics par Huggingface."
             }
         ],
         "sources": [
             {
-                "title": "Le Monde – Robotique Actualités",
-                "url": "https://www.lemonde.fr/robotique/"
-            },
-            {
-                "title": "Hugging Face annonce l’acquisition de Pollen Robotics",
-                "url": "https://t.co/9PVLP2Nq1H"
+                "title": "linformaticien.com",
+                "url": "https://www.linformaticien.com/magazine/tendances/941-ia/63322-hugging-face-rachete-le-francais-pollen-robotics.html"
             }
         ]
     },
@@ -432,23 +377,15 @@ export default [
         ],
         "images": [
             {
-                "url": "Kawasaki-Corleo-demo.webp",
+                "url": "https://www.usine-digitale.fr/resizer/v2/VNJZMH3GJVJJNCI3LIEGGRJEZU.png?smart=true&auth=38fd63dd8a8302c5baffce8fcdf25d31cdc8c9140aba2bb22f765fbe609d0706&width=1080&height=720",
                 "caption": "CORLEO, le robot-cheval à hydrogène de Kawasaki, présenté à l’exposition universelle d’Osaka 2025."
             }
         ],
         "sources": [
             {
                 "title": "L’Usine Nouvelle – Robotique Actualités",
-                "url": "https://www.usinenouvelle.com/robotique/"
+                "url": "https://www.usine-digitale.fr/article/kawasaki-leve-le-voile-sur-corleo-un-robot-quadrupede-a-hydrogene.N2230336"
             },
-            {
-                "title": "Le Figaro – Kawasaki dévoile un robot-cheval",
-                "url": "https://t.co/0JrCkKhlXv"
-            },
-            {
-                "title": "Le Monde – Robotique Actualités",
-                "url": "https://www.lemonde.fr/robotique/"
-            }
         ]
     },
     // Mars
@@ -464,7 +401,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.usine-digitale.fr/medias/nomagic-founders.jpg",
+                "url": "https://www.usine-digitale.fr/resizer/v2/EEAYJJPN4BM57ACVEBJPAQFJ6E.jpg?smart=true&auth=1a2bf66b327978b1d1edcb427e33d2b587a97f4b8c5750220dc06e53f5bdd985&width=1080&height=720",
                 "caption": "Les co-fondateurs de Nomagic : Marek Cygan, Kacper Nowicki et Tristan D’Orgeval."
             }
         ],
@@ -487,7 +424,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.usine-digitale.fr/medias/helix-robot.jpg",
+                "url": "https://www.usine-digitale.fr/resizer/v2/D534DXVTPRMETAVQATJLGK7VIM.png?smart=true&auth=91d311acd5c934bd29fd3f053c39677b89243813045bfb593c84a5516ea30286&width=1080&height=720",
                 "caption": "Un robot Figure AI manipulant un objet grâce au modèle Helix."
             }
         ],
@@ -510,7 +447,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.usine-digitale.fr/mediatheque/4/1/9/001522914_896x598_c.jpg",
+                "url": "https://www.usine-digitale.fr/resizer/v2/FYDRA4IBJFLZXGWB33VVIHCY6U.jpg?smart=true&auth=5f9f7abbdd3f7304dc58502aec521603731a9e594f64b355ee91ea217e7f750b&width=1080&height=720",
                 "caption": "Le robot humanoïde Apollo d’Apptronik en action dans un entrepôt."
             }
         ],

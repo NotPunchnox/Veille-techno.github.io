@@ -42,7 +42,7 @@ export function parseFrenchDateToTime(dateStr) {
   const monthIndex = MONTHS_FR[monthName];
   if (monthIndex === undefined) return -Infinity;
 
-  // Date en "local time" (ok pour un simple tri)
+  // Date en "local time"
   const d = new Date(year, monthIndex, day);
   const time = d.getTime();
 
@@ -73,5 +73,4 @@ export function getArticlesByCategorySorted() {
   );
 }
 
-// Option: garder l'ancien export par défaut, mais trié automatiquement
 export default getArticlesByCategorySorted();

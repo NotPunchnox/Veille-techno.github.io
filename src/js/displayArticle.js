@@ -1,7 +1,8 @@
 import articles from "../../articles/articles.js";
 
 
-const link = "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/";
+const LINK = "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/";
+console.log(LINK)
 const contentElement = document.querySelector('.article-list');
 const categories = {DEV: 'Développement', ROBOTIC: 'Robotique', AI: 'Intelligence Artificielle', CYBER: 'Cyber-sécurité'};
 
@@ -105,7 +106,7 @@ function displayArticle(article) {
         imageWrapper.classList.add('image-wrapper');
 
         const imgElement = document.createElement('img');
-        imgElement.src = link + image.url;
+        imgElement.src = !image.url.includes('http') ? LINK + image.url : image.url;
         imgElement.alt = image.caption;
         imgElement.classList.add('article-image');
 
