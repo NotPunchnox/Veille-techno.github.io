@@ -1,7 +1,7 @@
 import articles from "../../articles/articles.js";
+import { LINK, categories } from "./displayArticle.js";
 
 const contentElement = document.querySelector('.article-list');
-const categories = {DEV: 'Développement', ROBOTIC: 'Robotique', AI: 'Intelligence Artificielle', CYBER: 'Cyber-sécurité'};
 
 function getArticles(category) {
     return articles[category].sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -109,7 +109,7 @@ function displayFullArticle(article) {
         imageWrapper.classList.add('image-wrapper');
 
         const imgElement = document.createElement('img');
-        imgElement.src = image.url;
+        imgElement.src = !image.url.includes('http') ? LINK + image.url : image.url;
         imgElement.alt = image.caption;
         imgElement.classList.add('article-image');
 

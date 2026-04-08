@@ -1,10 +1,8 @@
 import articles from "../../articles/articles.js";
 
-
-const LINK = "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/";
-console.log(LINK)
+export const LINK = "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/";
 const contentElement = document.querySelector('.article-list');
-const categories = {DEV: 'Développement', ROBOTIC: 'Robotique', AI: 'Intelligence Artificielle', CYBER: 'Cyber-sécurité'};
+export const categories = {DEV: 'Développement', ROBOTIC: 'Robotique', AI: 'Intelligence Artificielle', CYBER: 'Cyber-sécurité'};
 
 function getRecentArticles(category) {
     console.log({category, articles: articles[category]})

@@ -473,8 +473,8 @@ export default [
         ],
         images: [
             {
-                url: "jetson.webp",
-                caption: "Exemple d'utilisation de NVIDIA Jetson dans l'industrie",
+                url: "https://www.nvidia.com/content/nvidiaGDC/fr/fr_FR/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container/nv_container_copy/nv_teaser_copy_copy.coreimg.100.630.jpeg/1773657125923/nvidia-jetson-oss-ari.jpeg",
+                caption: "Exemple de NVIDIA Jetson dans l'industrie",
             }
         ],
         sources: [
