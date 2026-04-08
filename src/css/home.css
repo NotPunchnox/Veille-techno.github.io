@@ -264,6 +264,7 @@ body {
 .sidebar ul li a:hover {
     background-color: var(--accent-color);
     color: var(--bg-primary);
+    cursor: pointer;
 }
 
 .toggle-button {

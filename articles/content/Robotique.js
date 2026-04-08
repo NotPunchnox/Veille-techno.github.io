@@ -12,8 +12,8 @@ export default [
     ],
     "images": [
         {
-            "url": "https://www.figure.ai/static/media/figure-03-hero.png",
-            "caption": "Figure 03 utilisant son modèle de raisonnement pour trier des objets complexes."
+            "url": "https://cdn.mos.cms.futurecdn.net/xvjWEJYrNhg2Jvo97muHic-650-80.jpg.webp",
+            "caption": "Figure 03."
         }
     ],
     "sources": [
@@ -79,13 +79,13 @@ export default [
     ],
     "images": [
         {
-            "url": "https://www.europarl.europa.eu/news/images/robot-regulation-2026.jpg",
+            "url": "https://cdn.prod.website-files.com/66558969f0f1c0c6b2d68a7b/691481bf9472ca5ad86099ae_66a205188dfd72b4e9ddc143_ai%2520act.jpeg",
             "caption": "Le Parlement européen statue sur l'avenir des robots dans l'espace public."
         }
     ],
     "sources": [
-        { "title": "European Parliament", "url": "https://www.europarl.europa.eu/news/en/press-room/20260312IPR" },
-        { "title": "Le Monde Tech", "url": "https://www.lemonde.fr/pixels/article/2026/03/12/robot-safety-act-l-europe-cadre-l-intelligence-physique_6221507_4408996.html" }
+        { "title": "European Parliament", "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7741" },
+        { "title": "Université de Genève", "url": "https://www.unige.ch/lejournal/numeros/127/article1/article1bis/" }
     ]
 },
     
