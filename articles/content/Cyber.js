@@ -1,25 +1,24 @@
 export default [
     {
-    "title": "Le 'Blackout' Microsoft : 19 heures de chaos mondial",
-    "description": "Une panne majeure de Microsoft Azure et Microsoft 365 paralyse des millions d'entreprises le 9 juillet 2025, révélant la vulnérabilité extrême des infrastructures cloud centralisées.",
-    "date": "9 juillet 2025",
-    "content": [
-        "<h3>Introduction</h3><p>Le 9 juillet 2025, le monde numérique s'est arrêté. Une mise à jour défectueuse des configurations DNS et d'Active Directory a provoqué une cascade de pannes sur les services Microsoft à l'échelle planétaire.</p>",
-        "<h3>Impact sectoriel</h3><p>Des banques aux compagnies aériennes en passant par les hôpitaux, l'indisponibilité d'Exchange, Teams et Azure Kubernetes Service (AKS) a causé des pertes estimées à plusieurs milliards de dollars. La panne a duré plus de 19 heures pour une restauration complète.</p>",
-        "<h3>La 'Pandémie Numérique'</h3><p>Les experts ont qualifié cet événement de 'pandémie numérique', illustrant comment un point de défaillance unique peut paralyser des pans entiers de l'économie mondiale.</p>",
-        "<h3>Conclusion</h3><p>Cet incident a relancé le débat sur la souveraineté numérique et la nécessité pour les entreprises de ne plus dépendre d'un seul fournisseur de cloud.</p>"
-    ],
-    "images": [
-        {
-            "url": "https://aardwolfsecurity.com/wp-content/uploads/2025/10/azure-outage-2025.jpg",
-            "caption": "L'impact mondial de la panne Microsoft Azure en juillet 2025."
-        }
-    ],
-    "sources": [
-        { "title": "Messageware", "url": "https://www.messageware.com/microsofts-july-2025-outage-a-19-hour-disruption/" },
-        { "title": "Aardwolf Security", "url": "https://aardwolfsecurity.com/microsoft-azure-suffers-major-global-outage/" }
-    ]
-},
+        "title": "Le 'Blackout' Microsoft : 19 heures de chaos mondial",
+        "description": "Une panne majeure de Microsoft Azure et Microsoft 365 paralyse des millions d'entreprises le 9 juillet 2025, révélant la vulnérabilité extrême des infrastructures cloud centralisées.",
+        "date": "9 juillet 2025",
+        "content": [
+            "<h3>Introduction</h3><p>Le 9 juillet 2025, le monde numérique s'est arrêté. Une mise à jour défectueuse des configurations DNS et d'Active Directory a provoqué une cascade de pannes sur les services Microsoft à l'échelle planétaire.</p>",
+            "<h3>Impact sectoriel</h3><p>Des banques aux compagnies aériennes en passant par les hôpitaux, l'indisponibilité d'Exchange, Teams et Azure Kubernetes Service (AKS) a causé des pertes estimées à plusieurs milliards de dollars. La panne a duré plus de 19 heures pour une restauration complète.</p>",
+            "<h3>La 'Pandémie Numérique'</h3><p>Les experts ont qualifié cet événement de 'pandémie numérique', illustrant comment un point de défaillance unique peut paralyser des pans entiers de l'économie mondiale.</p>",
+            "<h3>Conclusion</h3><p>Cet incident a relancé le débat sur la souveraineté numérique et la nécessité pour les entreprises de ne plus dépendre d'un seul fournisseur de cloud.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://img.lemde.fr/2024/07/19/0/0/8256/5504/1000/666/75/0/66dde2d_5122449-01-06.jpg",
+                "caption": "L'impact mondial de la panne Microsoft Azure en juillet 2025."
+            }
+        ],
+        "sources": [
+            { "title": "lemonde.fr", "url": "https://www.lemonde.fr/pixels/live/2024/07/19/en-direct-panne-informatique-mondiale-des-aeroports-hopitaux-et-de-nombreuses-autres-entreprises-paralyses-dans-le-monde-entier_6252551_4408996.html" },
+        ]
+    },
     {
         "title": "YggTorrent : Les coulisses du piratage et les révélations de gr0lum",
         "description": "Suite à une indisponibilité majeure du tracker YggTorrent en mars 2026, l'ex-administrateur gr0lum a publié une base de données contenant des informations sensibles, révélant les failles de sécurité et les tensions internes du site.",
@@ -34,7 +33,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.zdnet.fr/i/edit/ne/2026/03/yggtorrent-down.jpg",
+                "url": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/03/yggtorrent.png",
                 "caption": "Capture d'écran de l'interface d'YggTorrent lors de l'attaque de gr0lum."
             }
         ],
@@ -43,10 +42,6 @@ export default [
                 "title": "ZDNet France",
                 "url": "https://www.zdnet.fr/actualites/voici-pourquoi-vous-ne-pouvez-plus-acceder-a-yggtorrent-et-ce-que-le-pirate-gr0lum-a-reellement-balance-491242.htm"
             },
-            {
-                "title": "TorrentFreak",
-                "url": "https://torrentfreak.com/yggtorrent-internal-feud-leads-to-massive-user-data-leak-260310/"
-            }
         ]
     },
     {
@@ -63,7 +58,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.zdnet.fr/i/edit/ne/2026/02/ia-offensive-cyber.jpg",
+                "url": "https://www.itpro.fr/wp-content/smush-webp/2026/03/Cybermenaces-2026-IA-nouvelle-arme-des-attaquants-Cybersecurite-expert-2026.jpg.webp",
                 "caption": "L'IA générative au service de l'automatisation des cyberattaques."
             }
         ],
@@ -74,7 +69,7 @@ export default [
             },
             {
                 "title": "ANSSI - Menaces et Incidents",
-                "url": "https://www.ssi.gouv.fr/agence/publication/etat-de-la-menace-liee-a-lia-generative/"
+                "url": "https://cyber.gouv.fr/actualites/synthese-de-la-menace-sur-lia-generative-face-aux-attaques-informatiques/"
             }
         ]
     },
@@ -92,7 +87,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.zdnet.fr/i/edit/ne/2025/06/microsoft-copilot-security-flaw.jpg",
+                "url": "https://www.varonis.com/hubfs/Blog_VTL-Reprompt_Diagram_202601_V3.png",
                 "caption": "Schéma de l'exfiltration de données via une injection indirecte dans Copilot."
             }
         ],
@@ -100,107 +95,95 @@ export default [
             {
                 "title": "ZDNet France",
                 "url": "https://www.zdnet.fr/actualites/vos-donnees-copilot-pouvaient-etre-piratees-en-un-seul-clic-voici-comment-488246.htm"
-            },
-            {
-                "title": "SOC Prime",
-                "url": "https://socprime.com/fr/blog/cve-2025-32711-zero-click-ai-vulnerability/"
-            },
-            {
-                "title": "ZENDATA Cybersecurity",
-                "url": "https://zendata.security/fr/2025/06/11/faille-echoleak-sans-clic-dans-microsoft-365-copilot-un-risque-concret-dexfiltration-de-donnees-par-lia/"
             }
         ]
-},
+    },
     {
-        "title": "Cyberattaque de Noël : Comment des pirates ont visé La Poste en plein pic d'activité",
-        "description": "En décembre 2025, le groupe pro-russe NoName057(16) lance une offensive massive par déni de service (DDoS) contre La Poste, paralysant le suivi des colis et la banque en ligne à quelques jours des fêtes.",
-        "date": "26 décembre 2025",
-        "content": [
-            "<h3>Introduction</h3><p>La période de Noël 2025 a été marquée par une déstabilisation numérique majeure visant La Poste. Alors que l'institution traitait plus de 2 millions de colis par jour, une cyberattaque d'envergure a frappé ses services numériques le 22 décembre, plongeant les usagers et les entreprises dans l'incertitude quant à la réception de leurs cadeaux.</p>",
-            "<h3>Le mode opératoire : Le DDoS</h3><p>L'attaque, de type déni de service distribué (DDoS), a consisté à saturer les serveurs de La Poste via des millions de requêtes simultanées. Cette technique, bien que n'impliquant pas d'intrusion dans les bases de données, a rendu inaccessibles le portail de suivi Colissimo, le site institutionnel et les interfaces de La Banque Postale.</p>",
-            "<h3>Revendication et motivations</h3><p>Le groupe de hacktivistes pro-russes NoName057(16) a revendiqué l'assaut sur Telegram. Déjà connu pour des attaques contre le Sénat et la RATP, le groupe a explicitement lié cette offensive au soutien de la France envers l'Ukraine, affirmant vouloir envoyer ses propres « cadeaux » aux Français pour les fêtes.</p>",
-            "<h3>Impacts sur les usagers et PME</h3><p>Si la distribution physique des plis et colis a été maintenue par les facteurs, le chaos numérique a lourdement pénalisé les PME dépendantes des outils d'expédition en ligne. L'impossibilité d'éditer des bordereaux ou de suivre les envois a généré des retards critiques et une saturation des centres d'appels, restés injoignables pendant plus de 48 heures.</p>",
-            "<h3>Réponse technique et sécurité</h3><p>La Poste a assuré qu'aucune donnée sensible ou bancaire n'avait été dérobée. Les équipes de cybersécurité ont travaillé sans relâche pour filtrer le trafic malveillant et rétablir progressivement les accès. Cet incident souligne la vulnérabilité des services publics face à des attaques opportunistes visant des symboles de la souveraineté nationale lors de périodes de forte tension.</p>",
-            "<h3>Conclusion</h3><p>Ce « Noël noir » numérique illustre une nouvelle forme de guerre asymétrique. Au-delà de la gêne technique, l'objectif des pirates était psychologique : instiller le doute au cœur des foyers français. La résilience des infrastructures critiques devient désormais un enjeu majeur pour la sécurité nationale en 2026.</p>"
-        ],
-        "images": [
-            {
-                "url": "https://www.zdnet.fr/i/edit/ne/2025/12/la-poste-cyber-noel.jpg",
-                "caption": "Les services numériques de La Poste paralysés par une attaque DDoS en plein mois de décembre."
-            }
-        ],
-        "sources": [
-            {
-                "title": "ZDNet France",
-                "url": "https://www.zdnet.fr/actualites/comment-des-pirates-ont-plombe-le-noel-de-la-poste-487386.htm"
-            },
-            {
-                "title": "Le Big Data",
-                "url": "https://www.lebigdata.fr/cyberattaque-contre-la-poste-les-hackers-ont-gache-noel-la-france-entre-en-guerre"
-            },
-            {
-                "title": "Webradio Media",
-                "url": "https://www.webradio.media/news/23401-la-poste-victime-d-une-cyberattaque-massive-en-pleine-periode-de-noel"
-            }
-        ]
-},
+        "title": "Cyberattaque de Noël : Comment des pirates ont visé La Poste en plein pic d'activité",
+        "description": "En décembre 2025, le groupe pro-russe NoName057(16) lance une offensive massive par déni de service (DDoS) contre La Poste, paralysant le suivi des colis et la banque en ligne à quelques jours des fêtes.",
+        "date": "26 décembre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>La période de Noël 2025 a été marquée par une déstabilisation numérique majeure visant La Poste. Alors que l'institution traitait plus de 2 millions de colis par jour, une cyberattaque d'envergure a frappé ses services numériques le 22 décembre, plongeant les usagers et les entreprises dans l'incertitude quant à la réception de leurs cadeaux.</p>",
+            "<h3>Le mode opératoire : Le DDoS</h3><p>L'attaque, de type déni de service distribué (DDoS), a consisté à saturer les serveurs de La Poste via des millions de requêtes simultanées. Cette technique, bien que n'impliquant pas d'intrusion dans les bases de données, a rendu inaccessibles le portail de suivi Colissimo, le site institutionnel et les interfaces de La Banque Postale.</p>",
+            "<h3>Revendication et motivations</h3><p>Le groupe de hacktivistes pro-russes NoName057(16) a revendiqué l'assaut sur Telegram. Déjà connu pour des attaques contre le Sénat et la RATP, le groupe a explicitement lié cette offensive au soutien de la France envers l'Ukraine, affirmant vouloir envoyer ses propres « cadeaux » aux Français pour les fêtes.</p>",
+            "<h3>Impacts sur les usagers et PME</h3><p>Si la distribution physique des plis et colis a été maintenue par les facteurs, le chaos numérique a lourdement pénalisé les PME dépendantes des outils d'expédition en ligne. L'impossibilité d'éditer des bordereaux ou de suivre les envois a généré des retards critiques et une saturation des centres d'appels, restés injoignables pendant plus de 48 heures.</p>",
+            "<h3>Réponse technique et sécurité</h3><p>La Poste a assuré qu'aucune donnée sensible ou bancaire n'avait été dérobée. Les équipes de cybersécurité ont travaillé sans relâche pour filtrer le trafic malveillant et rétablir progressivement les accès. Cet incident souligne la vulnérabilité des services publics face à des attaques opportunistes visant des symboles de la souveraineté nationale lors de périodes de forte tension.</p>",
+            "<h3>Conclusion</h3><p>Ce « Noël noir » numérique illustre une nouvelle forme de guerre asymétrique. Au-delà de la gêne technique, l'objectif des pirates était psychologique : instiller le doute au cœur des foyers français. La résilience des infrastructures critiques devient désormais un enjeu majeur pour la sécurité nationale en 2026.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.lebigdata.fr/wp-content/uploads/2025/12/cyberattaque-contre-la-Poste-660x330.png.webp",
+                "caption": "Les services numériques de La Poste paralysés par une attaque DDoS en plein mois de décembre."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/comment-des-pirates-ont-plombe-le-noel-de-la-poste-487386.htm"
+            },
+            {
+                "title": "Le Big Data",
+                "url": "https://www.lebigdata.fr/cyberattaque-contre-la-poste-les-hackers-ont-gache-noel-la-france-entre-en-guerre"
+            },
+        ]
+    },
     {
-        "title": "Cybersécurité : La course perdue d'avance face à l'IA ?",
-        "description": "L'évolution fulgurante de l'intelligence artificielle générative crée un déséquilibre majeur, où les attaquants exploitent l'IA plus vite que les défenseurs ne peuvent s'adapter.",
-        "date": "10 novembre 2024",
-        "content": [
-            "<h3>Introduction</h3><p>Le secteur de la cybersécurité fait face à un défi sans précédent : l'accélération imposée par l'IA. Alors que les entreprises intègrent ces outils à marche forcée, les experts s'inquiètent d'une défense qui « cavale derrière » des menaces de plus en plus sophistiquées et automatisées.</p>",
-            "<h3>L'avantage de l'attaquant</h3><p>L'IA générative facilite la création de malwares polymorphes et de campagnes de phishing ultra-personnalisées. Les cybercriminels utilisent ces technologies pour industrialiser leurs attaques, réduisant drastiquement le coût et le temps nécessaires pour compromettre un système.</p>",
-            "<h3>Une adoption trop rapide ?</h3><p>La pression de la productivité pousse les entreprises à déployer des solutions d'IA sans audits de sécurité préalables. Cette précipitation crée des failles structurelles, notamment via l'ombre numérique (Shadow AI), où les employés utilisent des outils non sécurisés avec des données sensibles.</p>",
-            "<h3>IA contre IA : La riposte</h3><p>Pour compenser ce retard, la défense doit elle aussi s'automatiser. Les outils de détection de type EDR et SIEM intègrent désormais l'IA pour analyser les signaux faibles et réagir en temps réel, mais la complexité des modèles reste un frein pour de nombreuses PME.</p>",
-            "<h3>Enjeux de gouvernance</h3><p>Au-delà de la technique, le retard est aussi législatif et organisationnel. Les experts préconisent une approche 'Security by Design' pour tout projet d'IA et une formation accrue des collaborateurs pour contrer l'ingénierie sociale dopée aux algorithmes.</p>",
-            "<h3>Conclusion</h3><p>La cybersécurité ne pourra rattraper son retard qu'en changeant de paradigme. Il ne s'agit plus seulement de bloquer des menaces, mais d'anticiper l'usage malveillant de l'IA pour construire des infrastructures résilientes par défaut.</p>"
-        ],
-        "images": [
-            {
-                "url": "https://www.zdnet.fr/i/edit/ne/2024/03/cyber-ai-race.jpg",
-                "caption": "La course effrénée entre attaquants et défenseurs à l'ère de l'intelligence artificielle."
-            }
-        ],
-        "sources": [
-            {
-                "title": "ZDNet France",
-                "url": "https://www.zdnet.fr/actualites/on-cavale-derriere-la-cybersecurite-a-la-traine-face-a-lavancee-a-marche-forcee-de-lia-483005.htm"
-            }
-        ]
-},
+        "title": "Cybersécurité : La course perdue d'avance face à l'IA ?",
+        "description": "L'évolution fulgurante de l'intelligence artificielle générative crée un déséquilibre majeur, où les attaquants exploitent l'IA plus vite que les défenseurs ne peuvent s'adapter.",
+        "date": "10 novembre 2024",
+        "content": [
+            "<h3>Introduction</h3><p>Le secteur de la cybersécurité fait face à un défi sans précédent : l'accélération imposée par l'IA. Alors que les entreprises intègrent ces outils à marche forcée, les experts s'inquiètent d'une défense qui « cavale derrière » des menaces de plus en plus sophistiquées et automatisées.</p>",
+            "<h3>L'avantage de l'attaquant</h3><p>L'IA générative facilite la création de malwares polymorphes et de campagnes de phishing ultra-personnalisées. Les cybercriminels utilisent ces technologies pour industrialiser leurs attaques, réduisant drastiquement le coût et le temps nécessaires pour compromettre un système.</p>",
+            "<h3>Une adoption trop rapide ?</h3><p>La pression de la productivité pousse les entreprises à déployer des solutions d'IA sans audits de sécurité préalables. Cette précipitation crée des failles structurelles, notamment via l'ombre numérique (Shadow AI), où les employés utilisent des outils non sécurisés avec des données sensibles.</p>",
+            "<h3>IA contre IA : La riposte</h3><p>Pour compenser ce retard, la défense doit elle aussi s'automatiser. Les outils de détection de type EDR et SIEM intègrent désormais l'IA pour analyser les signaux faibles et réagir en temps réel, mais la complexité des modèles reste un frein pour de nombreuses PME.</p>",
+            "<h3>Enjeux de gouvernance</h3><p>Au-delà de la technique, le retard est aussi législatif et organisationnel. Les experts préconisent une approche 'Security by Design' pour tout projet d'IA et une formation accrue des collaborateurs pour contrer l'ingénierie sociale dopée aux algorithmes.</p>",
+            "<h3>Conclusion</h3><p>La cybersécurité ne pourra rattraper son retard qu'en changeant de paradigme. Il ne s'agit plus seulement de bloquer des menaces, mais d'anticiper l'usage malveillant de l'IA pour construire des infrastructures résilientes par défaut.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/10/ia-et-developpeurs.jpg",
+                "caption": "La course effrénée entre attaquants et défenseurs à l'ère de l'intelligence artificielle."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/on-cavale-derriere-la-cybersecurite-a-la-traine-face-a-lavancee-a-marche-forcee-de-lia-483005.htm"
+            }
+        ]
+    },
     {
-    "title": "Audit ANSSI 2014 : Les failles de sécurité catastrophiques du Louvre révélées",
-    "description": "Un audit confidentiel de l'ANSSI datant de 2014, révélé suite à un braquage en 2025, expose des négligences critiques dans la cybersécurité du Musée du Louvre, incluant des mots de passe triviaux et des systèmes obsolètes.",
-    "date": "4 octobre 2025",
-    "content": [
-        "<h3>Introduction</h3><p>En novembre 2025, des révélations basées sur un audit de l'ANSSI de 2014 mettent en lumière l'état alarmant de la sécurité informatique du Musée du Louvre. Ces documents, restés confidentiels pendant plus de dix ans, refont surface après le vol spectaculaire de joyaux dans la Galerie d'Apollon en octobre 2025, suggérant que les vulnérabilités identifiées n'ont jamais été totalement corrigées.</p>",
-        "<h3>Des mots de passe dérisoires</h3><p>L'audit de 2014 révèle une gestion des accès particulièrement laxiste. Les experts de l'ANSSI avaient réussi à prendre le contrôle du système de vidéosurveillance en utilisant simplement le mot de passe « LOUVRE ». D'autres accès critiques, notamment liés à des logiciels fournis par Thales, étaient protégés par l'identifiant par défaut « THALES », facilitant toute tentative d'intrusion.</p>",
-        "<h3>Obsolescence technique</h3><p>Le rapport souligne l'utilisation de systèmes d'exploitation totalement dépassés, tels que Windows Server 2003, dont le support technique avait cessé depuis longtemps. Cette obsolescence logicielle créait des brèches de sécurité majeures, rendant les infrastructures du musée vulnérables aux cyberattaques modernes et aux manipulations internes du réseau bureautique vers le réseau de sûreté.</p>",
-        "<h3>Impact sur la sûreté physique</h3><p>L'audit démontrait qu'un attaquant pouvait, depuis un simple poste informatique, modifier les droits des badges d'accès ou neutraliser les caméras de surveillance. Cette porosité entre les réseaux numériques et les systèmes de sécurité physique a été pointée du doigt comme un facteur ayant pu faciliter le braquage de 2025, estimé à 88 millions d'euros de préjudice.</p>",
-        "<h3>Négligences persistantes</h3><p>Malgré les alertes de l'ANSSI, les mises à jour et la modernisation des infrastructures n'auraient pas suivi le rythme nécessaire. Les experts notent une « fatigue du clic » et une mauvaise gestion des flux, illustrant le défi de protéger une institution accueillant plus de neuf millions de visiteurs par an avec des outils numériques archaïques.</p>",
-        "<h3>Conclusion</h3><p>L'affaire du Louvre souligne que la cybersécurité est désormais le pilier indispensable de la sûreté physique. L'absence de réaction proactive suite à l'audit de 2014 rappelle que la négligence technique, même ancienne, finit toujours par se payer au prix fort dans la protection du patrimoine national.</p>"
-    ],
-    "images": [
-        {
-            "url": "https://www.zdnet.fr/i/edit/ne/2025/11/louvre-securite.jpg",
-            "caption": "Le Musée du Louvre confronté à ses failles de sécurité historiques."
-        }
-    ],
-    "sources": [
-        {
-            "title": "ZDNet France",
-            "url": "https://www.zdnet.fr/actualites/cet-audit-catastrophique-de-lanssi-en-2014-sur-la-securite-informatique-du-louvre-484410.htm"
-        },
-        {
-            "title": "Solutions Numériques",
-            "url": "https://www.solutions-numeriques.com/laudit-de-lanssi-met-en-lumiere-les-failles-numeriques-du-musee-du-louvre/"
-        },
-        {
-            "title": "Pragmatika Media",
-            "url": "https://pragmatika.media/fr/news/proval-kiberbezpeky-parolem-systemy-videosposterezhennia-luvru-buv-luvr/"
-        }
-    ]
+        "title": "Audit ANSSI 2014 : Les failles de sécurité catastrophiques du Louvre révélées",
+        "description": "Un audit confidentiel de l'ANSSI datant de 2014, révélé suite à un braquage en 2025, expose des négligences critiques dans la cybersécurité du Musée du Louvre, incluant des mots de passe triviaux et des systèmes obsolètes.",
+        "date": "4 octobre 2025",
+        "content": [
+            "<h3>Introduction</h3><p>En novembre 2025, des révélations basées sur un audit de l'ANSSI de 2014 mettent en lumière l'état alarmant de la sécurité informatique du Musée du Louvre. Ces documents, restés confidentiels pendant plus de dix ans, refont surface après le vol spectaculaire de joyaux dans la Galerie d'Apollon en octobre 2025, suggérant que les vulnérabilités identifiées n'ont jamais été totalement corrigées.</p>",
+            "<h3>Des mots de passe dérisoires</h3><p>L'audit de 2014 révèle une gestion des accès particulièrement laxiste. Les experts de l'ANSSI avaient réussi à prendre le contrôle du système de vidéosurveillance en utilisant simplement le mot de passe « LOUVRE ». D'autres accès critiques, notamment liés à des logiciels fournis par Thales, étaient protégés par l'identifiant par défaut « THALES », facilitant toute tentative d'intrusion.</p>",
+            "<h3>Obsolescence technique</h3><p>Le rapport souligne l'utilisation de systèmes d'exploitation totalement dépassés, tels que Windows Server 2003, dont le support technique avait cessé depuis longtemps. Cette obsolescence logicielle créait des brèches de sécurité majeures, rendant les infrastructures du musée vulnérables aux cyberattaques modernes et aux manipulations internes du réseau bureautique vers le réseau de sûreté.</p>",
+            "<h3>Impact sur la sûreté physique</h3><p>L'audit démontrait qu'un attaquant pouvait, depuis un simple poste informatique, modifier les droits des badges d'accès ou neutraliser les caméras de surveillance. Cette porosité entre les réseaux numériques et les systèmes de sécurité physique a été pointée du doigt comme un facteur ayant pu faciliter le braquage de 2025, estimé à 88 millions d'euros de préjudice.</p>",
+            "<h3>Négligences persistantes</h3><p>Malgré les alertes de l'ANSSI, les mises à jour et la modernisation des infrastructures n'auraient pas suivi le rythme nécessaire. Les experts notent une « fatigue du clic » et une mauvaise gestion des flux, illustrant le défi de protéger une institution accueillant plus de neuf millions de visiteurs par an avec des outils numériques archaïques.</p>",
+            "<h3>Conclusion</h3><p>L'affaire du Louvre souligne que la cybersécurité est désormais le pilier indispensable de la sûreté physique. L'absence de réaction proactive suite à l'audit de 2014 rappelle que la négligence technique, même ancienne, finit toujours par se payer au prix fort dans la protection du patrimoine national.</p>"
+        ],
+        "images": [
+            {
+                "url": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/11/mika-baumeister-gcfe4fl7tiq-unsplash.jpg",
+                "caption": "Le Musée du Louvre confronté à ses failles de sécurité historiques."
+            }
+        ],
+        "sources": [
+            {
+                "title": "ZDNet France",
+                "url": "https://www.zdnet.fr/actualites/cet-audit-catastrophique-de-lanssi-en-2014-sur-la-securite-informatique-du-louvre-484410.htm"
+            },
+            {
+                "title": "Solutions Numériques",
+                "url": "https://www.solutions-numeriques.com/laudit-de-lanssi-met-en-lumiere-les-failles-numeriques-du-musee-du-louvre/"
+            },
+            {
+                "title": "Pragmatika Media",
+                "url": "https://pragmatika.media/fr/news/proval-kiberbezpeky-parolem-systemy-videosposterezhennia-luvru-buv-luvr/"
+            }
+        ]
     },
     {
         "title": "Attaque NPM 2025 : Le ver Shai-Hulud infecte 500+ paquets",
@@ -216,8 +199,8 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/25/i/npm-supply-chain-attack.jpg",
-                "caption": "Propagation du ver Shai-Hulud dans NPM."
+                "url": "https://images.itnewsinfo.com/lmi/articles/grande/000000105809.png",
+                "caption": "Un chercheur a découvert six failles critiques dans les gestionnaires de paquets npm et yarn."
             }
         ],
         "sources": [
@@ -226,13 +209,9 @@ export default [
                 "url": "https://www.trendmicro.com/en_us/research/25/i/npm-supply-chain-attack.html"
             },
             {
-                "title": "The Hacker News",
-                "url": "https://thehackernews.com/2025/09/40-npm-packages-compromised-in-supply.html"
+                "title": "lemondeinformatique.fr",
+                "url": "https://www.lemondeinformatique.fr/actualites/lire-des-failles-critiques-dans-npm-et-yarn-facilitent-les-attaques-99166.html"
             },
-            {
-                "title": "Sonatype",
-                "url": "https://www.sonatype.com/blog/ongoing-npm-software-supply-chain-attack-exposes-new-risks"
-            }
         ]
     },
     {
@@ -249,7 +228,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.cm-alliance.com/wp-content/uploads/2025/06/dragonforce-ransomware-attack.jpg",
+                "url": "https://www.cm-alliance.com/hs-fs/hubfs/RCA_May_2025_cropped%20(1).webp?width=1170&name=RCA_May_2025_cropped%20(1).webp",
                 "caption": "Attaque DragonForce sur Harrods."
             }
         ],
@@ -269,7 +248,7 @@ export default [
         ]
     },
     {
-        "title": "Février 2025 : Qilin ransomware cible Lee Enterprises, paralysant 75 journaux locaux",
+        "title": "Qilin ransomware : Lycées paralysés, mairies visées...",
         "description": "Le groupe Qilin frappe Lee Enterprises en février 2025, chiffrant des fichiers et exfiltrant des données sensibles, causant une interruption majeure de la production médiatique aux États-Unis.",
         "date": "28 février 2025",
         "content": [
@@ -282,27 +261,19 @@ export default [
         ],
         "images": [
             {
-                "url": "https://socradar.io/wp-content/uploads/2025/03/qilin-ransomware-lee-enterprises.jpg",
+                "url": "https://www.franceinfo.fr/pictures/ZkieKAEUJlqqR9XaUkDKje3xLiw/0x0:1024x576/2656x1494/filters:format(avif):quality(50)/2025/10/21/049-f0439769-68f79acccde03625677117.jpg",
                 "caption": "Attaque Qilin sur Lee Enterprises en février 2025."
             }
         ],
         "sources": [
             {
-                "title": "SOCRadar",
-                "url": "https://socradar.io/major-cyber-attacks-in-review-february-2025/"
+                "title": "franceinfo.fr",
+                "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/lycees-paralyses-mairies-visees-on-vous-presente-qilin-ransomware-a-l-origine-de-nombreuses-cyberattaques-en-france-et-dans-le-monde_7564588.html"
             },
-            {
-                "title": "CSIS",
-                "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents"
-            },
-            {
-                "title": "CM-Alliance",
-                "url": "https://www.cm-alliance.com/cybersecurity-blog/february-2025-major-cyber-attacks-ransomware-attacks-data-breaches"
-            }
         ]
     },
     {
-        "title": "Avril 2025 : Attaque ToolShell sur Microsoft SharePoint, exploitée mondialement",
+        "title": "Attaque ToolShell sur Microsoft SharePoint, exploitée mondialement",
         "description": "Des acteurs malveillants exploitent une vulnérabilité SharePoint en avril 2025 via ToolShell, menant à des ransomware et exfiltrations massives dans plusieurs secteurs.",
         "date": "30 avril 2025",
         "content": [
@@ -315,7 +286,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.crn.com/images/news/2025/ToolShell-SharePoint-Attack.jpg",
+                "url": "https://www.crn.com/news/security/2025/media_1a6755b4317d6340cd621703e7cc7ba32ea113361.png?width=2000&format=webply&optimize=medium",
                 "caption": "Attaque ToolShell sur SharePoint en avril 2025."
             }
         ],
@@ -335,12 +306,12 @@ export default [
         ]
     },
     {
-        "title": "Avril 2025 : Scattered Spider frappe Marks & Spencer, paralysant le retail britannique",
+        "title": "Scattered Spider frappe Marks & Spencer, paralysant le retail britannique",
         "description": "Scattered Spider cible M&S via social engineering en avril 2025, causant six semaines de disruptions et 300 millions de livres de pertes, révélant les risques des contractors externes.",
         "date": "30 avril 2025",
         "content": [
             "<h3>Introduction</h3><p>Avril 2025 voit Scattered Spider attaquer Marks & Spencer (M&S) pendant Pâques, via social engineering sur des contractors, interrompant les services en ligne et exposant des failles dans le retail.</p>",
-            "<h3>Chronologie</h3><p>Le 18 avril, les hackers piègent un contractor par vishing, infiltrant les réseaux. Le 19 avril, le site M&S tombe, bloquant e-commerce et stocks. L'attaque dure six semaines, jusqu'au 27 mai.</p>",
+            "<h3>Chronologie</h3><p>Le 18 avril, les hackers piègent un contractor par phishing, infiltrant les réseaux. Le 19 avril, le site M&S tombe, bloquant e-commerce et stocks. L'attaque dure six semaines, jusqu'au 27 mai.</p>",
             "<h3>Tactiques</h3><p>Scattered Spider excelle en ingénierie sociale, escaladant privilèges via VPN vulnérables et déployant ransomware custom. Ils exfiltrent 144 GB de données, priorisant disruption et extorsion.</p>",
             "<h3>Impact</h3><p>Perte de 300 millions de livres, exposition de données clients (noms, adresses). Effet domino sur fournisseurs, érodant la confiance et actions boursières.</p>",
             "<h3>Réponses</h3><p>M&S refuse la rançon, restaure via backups et investit 100 millions en sécurité. NCSC et ICO enquêtent, poussant zero-trust pour tiers.</p>",
@@ -348,27 +319,19 @@ export default [
         ],
         "images": [
             {
-                "url": "https://insights.integrity360.com/wp-content/uploads/2025/06/marks-spencer-cyberattack.jpg",
+                "url": "https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/c_fill,g_faces,q_auto:best,f_auto,e_unsharp_mask:80,w_828,h_400/Cyber%20Security%2Fmarks-_-spencer-csc_j3rsnz",
                 "caption": "Attaque Scattered Spider sur M&S en avril 2025."
             }
         ],
         "sources": [
             {
-                "title": "Integrity360",
-                "url": "https://insights.integrity360.com/5-of-the-biggest-cyber-attacks-of-2025-so-far"
+                "title": "lemonde.Fr",
+                "url": "https://www.lemonde.fr/pixels/article/2025/07/10/quatre-personnes-soupconnees-d-etre-derriere-le-piratage-de-marks-spencer-et-de-harrods-arretees-au-royaume-uni_6620482_4408996.html"
             },
-            {
-                "title": "CRN",
-                "url": "https://www.crn.com/news/security/2025/10-major-cyberattacks-and-data-breaches-in-2025-so-far"
-            },
-            {
-                "title": "Bright Defense",
-                "url": "https://www.brightdefense.com/resources/recent-data-breaches/"
-            }
         ]
     },
     {
-        "title": "Mars 2025 : Brèche Oracle Cloud expose 6 millions de records via vulnérabilité non divulguée",
+        "title": "Brèche Oracle Cloud expose 6 millions de records via vulnérabilité non divulguée",
         "description": "CloudSEK révèle une brèche majeure chez Oracle Cloud en mars 2025, avec 6 millions de records exfiltrés, impactant des clients globaux et soulignant les risques des clouds publics.",
         "date": "31 mars 2025",
         "content": [
@@ -381,27 +344,19 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.cshub.com/wp-content/uploads/2025/03/oracle-cloud-breach.jpg",
-                "caption": "Brèche Oracle Cloud en mars 2025."
+                "url": "https://images.itnewsinfo.com/lmi/articles/grande/000000101567.png",
+                "caption": "Le pirate agissant sous le pseudonyme rose87168 affirme avoir utilisé la même RCE que celle indiquée dans le rapport de Cloudsek concernant le leak de données Oracle Cloud."
             }
         ],
         "sources": [
             {
-                "title": "CSHub",
-                "url": "https://www.cshub.com/attacks/articles/cyber-attacks-data-breaches-march-2025"
+                "title": "lemondeinformatique.fr",
+                "url": "https://www.lemondeinformatique.fr/actualites/lire-des-clients-confirment-la-fuite-de-donnees-oracle-cloud-96454.html"
             },
-            {
-                "title": "CSIS",
-                "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents"
-            },
-            {
-                "title": "CM-Alliance",
-                "url": "https://www.cm-alliance.com/cybersecurity-blog/biggest-cyber-attacks-ransomware-attacks-data-breaches-of-march-2025"
-            }
         ]
     },
     {
-        "title": "Mars 2025 : L'attaque DDoS sur X paralyse la plateforme d'Elon Musk",
+        "title": "L'attaque DDoS sur X paralyse la plateforme d'Elon Musk",
         "description": "En mars 2025, X subit une série d'attaques DDoS massives, mises en pause par un groupe pro-palestinien, exposant les vulnérabilités des réseaux sociaux face aux botnets coordonnés.",
         "date": "31 mars 2025",
         "content": [
@@ -414,27 +369,19 @@ export default [
         ],
         "images": [
             {
-                "url": "https://www.wired.com/story/x-ddos-attack-march-2025.jpg",
-                "caption": "Illustration de l'attaque DDoS sur X en mars 2025."
+                "url": "https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2025/06/x-twitter.png",
+                "caption": "X."
             }
         ],
         "sources": [
             {
-                "title": "WIRED",
-                "url": "https://www.wired.com/story/x-ddos-attack-march-2025/"
+                "title": "science-et-vie.com",
+                "url": "https://www.science-et-vie.com/technos-et-futur/la-verite-derriere-la-cyberattaque-qui-a-paralyse-x-202669.html"
             },
-            {
-                "title": "CSIS",
-                "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents"
-            },
-            {
-                "title": "SWK Technologies",
-                "url": "https://www.swktech.com/march-2025-cyber-news-recap/"
-            }
         ]
     },
     {
-        "title": "Février 2025 : La brèche PowerSchool expose 62 millions d'élèves, l'une des plus massives en éducation",
+        "title": "La brèche PowerSchool expose 62 millions d'élèves, l'une des plus massives en éducation",
         "description": "En février 2025, PowerSchool, plateforme éducative majeure, subit une cyberattaque majeure compromettant les données de 62 millions d'élèves, incluant notes, historiques médicaux et numéros de sécurité sociale, soulignant les vulnérabilités critiques des systèmes scolaires américains.",
         "date": "28 février 2025",
         "content": [
@@ -458,37 +405,9 @@ export default [
         ],
         "sources": [
             {
-                "title": "Recent Data Breaches 2025: Major, Latest & Recent Data Breach Incidents",
-                "url": "https://www.pkware.com/blog/recent-data-breaches"
+                "title": "begeek.fr",
+                "url": "https://www.begeek.fr/plus-de-70-millions-deleves-et-enseignants-victimes-de-vol-de-donnees-personnelles-dans-le-piratage-de-powerschool-410189"
             },
-            {
-                "title": "9 major cyber attacks & data breaches in February 2025",
-                "url": "https://www.cshub.com/attacks/articles/cyber-attacks-data-breaches-february-2025"
-            },
-            {
-                "title": "February 2025: Major Cyber Attacks, Ransomware Attacks & Data Breaches",
-                "url": "https://www.cm-alliance.com/cybersecurity-blog/february-2025-major-cyber-attacks-ransomware-attacks-data-breaches"
-            },
-            {
-                "title": "Significant Cyber Incidents",
-                "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents"
-            },
-            {
-                "title": "Data Breaches That Have Happened This Year (2025 Update)",
-                "url": "https://tech.co/news/data-breaches-updated-list"
-            },
-            {
-                "title": "List of Recent Data Breaches in 2025",
-                "url": "https://www.brightdefense.com/resources/recent-data-breaches/"
-            },
-            {
-                "title": "Cyber Attack News - Risk Roundup - March 2025",
-                "url": "https://xage.com/blog/cyber-attack-news-march-2025/"
-            },
-            {
-                "title": "207 Cybersecurity Stats and Facts for 2025",
-                "url": "https://www.vikingcloud.com/blog/cybersecurity-statistics"
-            }
         ]
     },
     {
@@ -504,7 +423,7 @@ export default [
         ],
         images: [
             {
-                url: "cyber-deepseek.avif",
+                url: "https://img.lemde.fr/2025/01/28/0/0/3000/2000/556/0/75/0/6aa07c5_sirius-fs-upload-1-y9dimykt6hx4-1738074175331-papier-319.jpg",
                 caption:
                     "DeepSeek, l'application d'intelligence artificielle chinoise, suscite des inquiétudes en matière de protection des données.",
             },
@@ -513,14 +432,6 @@ export default [
             {
                 title: "Le Monde",
                 url: "https://www.lemonde.fr/pixels/article/2025/01/30/deepseek-face-au-concurrent-chinois-de-chatgpt-l-inquietude-des-autorites-de-protection-des-donnees-personnelles_6523968_4408996.html",
-            },
-            {
-                title: "news.com.au",
-                url: "https://www.news.com.au/technology/innovation/australia-to-ban-controversial-chinese-ai-company-deepseek-from-all-of-its-government-systems/news-story/cac4f0763016408eb406a48eb8dbe6c0",
-            },
-            {
-                title: "Impact.sn",
-                url: "https://www.impact.sn/Intelligence-artificielle-La-chinoise-DeepSeek-detrone-ChatGPT-se-dit-victime-d-une-cyberattaque-a-grande-echelle_a50909.html",
             },
         ],
     },
@@ -547,8 +458,8 @@ export default [
         ],
         sources: [
             {
-                title: "Metro",
-                url: "https://metro.co.uk/2024/10/14/pokemon-gen-10-game-nintendo-switch-2-revealed-game-freak-hack-21790454/",
+                title: "clubic.com",
+                url: "https://www.clubic.com/actualite-540395-pokemon-et-game-freak-victimes-d-une-fuite-de-donnees-catastrophique-ce-que-l-on-sait.html",
             },
         ],
     },

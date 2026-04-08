@@ -44,8 +44,8 @@ export default [
         ],
         "sources": [
             {
-                "title": "Programmez!",
-                "url": "https://www.programmez.com/"
+                "title": "itnewsinfo.com",
+                "url": "https://images.itnewsinfo.com/lmi/articles/grande/000000101181.jpg"
             }
         ]
     },
@@ -61,14 +61,14 @@ export default [
         ],
         "images": [
             {
-                "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/alloydb-update.jpg",
+                "url": "https://www.programmez.com/sites/default/files/styles/taille-maxi/public/alloy.png?itok=loWbv4bv",
                 "caption": "AlloyDB de Google s’enrichit pour plus de performance et sécurité."
             }
         ],
         "sources": [
             {
                 "title": "Programmez!",
-                "url": "https://www.programmez.com/"
+                "url": "https://www.programmez.com/actualites/alloydb-google-continue-enrichir-son-sgbd-compatible-postgresql-37406"
             }
         ]
     },
@@ -84,14 +84,14 @@ export default [
         ],
         "images": [
             {
-                "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/google-ai-coding.jpg",
+                "url": "https://f.hellowork.com/blogdumoderateur/2025/02/gemini-code-assist-ide.jpg",
                 "caption": "L’assistant de codage IA gratuit de Google est désormais accessible."
             }
         ],
         "sources": [
             {
                 "title": "Blog du Modérateur",
-                "url": "https://www.blogdumoderateur.com/dossier/developpement/"
+                "url": "https://www.blogdumoderateur.com/google-lance-version-gratuite-assistant-code-ia/"
             }
         ]
     },
@@ -132,7 +132,7 @@ export default [
         ],
         "images": [
             {
-                "url": "https://notpunchnox.github.io/Veille-techno.github.io/articles/images/digits-nvidia.webp",
+                "url": "https://marketplace.nvidia.com/developer/_next/static/media/dgx-spark.b8400a71.jpg",
                 "caption": "Le Nvidia Digits, un ordinateur de bureau sous Linux pour les développeurs."
             }
         ],
@@ -178,28 +178,15 @@ export default [
         ],
         sources: [
             {
-                title: "Automattic",
-                url: "https://automattic.com/",
-            },
-            {
-                title: "WordPress Design Team Blog",
-                url: "https://make.wordpress.org/design/",
-            },
-            {
-                title: "Figma Community - WordPress",
-                url: "https://www.figma.com/community",
+                title: "blogdumoderateur",
+                url: "https://www.blogdumoderateur.com/wordpress-integre-design-system-figma/",
             },
         ],
         images: [
             {
-                url: "wordpress.jpg",
+                url: "https://f.hellowork.com/blogdumoderateur/2024/11/WordPress-Design-System-Figma-copie.jpg",
                 caption:
                     "L’interface du nouveau système de design WordPress dans Figma, regroupant styles et composants. © James Koster/Automattic",
-            },
-            {
-                url: "figma-wordpress.jpg",
-                caption:
-                    "L’éditeur de blocs intégré au design système WordPress dans Figma. © James Koster/Automattic",
             },
         ],
     },
@@ -234,17 +221,13 @@ export default [
         sources: [
             {
                 title: "ZDNet",
-                url: "https://www.zdnet.com/",
-            },
-            {
-                title: "Google Cloud State of DevOps Report 2024",
-                url: "https://cloud.google.com/state-of-devops/",
+                url: "https://www.zdnet.fr/actualites/plus-de-75-des-developpeurs-sappuient-sur-lia-pourquoi-cest-un-probleme-400289.htm",
             },
         ],
         images: [
             {
-                url: "IArobot-750x410.jpg",
-                caption: "IA robot",
+                url: "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/03/IArobot.jpg",
+                caption: "",
             },
         ],
     },
@@ -272,7 +255,7 @@ export default [
         sources: [
             {
                 title: "Codeur.com langages-programmation-septembre-2024",
-                url: "https://www.codeur.com/blog/langages-programmation-septembre-2024/",
+                url: "https://www.blogdumoderateur.com/20-langages-informatiques-populaires-septembre-2024/",
             },
         ],
     },
